@@ -1,0 +1,31 @@
+[2026-07-08 17:53:28] engine run started
+[2026-07-08 17:53:28] rankings parsed: 2 players
+[2026-07-08 17:53:28] upcoming WTT singles matches found: 1
+[2026-07-08 17:53:28] modeled Alpha One vs Beta Two -> 82% / MODEL PICK: Alpha One (82%) — odds not found; enter odds in app / grade C
+[2026-07-08 17:53:28] wrote 1 recommendation(s) to bets.js — open index.html and enter odds
+[2026-07-08 17:54:12] engine run started
+[2026-07-08 17:54:12] rankings parsed: 2 players
+[2026-07-08 17:54:12] upcoming WTT singles matches found: 1
+[2026-07-08 17:54:12] modeled Alpha One vs Beta Two -> 82% / BET 1.00u on Alpha One @ 1.28 (bet365) / grade C
+[2026-07-08 17:54:12] wrote 1 recommendation(s) to bets.js — open index.html and enter odds
+[2026-07-08 18:02:59] engine run started
+[2026-07-08 18:02:59] rankings parsed: 2 players
+[2026-07-08 18:02:59] upcoming WTT singles matches found: 1
+[2026-07-08 18:02:59] modeled Alpha One vs Beta Two -> 82% / BET 1.00u on Alpha One @ 1.28 (bet365) / grade C
+[2026-07-08 18:02:59] run summary: 1 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-08 18:02:59] engine run started
+[2026-07-08 18:02:59] rankings parsed: 2 players
+[2026-07-08 18:02:59] upcoming WTT singles matches found: 1
+[2026-07-08 18:02:59] modeled Alpha One vs Beta Two -> 82% / BET 1.00u on Alpha One @ 1.28 (bet365) / grade C
+[2026-07-08 18:02:59] run summary: 1 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-08 18:02:59] engine run started
+[2026-07-08 18:02:59] rankings parsed: 2 players
+[2026-07-08 18:02:59] upcoming WTT singles matches found: 0
+[2026-07-08 18:02:59] settled: Alpha One vs Beta Two -> Alpha One won 4-2 -> bet WIN
+[2026-07-08 18:02:59] run summary: 0 rec(s), 0 bet(s) auto-logged, 1 bet(s) auto-settled
+[2026-07-08 18:02:59] no WTT singles matches in the next 36h
+[2026-07-08 18:44:48] engine run started
+[2026-07-08 18:44:48] rankings parsed: 3 players across 2 lists; scanning 3
+[2026-07-08 18:44:48] upcoming WTT singles matches found: 1
+[2026-07-08 18:44:48] modeled Gamma Three vs Delta Four -> 82% / BET 1.00u on Gamma Three @ -357 (bet365) / grade C
+[2026-07-08 18:44:48] run summary: 1 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
