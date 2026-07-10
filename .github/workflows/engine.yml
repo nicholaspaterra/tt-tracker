@@ -2,7 +2,7 @@ name: TT Engine (hourly)
 
 on:
   schedule:
-    - cron: "0 * * * *"   # every hour, on GitHub's servers — your Mac can be off
+    - cron: "0 */2 * * *"  # every 2 hours — fits the free private-repo Actions quota
   workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
 
 permissions:
@@ -31,11 +31,17 @@ jobs:
           TT_BROWSER_FETCH: "1"
         run: python3 engine.py
 
+      - name: Post new wagers to Discord
+        env:
+          DISCORD_WEBHOOK: ${{ secrets.DISCORD_WEBHOOK }}
+          TT_TZ: America/New_York
+        run: python3 notify_discord.py
+
       - name: Commit updated data
         run: |
           git config user.name "tt-engine"
           git config user.email "tt-engine@users.noreply.github.com"
           git add bets.js engine_log.txt
-          git add elo.json 2>/dev/null || true
+          git add elo.json .discord_posted.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "engine run $(date -u '+%Y-%m-%d %H:%M UTC')"
           git push
