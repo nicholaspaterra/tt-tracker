@@ -38,6 +38,7 @@ REQUEST_DELAY = 1.2        # seconds between requests (be polite)
 LOOKAHEAD_HOURS = 48       # treat matches starting within this window as "today's slate"
 KEEP_REC_DAYS = 60         # prune recommendations older than this
 MIN_EDGE = 0.06            # minimum edge to trigger a bet (6%)
+MAX_OPEN_BETS = 3          # bet rotation: at most this many pending wagers at once
 AMATEUR_CIRCUITS = ("czech", "polish")  # bets settled by match id in czech.settle_bets
 WTT_SINGLES = re.compile(r"(WTT|Smash|Champions|Contender|Feeder|World Cup|World Championship|Olympic)", re.I)
 SINGLES_SUFFIX = re.compile(r",\s*(MS|WS)\s*$")   # aiscore tournament strings end ", MS"/", WS" for singles
@@ -338,7 +339,9 @@ def _days_diff(d1, d2):
     return (a - b).days
 
 def auto_log_bets(data, recs):
-    """Log every BET recommendation as a pending bet (once per rec id)."""
+    """Log BET recommendations as pending bets (once per rec id), best edge
+    first, but never take the open-wager count above MAX_OPEN_BETS — the
+    tracker runs a small rotation instead of stacking exposure."""
     existing = set()
     for b in data.get("bets", []):
         if b.get("recId"):
@@ -346,8 +349,12 @@ def auto_log_bets(data, recs):
         m = re.search(r"\[rec:([^\]]+)\]", b.get("notes", ""))
         if m:
             existing.add(m.group(1))
+    open_slots = MAX_OPEN_BETS - sum(
+        1 for b in data.get("bets", []) if b.get("status") == "pending")
     logged = 0
-    for r in recs:
+    for r in sorted(recs, key=lambda r: r.get("edge") or 0, reverse=True):
+        if logged >= open_slots:
+            break
         if r.get("units", 0) <= 0 or not r.get("rec", "").startswith("BET") or r["id"] in existing:
             continue
         pick = r.get("pickName")
@@ -569,8 +576,9 @@ def trim_log(max_lines=1000):
 
 def main():
     now = datetime.now().astimezone()
+    quick = os.environ.get("TT_QUICK") == "1"
     trim_log()
-    log("engine run started")
+    log("engine run started%s" % (" (quick: amateur circuits only)" if quick else ""))
     try:
         data = load_bets_file()
     except (ValueError, json.JSONDecodeError) as e:
@@ -586,21 +594,23 @@ def main():
             % (n_dupes, n_quarantined))
 
     lists = []
-    for url in RANKINGS_URLS:
-        try:
-            lst = parse_rankings(fetch(url))
-        except Exception as e:
-            log("warn: rankings fetch failed (%s): %s" % (url, e))
-            lst = []
-        if lst:
-            lists.append(lst)
-        time.sleep(REQUEST_DELAY)
-    if not lists:
-        log("ERROR: all rankings pages failed (site layout may have changed)")
-        sys.exit(1)
+    if not quick:
+        for url in RANKINGS_URLS:
+            try:
+                lst = parse_rankings(fetch(url))
+            except Exception as e:
+                log("warn: rankings fetch failed (%s): %s" % (url, e))
+                lst = []
+            if lst:
+                lists.append(lst)
+            time.sleep(REQUEST_DELAY)
+        if not lists:
+            log("ERROR: all rankings pages failed (site layout may have changed)")
+            sys.exit(1)
     by_name = {p["name"]: p for lst in lists for p in lst}
     scan = [p for lst in lists for p in lst[:TOP_N]]
-    log("rankings parsed: %d players across %d lists; scanning %d" % (len(by_name), len(lists), len(scan)))
+    if not quick:
+        log("rankings parsed: %d players across %d lists; scanning %d" % (len(by_name), len(lists), len(scan)))
 
     # scan top-N player pages (men + women) for upcoming WTT singles matches
     pages, upcoming = {}, {}
@@ -626,7 +636,8 @@ def main():
             if -3 <= hours <= LOOKAHEAD_HOURS:
                 key = "|".join(sorted([m["home"], m["away"]]))
                 upcoming[key] = m
-    log("upcoming WTT singles matches found: %d" % len(upcoming))
+    if not quick:
+        log("upcoming WTT singles matches found: %d" % len(upcoming))
 
     # model each match
     new_recs = []
@@ -701,7 +712,8 @@ def main():
     )
 
     # settle finished bets, then log new qualifying ones
-    n_settled = auto_settle(data, pages, by_name)
+    # (quick runs have no player pages, so WTT settlement waits for a full run)
+    n_settled = 0 if quick else auto_settle(data, pages, by_name)
     n_logged = auto_log_bets(data, new_recs)
 
     save_bets_file(data)
@@ -714,7 +726,7 @@ def main():
                    r["staked"], r["net"], r["roi"] * 100))
     log("run summary: %d rec(s), %d bet(s) auto-logged, %d bet(s) auto-settled"
         % (len(new_recs), n_logged, n_settled))
-    if not new_recs:
+    if not new_recs and not quick:
         log("no WTT singles matches in the next %dh" % LOOKAHEAD_HOURS)
 
 if __name__ == "__main__":

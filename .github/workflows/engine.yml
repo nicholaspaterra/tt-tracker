@@ -1,9 +1,9 @@
-name: TT Engine (hourly)
+name: TT Engine
 
 on:
   schedule:
-    - cron: "0 */2 * * *"  # every 2 hours — fits the free private-repo Actions quota
-  workflow_dispatch: {}    # lets you trigger a run manually from the Actions tab
+    - cron: "*/30 * * * *"  # every 30 min (public repo = unlimited Actions minutes)
+  workflow_dispatch: {}     # lets you trigger a run manually from the Actions tab
 
 permissions:
   contents: write
@@ -26,9 +26,24 @@ jobs:
           python3 -m pip install --quiet playwright
           python3 -m playwright install --with-deps chromium
 
+      # Politeness: the heavy WTT crawl (~170 requests) runs only on even
+      # 2-hour marks; the other runs are quick amateur-circuit sweeps
+      # (a handful of requests) so bet slots refill every 30 minutes.
+      - name: Pick run mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "quick=" >> "$GITHUB_OUTPUT"
+          elif [ "$(( $(date -u +%-H) % 2 ))" = "0" ] && [ "$(date -u +%M)" -lt 15 ]; then
+            echo "quick=" >> "$GITHUB_OUTPUT"
+          else
+            echo "quick=1" >> "$GITHUB_OUTPUT"
+          fi
+
       - name: Run prediction engine
         env:
           TT_BROWSER_FETCH: "1"
+          TT_QUICK: ${{ steps.mode.outputs.quick }}
         run: python3 engine.py
 
       - name: Post new wagers to Discord

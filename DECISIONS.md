@@ -108,3 +108,12 @@ Flag anything you disagree with and it's a small change.
     fields international players, so a shared pool models cross-league
     meetings correctly). All amateur safety rails apply unchanged: 10-match
     gate, C-grade half stake, bounded discovery.
+
+17. **Bet rotation + 30-minute cadence (2026-07-10, owner-decided).** Owner
+    wants a new wager queued whenever one settles. Chosen knobs: repo made
+    PUBLIC (unlimited Actions minutes) for */30 scheduling; MIN_EDGE stays
+    6% (quality bar unchanged — more frequent checks, not looser gates);
+    MAX_OPEN_BETS=3 rotation, best edge fills a freed slot. Politeness kept:
+    the ~170-request WTT crawl runs only on 2-hour marks; the 30-minute
+    sweeps are amateur-only (a handful of requests). WTT bets settle on
+    full runs only.
