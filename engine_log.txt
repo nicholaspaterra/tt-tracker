@@ -35,3 +35,15 @@
 [2026-07-10 13:04:10] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
 [2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
 [2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
+[2026-07-10 14:04:05] warn: czech odds fetch failed for m2q10s6ygn3cek6: HTTP Error 403: Forbidden
+[2026-07-10 14:04:06] warn: czech odds fetch failed for jr7o1sogj3dfgk0: HTTP Error 403: Forbidden
+[2026-07-10 14:04:08] warn: czech odds fetch failed for vmqyosx1p84sgk9: HTTP Error 403: Forbidden
+[2026-07-10 14:04:09] warn: czech odds fetch failed for g676ps9zwrjbokr: HTTP Error 403: Forbidden
+[2026-07-10 14:04:10] warn: czech odds fetch failed for ndqm1syeo3nsrqv: HTTP Error 403: Forbidden
+[2026-07-10 14:04:12] warn: czech odds fetch failed for vrqwys2d154f4kn: HTTP Error 403: Forbidden
+[2026-07-10 14:04:13] warn: czech odds fetch failed for ndqm1sye469brqv: HTTP Error 403: Forbidden
+[2026-07-10 14:04:14] warn: czech odds fetch failed for o17p1slwzp2fy7j: HTTP Error 403: Forbidden
+[2026-07-10 14:04:16] warn: czech odds fetch failed for 34kges4ln1efeqo: HTTP Error 403: Forbidden
+[2026-07-10 14:04:17] warn: czech odds fetch failed for jr7o1sogjdeugk0: HTTP Error 403: Forbidden
+[2026-07-10 14:04:18] warn: czech odds fetch failed for ndkzlsdp9lnaxq3: HTTP Error 403: Forbidden
+[2026-07-10 14:04:18] browser-assisted czech run: 45 match(es) scanned, 0 elo update(s), 0 settled, 40 candidate(s) in 12h window, 23 gated NO BET (thin Elo), 2 BET rec(s); 2 bet(s) auto-logged
