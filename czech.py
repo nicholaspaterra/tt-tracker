@@ -237,6 +237,7 @@ def model_candidate(m, store, now, tz):
     rec = {
         "id": ("rec-cz-" if circuit == "czech" else "rec-pl-") + m["mid"],
         "date": date,
+        "startTime": m["start"],
         "event": m["comp"],
         "circuit": circuit,
         "matchId": m["mid"],

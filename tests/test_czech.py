@@ -281,6 +281,22 @@ class TestPolishCircuit:
         assert all(b["status"] == "pending" for b in data["bets"])
 
 
+class TestStartTime:
+    def test_rec_carries_match_start_timestamp(self, tmp_path, no_sleep):
+        raw = response([pbenc.match("st1", "c1", "t1", "t2", TS + 3600, 1,
+                                    towin=["2.4", "0", "1.55", "0"])])
+        recs, _ = run(fresh_data(), raw, seeded_store_path(tmp_path))
+        assert recs[0]["startTime"] == TS + 3600
+
+    def test_auto_logged_bet_copies_start_time(self, tmp_path, no_sleep):
+        raw = response([pbenc.match("st2", "c1", "t1", "t2", TS + 3600, 1,
+                                    towin=["2.4", "0", "1.55", "0"])])
+        data = fresh_data()
+        recs, _ = run(data, raw, seeded_store_path(tmp_path))
+        engine.auto_log_bets(data, recs)
+        assert data["bets"][0]["startTime"] == TS + 3600
+
+
 class TestAutoLogIntegration:
     def test_czech_bet_rec_is_auto_logged_once_with_labels(
             self, tmp_path, no_sleep):

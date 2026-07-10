@@ -360,6 +360,7 @@ def auto_log_bets(data, recs):
             "id": "bet-" + r["id"],
             "recId": r["id"],
             "date": r["date"],
+            "startTime": r.get("startTime"),
             "event": r["event"],
             "playerA": r["playerA"], "playerB": r["playerB"],
             "pick": pick,
@@ -645,10 +646,15 @@ def main():
             continue
         prob, grade, why = model_match(by_name[a], by_name[b], pages[a], pages[b], now)
         fav = a if prob >= 0.5 else b
+        try:
+            start_ts = int(datetime.fromisoformat(m["iso"]).timestamp())
+        except (ValueError, KeyError, OSError):
+            start_ts = None
         rec_id = "rec-" + m["date"].replace("-", "") + "-" + re.sub(r"[^a-z0-9]+", "-", key.lower())[:40]
         rec = {
             "id": rec_id,
             "date": m["date"],
+            "startTime": start_ts,
             "event": m["tournament"],
             "circuit": "wtt",
             "playerA": a, "playerB": b,

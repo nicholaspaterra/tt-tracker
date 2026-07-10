@@ -8,16 +8,18 @@
   :root{
     --bg:#0f1420; --panel:#171e2e; --panel2:#1e2740; --border:#2a3552;
     --text:#e6ecf7; --muted:#8b98b8; --accent:#4f8cff; --green:#3ecf8e;
-    --red:#ff6b6b; --amber:#f5b83d; --font:system-ui,-apple-system,'Segoe UI',sans-serif;
+    --red:#ff6b6b; --amber:#f5b83d; --violet:#ba8fff;
+    --font:system-ui,-apple-system,'Segoe UI',sans-serif;
   }
   *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;padding:20px;max-width:1200px;margin:0 auto}
+  body{background:var(--bg);color:var(--text);font-family:var(--font);font-size:14px;padding:20px;max-width:1080px;margin:0 auto}
   h1{font-size:20px;margin-bottom:4px}
   h2{font-size:15px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin:26px 0 10px}
   .sub{color:var(--muted);margin-bottom:16px}
   .toolbar{display:flex;gap:8px;flex-wrap:wrap;align-items:center;margin-bottom:8px}
   button{background:var(--panel2);color:var(--text);border:1px solid var(--border);border-radius:6px;padding:7px 12px;cursor:pointer;font-family:var(--font);font-size:13px}
   button:hover{border-color:var(--accent)}
+  button:focus-visible{outline:2px solid var(--accent);outline-offset:1px}
   button.primary{background:var(--accent);border-color:var(--accent);color:#fff}
   button.danger{color:var(--red)}
   button.small{padding:3px 8px;font-size:12px}
@@ -26,29 +28,21 @@
   .pill.loss{background:rgba(255,107,107,.15);color:var(--red)}
   .pill.push{background:rgba(139,152,184,.15);color:var(--muted)}
   .pill.pending{background:rgba(245,184,61,.15);color:var(--amber)}
-  .grade{font-weight:700}
-  .grade.A{color:var(--green)} .grade.B{color:var(--accent)} .grade.C{color:var(--amber)}
   .circuit-chip{display:inline-block;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:700;letter-spacing:.04em;vertical-align:1px}
   .circuit-chip.czech{background:rgba(245,184,61,.18);color:var(--amber);border:1px solid rgba(245,184,61,.4)}
-  .circuit-chip.polish{background:rgba(186,143,255,.16);color:#ba8fff;border:1px solid rgba(186,143,255,.4)}
-  .circuit-chip.wtt{background:rgba(79,140,255,.15);color:var(--accent);border:1px solid rgba(79,140,255,.35)}
-  .wager-card.czech{border-color:var(--amber)}
-  .wager-card.czech .bet-chip{background:var(--amber);color:#3a2c07}
-  .wager-card.polish{border-color:#ba8fff}
-  .wager-card.polish .bet-chip{background:#ba8fff;color:#2a1a47}
+  .circuit-chip.polish{background:rgba(186,143,255,.16);color:var(--violet);border:1px solid rgba(186,143,255,.4)}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:6px}
   .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px}
   .card .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
-  .card .value{font-size:20px;font-weight:700;margin-top:4px}
+  .card .value{font-size:22px;font-weight:700;margin-top:4px;font-variant-numeric:tabular-nums}
   .card .value.pos{color:var(--green)} .card .value.neg{color:var(--red)}
   .card .small-note{font-size:11px;color:var(--muted);margin-top:2px}
   table{width:100%;border-collapse:collapse;background:var(--panel);border:1px solid var(--border);border-radius:8px;overflow:hidden}
   th{background:var(--panel2);text-align:left;padding:8px 10px;font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted)}
-  td{padding:8px 10px;border-top:1px solid var(--border);vertical-align:middle}
+  td{padding:8px 10px;border-top:1px solid var(--border);vertical-align:middle;font-variant-numeric:tabular-nums}
   td.num,th.num{text-align:right}
   .pos{color:var(--green)} .neg{color:var(--red)}
-  .chart-panel{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:14px;margin-bottom:14px}
-  .chart-title{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+  .table-wrap{overflow-x:auto}
   dialog{background:var(--panel);color:var(--text);border:1px solid var(--border);border-radius:10px;padding:20px;min-width:340px;max-width:440px}
   dialog::backdrop{background:rgba(0,0,0,.6)}
   dialog h3{margin-bottom:14px;font-size:16px}
@@ -60,22 +54,27 @@
   #save-status{font-size:12px;color:var(--muted)}
   #save-status.dirty{color:var(--amber);font-weight:600}
   .settle-btns{display:flex;gap:4px}
-  .two-col{display:grid;grid-template-columns:1fr 1fr;gap:14px}
-  @media(max-width:800px){.two-col{grid-template-columns:1fr}}
   .empty{color:var(--muted);padding:16px;text-align:center}
   .wager-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:12px;margin-bottom:10px}
   .wager-card{background:linear-gradient(135deg,var(--panel2),var(--panel));border:1px solid var(--accent);border-radius:12px;padding:18px 20px;position:relative}
+  .wager-card.czech{border-color:var(--amber)}
+  .wager-card.polish{border-color:var(--violet)}
   .wager-card .bet-chip{position:absolute;top:14px;right:16px;background:var(--green);color:#0b2b1d;font-weight:800;font-size:12px;letter-spacing:.08em;border-radius:6px;padding:3px 10px}
+  .wager-card.czech .bet-chip{background:var(--amber);color:#3a2c07}
+  .wager-card.polish .bet-chip{background:var(--violet);color:#2a1a47}
   .wager-card .wager-units{font-size:26px;font-weight:800;color:var(--green)}
+  .wager-card .wager-units .usd{font-size:16px;font-weight:700;color:var(--muted)}
   .wager-card .wager-line{font-size:18px;margin-top:4px}
   .wager-card .wager-line b{color:var(--accent)}
   .wager-card .wager-odds{font-size:22px;font-weight:700;margin-top:6px}
+  .wager-card .wager-start{font-size:13px;color:var(--text);margin-top:6px}
+  .wager-card .wager-start b{color:var(--amber)}
   .wager-card .wager-sub{color:var(--muted);font-size:12px;margin-top:8px;line-height:1.5}
 </style>
 </head>
 <body>
 <h1>🏓 TT Bet Tracker</h1>
-<p class="sub">Bankroll in units · quarter-Kelly staking · dollars are display-only</p>
+<p class="sub">What to bet, how much, and how it's going — nothing else.</p>
 
 <div class="toolbar">
   <button class="primary" onclick="openBetDialog()">+ Add bet</button>
@@ -85,65 +84,20 @@
   <span id="save-status"></span>
 </div>
 
-<h2>🎯 Today's wagers</h2>
-<p class="sub" style="margin-bottom:8px">Plain-language instructions for every open bet. Place these at your sportsbook if you're following the engine (check the live line first — these odds are from the engine's last run).</p>
+<h2>🎯 Place these</h2>
+<p class="sub" style="margin-bottom:8px">Open wagers from the engine. Check the live line at your book before placing — these odds are from the engine's last run.</p>
 <div class="wager-cards" id="wager-cards"></div>
 
-<h2>🤖 Claude's daily picks</h2>
-<p class="sub" style="margin-bottom:8px">Updated by Claude each analysis run. "Log bet" copies a recommendation into your bet log as pending — nothing is bet automatically.</p>
-<table id="rec-table"><thead><tr>
-  <th>Date</th><th>Match</th><th class="num">My prob</th><th>Odds A / B</th><th class="num">Market</th>
-  <th class="num">Edge</th><th>Recommendation</th><th>Grade</th><th>Why</th><th></th>
-</tr></thead><tbody></tbody></table>
-
-<h2>All-time</h2>
+<h2>Scoreboard</h2>
 <div class="cards" id="stat-cards"></div>
 
-<div class="two-col">
-  <div class="chart-panel">
-    <div class="chart-title">Running bankroll (units)</div>
-    <div id="bankroll-chart"></div>
-  </div>
-  <div class="chart-panel">
-    <div class="chart-title">Daily P&amp;L (units)</div>
-    <div id="daily-chart"></div>
-  </div>
-</div>
-
-<div class="two-col">
-  <div>
-    <h2>Day-by-day P&amp;L</h2>
-    <table id="daily-table"><thead><tr>
-      <th>Date</th><th class="num">Bets</th><th class="num">Staked</th><th class="num">Net units</th><th class="num">Net $</th>
-    </tr></thead><tbody></tbody></table>
-  </div>
-  <div>
-    <h2>ROI by confidence grade</h2>
-    <table id="grade-table"><thead><tr>
-      <th>Grade</th><th class="num">Bets</th><th class="num">Record</th><th class="num">Staked</th><th class="num">Net</th><th class="num">ROI</th>
-    </tr></thead><tbody></tbody></table>
-    <h2>ROI by circuit</h2>
-    <p class="sub" style="margin-bottom:8px">Amateur picks (Czech + Polish leagues) stay grade-capped at C (half stake) until this table proves they make money.</p>
-    <table id="circuit-table"><thead><tr>
-      <th>Circuit</th><th class="num">Bets</th><th class="num">Record</th><th class="num">Staked</th><th class="num">Net</th><th class="num">ROI</th>
-    </tr></thead><tbody></tbody></table>
-  </div>
-</div>
-
-<h2>Active bets</h2>
-<p class="sub" style="margin-bottom:8px">Auto-logged by the engine when a pick clears the edge bar; auto-settled when the result comes in (settled bets move to History below — their P&amp;L stays in every stat and chart).</p>
+<h2>Bet record</h2>
+<div class="table-wrap">
 <table id="bet-table"><thead><tr>
-  <th>Date</th><th>Event</th><th>Match</th><th>Pick</th><th class="num">Odds</th>
-  <th class="num">Units</th><th>Grade</th><th>Status</th><th class="num">Net</th><th>Actions</th>
+  <th>Date</th><th>Starts</th><th>Match</th><th>Pick</th><th class="num">Odds</th>
+  <th class="num">Units</th><th>Status</th><th class="num">Net (u)</th><th></th>
 </tr></thead><tbody></tbody></table>
-
-<details id="history-box" style="margin-top:18px">
-  <summary style="cursor:pointer;color:var(--muted);font-size:13px;padding:6px 0">📜 History — <span id="history-count">0</span> settled bet(s)</summary>
-  <table id="history-table" style="margin-top:8px"><thead><tr>
-    <th>Date</th><th>Event</th><th>Match</th><th>Pick</th><th class="num">Odds</th>
-    <th class="num">Units</th><th>Grade</th><th>Status</th><th class="num">Net</th><th>Actions</th>
-  </tr></thead><tbody></tbody></table>
-</details>
+</div>
 
 <dialog id="bet-dialog">
   <h3 id="bet-dialog-title">Add bet</h3>
@@ -155,7 +109,7 @@
       <div class="form-row"><label>Player A</label><input id="f-playerA" required></div>
       <div class="form-row"><label>Player B</label><input id="f-playerB" required></div>
       <div class="form-row"><label>My pick</label><input id="f-pick" required></div>
-      <div class="form-row"><label>Decimal odds</label><input type="number" id="f-odds" step="0.001" min="1.001" required></div>
+      <div class="form-row"><label>Odds (-120 or 1.83)</label><input type="number" id="f-odds" step="0.001" required></div>
       <div class="form-row"><label>Units staked</label><input type="number" id="f-units" step="0.01" min="0.01" required></div>
       <div class="form-row"><label>Confidence grade</label>
         <select id="f-grade"><option>A</option><option>B</option><option>C</option></select></div>
@@ -172,7 +126,7 @@
 
 <dialog id="settings-dialog">
   <h3>Settings</h3>
-  <div class="form-row"><label>Unit size ($ per unit — display only)</label>
+  <div class="form-row"><label>Unit size ($ per unit)</label>
     <input type="number" id="f-unitsize" step="0.01" min="0.01"></div>
   <div class="form-row"><label>Starting bankroll (units)</label>
     <input type="number" id="f-bankroll" step="1" min="1"></div>
@@ -185,18 +139,18 @@
 <script src="bets.js"></script>
 <script>
 'use strict';
-/* ================= state & persistence ================= */
+/* ================= state & persistence (bets.js contract unchanged) ================= */
 let DATA = (window.BETS_FILE && typeof window.BETS_FILE === 'object')
   ? JSON.parse(JSON.stringify(window.BETS_FILE))
   : {settings:{unitSize:10,startingBankrollUnits:100},recommendations:[],bets:[]};
 if(!Array.isArray(DATA.recommendations)) DATA.recommendations = [];
+if(!Array.isArray(DATA.bets)) DATA.bets = [];
 let dirty = false;
 let fileHandle = null;
 
 function serialize(){
   return '// TT Bet Tracker — canonical data file.\n' +
-         '// Claude edits this file when logging/settling bets; the app can also\n' +
-         '// write it back directly via "Link data file" (Chrome/Edge) or Download.\n' +
+         '// Updated by engine.py (recommendations + auto-logged bets) and by this app.\n' +
          'window.BETS_FILE = ' + JSON.stringify(DATA, null, 2) + ';\n';
 }
 async function persist(){
@@ -241,17 +195,31 @@ function netUnits(b){
 }
 function round2(x){ return Math.round(x*100)/100; }
 function fmtU(x){ return (x>0?'+':'') + x.toFixed(2); }
-function fmtAm(d){ // decimal -> American odds
+function fmtAm(d){ // decimal -> American odds (what the betting site shows)
   if(!(d>1.005)) return '—';
   return d>=2 ? '+'+Math.round((d-1)*100) : '-'+Math.round(100/(d-1));
 }
-function toDecimal(v){ // accepts decimal (1.28) or American (-357 / +250) input
+function toDecimal(v){ // accepts decimal (1.83) or American (-120 / +250) input
   if(Math.abs(v)>=100) return v>0 ? 1+v/100 : 1+100/Math.abs(v);
   return v;
 }
 function fmt$(x){ const s=(x<0?'-$':'$')+Math.abs(x).toFixed(2); return x>0?'+'+s:s; }
+function fmtStart(b){ // bet start time -> local clock ("9:40 PM" / "Jul 11, 9:40 AM")
+  if(!b.startTime) return '—';
+  const d = new Date(b.startTime*1000), now = new Date();
+  const t = d.toLocaleTimeString([], {hour:'numeric', minute:'2-digit'});
+  return d.toDateString()===now.toDateString() ? t
+       : d.toLocaleDateString([], {month:'short', day:'numeric'}) + ', ' + t;
+}
+function circuitOf(b){ return (b.circuit==='czech'||b.circuit==='polish') ? b.circuit : 'wtt'; }
+function circuitChip(x){
+  const c = circuitOf(x);
+  if(c==='czech')  return '<span class="circuit-chip czech" title="Czech Liga Pro / TT Cup">CZE</span>';
+  if(c==='polish') return '<span class="circuit-chip polish" title="TT Elite Series (Poland)">POL</span>';
+  return '';
+}
 function settled(){ return DATA.bets.filter(b=>['win','loss','push'].includes(b.status)); }
-function sortedByDate(arr){ return [...arr].sort((a,b)=> a.date===b.date ? String(a.id).localeCompare(String(b.id)) : a.date.localeCompare(b.date)); }
+function sortKey(b){ return (b.startTime||0) || Date.parse(b.date)/1000 || 0; }
 
 function computeStats(){
   const s = settled();
@@ -261,58 +229,9 @@ function computeStats(){
   const staked= round2(s.reduce((t,b)=>t+b.units,0));
   const net   = round2(s.reduce((t,b)=>t+netUnits(b),0));
   const roi   = staked>0 ? net/staked*100 : 0;
-  const winRate = (wins+losses)>0 ? wins/(wins+losses)*100 : 0;
-  const avgOdds = s.length>0 ? s.reduce((t,b)=>t+b.odds,0)/s.length : 0;
-
-  // streaks over settled win/loss bets in date order (pushes skipped)
-  let longestW=0, longestL=0, cur=0, curType=null, runW=0, runL=0;
-  for(const b of sortedByDate(s)){
-    if(b.status==='push') continue;
-    if(b.status==='win'){ runW++; runL=0; longestW=Math.max(longestW,runW); }
-    else { runL++; runW=0; longestL=Math.max(longestL,runL); }
-    curType=b.status; cur = b.status==='win'?runW:runL;
-  }
   const pending = DATA.bets.filter(b=>b.status==='pending');
   const pendingUnits = round2(pending.reduce((t,b)=>t+b.units,0));
-  return {wins,losses,pushes,staked,net,roi,winRate,avgOdds,longestW,longestL,cur,curType,
-          nSettled:s.length,nPending:pending.length,pendingUnits};
-}
-function dailyPnl(){
-  const map = new Map();
-  for(const b of settled()){
-    if(!map.has(b.date)) map.set(b.date,{date:b.date,n:0,staked:0,net:0});
-    const d = map.get(b.date);
-    d.n++; d.staked=round2(d.staked+b.units); d.net=round2(d.net+netUnits(b));
-  }
-  return [...map.values()].sort((a,b)=>a.date.localeCompare(b.date));
-}
-function gradeBreakdown(){
-  const out = {};
-  for(const g of ['A','B','C']) out[g]={g,n:0,w:0,l:0,p:0,staked:0,net:0};
-  for(const b of settled()){
-    const r = out[b.grade] || (out[b.grade]={g:b.grade,n:0,w:0,l:0,p:0,staked:0,net:0});
-    r.n++; r.staked=round2(r.staked+b.units); r.net=round2(r.net+netUnits(b));
-    if(b.status==='win')r.w++; else if(b.status==='loss')r.l++; else r.p++;
-  }
-  return Object.values(out);
-}
-function circuitOf(b){ return (b.circuit==='czech'||b.circuit==='polish') ? b.circuit : 'wtt'; } // unlabeled = pre-amateur-era WTT bets
-function circuitBreakdown(){
-  const out = {wtt:{g:'wtt',label:'WTT / ITTF',n:0,w:0,l:0,p:0,staked:0,net:0},
-               czech:{g:'czech',label:'Czech amateur',n:0,w:0,l:0,p:0,staked:0,net:0},
-               polish:{g:'polish',label:'Polish amateur',n:0,w:0,l:0,p:0,staked:0,net:0}};
-  for(const b of settled()){
-    const r = out[circuitOf(b)];
-    r.n++; r.staked=round2(r.staked+b.units); r.net=round2(r.net+netUnits(b));
-    if(b.status==='win')r.w++; else if(b.status==='loss')r.l++; else r.p++;
-  }
-  return Object.values(out);
-}
-function circuitChip(x){
-  const c = circuitOf(x);
-  if(c==='czech')  return '<span class="circuit-chip czech" title="Czech Liga Pro / TT Cup — Elo model, C-grade capped">CZE</span>';
-  if(c==='polish') return '<span class="circuit-chip polish" title="TT Elite Series — Elo model, C-grade capped">POL</span>';
-  return '';
+  return {wins,losses,pushes,staked,net,roi,nPending:pending.length,pendingUnits};
 }
 
 /* ================= rendering ================= */
@@ -321,150 +240,40 @@ function render(){
   const u = DATA.settings.unitSize;
   document.getElementById('unit-size-label').textContent = '$'+u.toFixed(2)+'/unit';
 
-  const bankroll = round2(DATA.settings.startingBankrollUnits + st.net);
   const cards = [
-    {label:'Net units (all-time)', value:fmtU(st.net), cls:st.net>0?'pos':st.net<0?'neg':'', note:fmt$(st.net*u)},
-    {label:'Bankroll', value:bankroll.toFixed(2)+'u', cls:'', note:'$'+(bankroll*u).toFixed(2)+' · started '+DATA.settings.startingBankrollUnits+'u'},
-    {label:'ROI', value:st.roi.toFixed(1)+'%', cls:st.roi>0?'pos':st.roi<0?'neg':'', note:st.staked.toFixed(2)+'u staked'},
-    {label:'Win rate', value:st.winRate.toFixed(1)+'%', cls:'', note:st.wins+'W–'+st.losses+'L'+(st.pushes?'–'+st.pushes+'P':'')},
-    {label:'Avg odds taken', value:st.nSettled?st.avgOdds.toFixed(2):'—', cls:'', note:st.nSettled+' settled'},
-    {label:'Streaks', value:(st.curType? (st.curType==='win'?'W':'L')+st.cur : '—'), cls:st.curType==='win'?'pos':st.curType==='loss'?'neg':'',
-     note:'best W'+st.longestW+' · worst L'+st.longestL},
-    {label:'Pending', value:st.nPending+' bets', cls:'', note:st.pendingUnits.toFixed(2)+'u at risk'},
+    {label:'Record', value:st.wins+'–'+st.losses+(st.pushes?'–'+st.pushes+'P':''),
+     cls:'', note:'settled bets (W–L'+(st.pushes?'–P':'')+')'},
+    {label:'Total gain / loss', value:fmtU(st.net)+'u', cls:st.net>0?'pos':st.net<0?'neg':'',
+     note:fmt$(st.net*u)},
+    {label:'ROI', value:st.roi.toFixed(1)+'%', cls:st.roi>0?'pos':st.roi<0?'neg':'',
+     note:st.staked.toFixed(2)+'u staked all-time'},
+    {label:'Waiting to settle', value:st.nPending+' bet'+(st.nPending===1?'':'s'), cls:'',
+     note:st.pendingUnits.toFixed(2)+'u ('+fmt$(st.pendingUnits*u).replace('+','')+') at risk'},
   ];
   document.getElementById('stat-cards').innerHTML = cards.map(c=>
     `<div class="card"><div class="label">${c.label}</div><div class="value ${c.cls}">${c.value}</div><div class="small-note">${c.note}</div></div>`).join('');
 
-  renderWagerCards(); renderRecTable(); renderDailyTable(u); renderGradeTable(); renderCircuitTable(); renderBetTable(u);
-  renderBankrollChart(); renderDailyChart();
+  renderWagerCards(u); renderBetTable();
   updateSaveStatus();
 }
-function renderWagerCards(){
+function renderWagerCards(u){
   const el = document.getElementById('wager-cards');
-  const open = sortedByDate(DATA.bets).filter(b=>b.status==='pending');
+  const open = DATA.bets.filter(b=>b.status==='pending').sort((a,b)=>sortKey(a)-sortKey(b));
   if(!open.length){
-    el.innerHTML = '<div class="empty" style="grid-column:1/-1;background:var(--panel);border:1px dashed var(--border);border-radius:10px">No wagers right now — the engine checks for new edges every hour.</div>';
+    el.innerHTML = '<div class="empty" style="grid-column:1/-1;background:var(--panel);border:1px dashed var(--border);border-radius:10px">Nothing to place right now — the engine checks for new edges every run.</div>';
     return;
   }
   el.innerHTML = open.map(b=>{
     const opp = b.pick===b.playerA ? b.playerB : b.playerA;
-    const unitsTxt = b.units===1 ? '1 unit' : b.units.toFixed(2).replace(/\.00$/,'')+' units';
-    const circ = circuitOf(b);
-    return `<div class="wager-card${circ!=='wtt'?' '+circ:''}">
+    const units = b.units.toFixed(2).replace(/\.00$/,'').replace(/(\.\d)0$/, '$1');
+    return `<div class="wager-card ${circuitOf(b)!=='wtt'?circuitOf(b):''}">
       <span class="bet-chip">BET</span>
-      <div class="wager-units">${unitsTxt}</div>
+      <div class="wager-units">${units}u <span class="usd">· $${round2(b.units*u).toFixed(2).replace(/\.00$/,'')}</span></div>
       <div class="wager-line">on <b>${esc(b.pick)}</b> to win</div>
-      <div class="wager-odds">${fmtAm(b.odds)}</div>
-      <div class="wager-sub">vs ${esc(opp)} · ${esc(b.event)} ${circuitChip(b)}<br>${b.date} · grade <span class="grade ${b.grade}">${b.grade}</span></div>
+      <div class="wager-odds" title="decimal ${b.odds.toFixed(2)}">${fmtAm(b.odds)}</div>
+      <div class="wager-start">Starts <b>${fmtStart(b)}</b></div>
+      <div class="wager-sub">vs ${esc(opp)} · ${esc(b.event)} ${circuitChip(b)}</div>
     </div>`;
-  }).join('');
-}
-function renderRecTable(){
-  const tb = document.querySelector('#rec-table tbody');
-  const recs = [...DATA.recommendations].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,20);
-  tb.innerHTML = recs.length ? recs.map(r=>{
-    const isBet = r.rec !== 'NO BET' && r.units > 0;
-    const alreadyLogged = DATA.bets.some(b=>b.notes && b.notes.includes('[rec:'+r.id+']'));
-    const logBtn = isBet
-      ? (alreadyLogged ? '<span class="pill pending">logged</span>'
-         : `<button class="small primary" onclick="logRec('${r.id}')">Log bet</button>`)
-      : '';
-    const isPickOnly = r.rec && r.rec.startsWith('MODEL PICK');
-    const oddsInputs = `<div style="display:flex;gap:3px;align-items:center">
-        <input type="number" step="0.01" placeholder="-150" id="oA-${r.id}" title="odds on ${esc(r.playerA)} — American or decimal" style="width:62px;background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:4px;padding:3px 5px">
-        <input type="number" step="0.01" placeholder="+200" id="oB-${r.id}" title="odds on ${esc(r.playerB)} — American or decimal" style="width:62px;background:var(--panel2);border:1px solid var(--border);color:var(--text);border-radius:4px;padding:3px 5px">
-        <button class="small" onclick="computeRecEdge('${r.id}')">⚖</button></div>`;
-    return `<tr>
-      <td>${r.date}</td>
-      <td title="${esc(r.event)}">${esc(r.playerA)} vs ${esc(r.playerB)} ${circuitChip(r)}</td>
-      <td class="num">${r.myProbA!=null?(r.myProbA*100).toFixed(0)+'%':'—'}</td>
-      <td>${oddsInputs}</td>
-      <td class="num">${r.marketProbA!=null?(r.marketProbA*100).toFixed(1)+'%':'—'}</td>
-      <td class="num ${r.edge>=0.06?'pos':r.edge!=null&&r.edge<0.04?'neg':''}">${r.edge!=null?((r.edge>0?'+':'')+(r.edge*100).toFixed(1)+'%'):'—'}</td>
-      <td>${isBet?`<strong class="pos">${esc(r.rec)}</strong>`:(isPickOnly?`<span class="pill pending">${esc(r.rec.split(' — ')[0])}</span> <span style="font-size:11px;color:var(--muted)">enter odds →</span>`:`<strong class="neg" title="${esc(r.rec||'NO BET')}">NO BET</strong>`)}</td>
-      <td class="grade ${r.grade}">${r.grade}</td>
-      <td style="max-width:240px;font-size:12px;color:var(--muted)">${esc(r.reasoning||'')}</td>
-      <td>${logBtn}</td>
-    </tr>`;
-  }).join('') : '<tr><td colspan="10" class="empty">No recommendations yet — run engine.py (or wait for the 9am auto-run)</td></tr>';
-}
-function computeRecEdge(id){
-  const r = DATA.recommendations.find(x=>x.id===id);
-  const oA = toDecimal(parseFloat(document.getElementById('oA-'+id).value));
-  const oB = toDecimal(parseFloat(document.getElementById('oB-'+id).value));
-  if(!r || !(oA>1.005) || !(oB>1.005)){ alert('Enter odds for BOTH sides — American (-357 / +250) or decimal (1.28 / 3.50) — so the vig can be stripped.'); return; }
-  const MIN_EDGE = 0.06;  // keep in sync with engine.py
-  const impA=1/oA, impB=1/oB, novigA=impA/(impA+impB);
-  r.marketProbA = Math.round(novigA*1000)/1000;
-  const edgeA = r.myProbA - novigA;
-  // pick whichever side has positive edge
-  const side = edgeA >= 0 ? 'A' : 'B';
-  const edge = Math.abs(edgeA);
-  const p    = side==='A' ? r.myProbA : 1-r.myProbA;
-  const o    = side==='A' ? oA : oB;
-  const name = side==='A' ? r.playerA : r.playerB;
-  r.edge = Math.round(edge*1000)/1000;
-  if(edge >= MIN_EDGE){
-    const st = computeStats();
-    const bankroll = DATA.settings.startingBankrollUnits + st.net;
-    let units = 0.25 * (p*o - 1)/(o - 1) * bankroll;  // quarter-Kelly, bankroll in units
-    units = Math.min(units, 2);                 // hard cap 2u
-    if(r.grade==='C') units /= 2;               // C-grade: halve
-    units = Math.round(units*100)/100;
-    if(units > 0){
-      r.units = units; r.bestOdds = o; r.pickName = name;
-      r.rec = `BET ${units}u on ${name} @ ${fmtAm(o)}`;
-    } else { r.units=0; r.bestOdds=o; r.pickName=null; r.rec='NO BET'; }
-  } else {
-    r.units = 0; r.bestOdds = side==='A'?oA:oB; r.pickName = null;
-    r.rec = 'NO BET';
-  }
-  persist(); render();
-}
-function logRec(id){
-  const r = DATA.recommendations.find(x=>x.id===id);
-  if(!r || !(r.units>0) || !r.rec || !r.rec.startsWith('BET')) return;
-  const bet = {
-    id:'bet-'+Date.now(), date:r.date, event:r.event,
-    playerA:r.playerA, playerB:r.playerB,
-    pick:r.pickName || (r.rec.includes(r.playerB)?r.playerB:r.playerA),
-    odds:r.bestOdds||2.0, units:r.units, grade:r.grade,
-    circuit:circuitOf(r),
-    status:'pending', notes:'[rec:'+r.id+'] '+(r.reasoning||'')
-  };
-  if(r.matchId) bet.matchId = r.matchId;
-  DATA.bets.push(bet);
-  persist(); render();
-}
-function renderDailyTable(u){
-  const rows = dailyPnl();
-  const tb = document.querySelector('#daily-table tbody');
-  tb.innerHTML = rows.length ? rows.map(d=>
-    `<tr><td>${d.date}</td><td class="num">${d.n}</td><td class="num">${d.staked.toFixed(2)}</td>
-     <td class="num ${d.net>0?'pos':d.net<0?'neg':''}">${fmtU(d.net)}</td>
-     <td class="num ${d.net>0?'pos':d.net<0?'neg':''}">${fmt$(d.net*u)}</td></tr>`).join('')
-    : '<tr><td colspan="5" class="empty">No settled bets yet</td></tr>';
-}
-function renderGradeTable(){
-  const tb = document.querySelector('#grade-table tbody');
-  tb.innerHTML = gradeBreakdown().map(r=>{
-    const roi = r.staked>0 ? r.net/r.staked*100 : 0;
-    return `<tr><td class="grade ${r.g}">${r.g}</td><td class="num">${r.n}</td>
-      <td class="num">${r.w}–${r.l}${r.p?'–'+r.p+'P':''}</td>
-      <td class="num">${r.staked.toFixed(2)}</td>
-      <td class="num ${r.net>0?'pos':r.net<0?'neg':''}">${fmtU(r.net)}</td>
-      <td class="num ${roi>0?'pos':roi<0?'neg':''}">${r.n?roi.toFixed(1)+'%':'—'}</td></tr>`;
-  }).join('');
-}
-function renderCircuitTable(){
-  const tb = document.querySelector('#circuit-table tbody');
-  tb.innerHTML = circuitBreakdown().map(r=>{
-    const roi = r.staked>0 ? r.net/r.staked*100 : 0;
-    return `<tr><td>${r.label} ${r.g==='czech'?'<span class="circuit-chip czech">CZE</span>':''}</td><td class="num">${r.n}</td>
-      <td class="num">${r.w}–${r.l}${r.p?'–'+r.p+'P':''}</td>
-      <td class="num">${r.staked.toFixed(2)}</td>
-      <td class="num ${r.net>0?'pos':r.net<0?'neg':''}">${fmtU(r.net)}</td>
-      <td class="num ${roi>0?'pos':roi<0?'neg':''}">${r.n?roi.toFixed(1)+'%':'—'}</td></tr>`;
   }).join('');
 }
 function betRow(b){
@@ -476,10 +285,12 @@ function betRow(b){
          <button class="small" onclick="settle('${b.id}','push')">P</button>
        </div>` : '';
   return `<tr>
-    <td>${b.date}</td><td title="${esc(b.notes||'')}">${esc(b.event)} ${circuitChip(b)}</td>
-    <td>${esc(b.playerA)} vs ${esc(b.playerB)}</td><td><strong>${esc(b.pick)}</strong></td>
-    <td class="num" title="decimal ${b.odds.toFixed(2)}">${fmtAm(b.odds)}</td><td class="num">${b.units.toFixed(2)}</td>
-    <td class="grade ${b.grade}">${b.grade}</td>
+    <td>${b.date}</td>
+    <td>${fmtStart(b)}</td>
+    <td title="${esc(b.notes||'')}">${esc(b.playerA)} vs ${esc(b.playerB)} ${circuitChip(b)}</td>
+    <td><strong>${esc(b.pick)}</strong></td>
+    <td class="num" title="decimal ${b.odds.toFixed(2)}">${fmtAm(b.odds)}</td>
+    <td class="num">${b.units.toFixed(2)}</td>
     <td><span class="pill ${b.status}">${b.status}</span></td>
     <td class="num ${net>0?'pos':net<0?'neg':''}">${b.status==='pending'?'—':fmtU(net)}</td>
     <td><div style="display:flex;gap:4px;align-items:center">${settleBtns}
@@ -487,72 +298,13 @@ function betRow(b){
       <button class="small danger" onclick="deleteBet('${b.id}')">Del</button></div></td>
   </tr>`;
 }
-function renderBetTable(u){
-  const all = sortedByDate(DATA.bets).reverse();
-  const active = all.filter(b=>b.status==='pending');
-  const done   = all.filter(b=>b.status!=='pending');
+function renderBetTable(){
+  const all = [...DATA.bets].sort((a,b)=>sortKey(b)-sortKey(a));
   document.querySelector('#bet-table tbody').innerHTML =
-    active.length ? active.map(betRow).join('')
-                  : '<tr><td colspan="10" class="empty">No active bets — the engine logs them automatically when a pick has edge</td></tr>';
-  document.querySelector('#history-table tbody').innerHTML =
-    done.length ? done.map(betRow).join('')
-                : '<tr><td colspan="10" class="empty">Nothing settled yet</td></tr>';
-  document.getElementById('history-count').textContent = done.length;
+    all.length ? all.map(betRow).join('')
+               : '<tr><td colspan="9" class="empty">No bets yet — the engine logs them automatically when a pick has edge</td></tr>';
 }
 function esc(s){ return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
-
-/* ================= SVG charts ================= */
-function svgOpen(w,h){ return `<svg viewBox="0 0 ${w} ${h}" width="100%" style="display:block">`; }
-function renderBankrollChart(){
-  const el = document.getElementById('bankroll-chart');
-  const days = dailyPnl();
-  const start = DATA.settings.startingBankrollUnits;
-  const pts = [{date:'start',v:start}];
-  let run = start;
-  for(const d of days){ run = round2(run+d.net); pts.push({date:d.date,v:run}); }
-  if(pts.length<2){ el.innerHTML='<div class="empty">Need settled bets</div>'; return; }
-  const W=520,H=180,P=34;
-  const vs = pts.map(p=>p.v);
-  let lo=Math.min(...vs), hi=Math.max(...vs);
-  if(hi-lo<2){ hi+=1; lo-=1; }
-  const x=i=>P+(W-P-10)*(i/(pts.length-1));
-  const y=v=>H-24-(H-38)*((v-lo)/(hi-lo));
-  let s = svgOpen(W,H);
-  // baseline at start bankroll
-  s+=`<line x1="${P}" y1="${y(start)}" x2="${W-10}" y2="${y(start)}" stroke="var(--border)" stroke-dasharray="4 3"/>`;
-  s+=`<text x="${P-4}" y="${y(hi)+4}" fill="var(--muted)" font-size="10" text-anchor="end">${hi.toFixed(0)}</text>`;
-  s+=`<text x="${P-4}" y="${y(lo)+4}" fill="var(--muted)" font-size="10" text-anchor="end">${lo.toFixed(0)}</text>`;
-  s+=`<text x="${P-4}" y="${y(start)+4}" fill="var(--muted)" font-size="10" text-anchor="end">${start}</text>`;
-  const path = pts.map((p,i)=>(i?'L':'M')+x(i).toFixed(1)+' '+y(p.v).toFixed(1)).join(' ');
-  s+=`<path d="${path}" fill="none" stroke="var(--accent)" stroke-width="2"/>`;
-  pts.forEach((p,i)=>{
-    s+=`<circle cx="${x(i)}" cy="${y(p.v)}" r="3" fill="var(--accent)"><title>${p.date}: ${p.v.toFixed(2)}u</title></circle>`;
-    if(i===0||i===pts.length-1||pts.length<=7)
-      s+=`<text x="${x(i)}" y="${H-8}" fill="var(--muted)" font-size="9" text-anchor="middle">${p.date==='start'?'start':p.date.slice(5)}</text>`;
-  });
-  el.innerHTML = s+'</svg>';
-}
-function renderDailyChart(){
-  const el = document.getElementById('daily-chart');
-  const days = dailyPnl();
-  if(!days.length){ el.innerHTML='<div class="empty">Need settled bets</div>'; return; }
-  const W=520,H=180,P=34;
-  const max = Math.max(1,...days.map(d=>Math.abs(d.net)));
-  const zero = H/2-6;
-  const bw = Math.min(46,(W-P-10)/days.length-6);
-  let s = svgOpen(W,H);
-  s+=`<line x1="${P}" y1="${zero}" x2="${W-10}" y2="${zero}" stroke="var(--border)"/>`;
-  days.forEach((d,i)=>{
-    const cx = P+8+i*((W-P-14)/days.length);
-    const h = Math.abs(d.net)/max*(H/2-30);
-    const yTop = d.net>=0 ? zero-h : zero;
-    s+=`<rect x="${cx}" y="${yTop}" width="${bw}" height="${Math.max(h,1)}" rx="2"
-        fill="${d.net>=0?'var(--green)':'var(--red)'}"><title>${d.date}: ${fmtU(d.net)}u</title></rect>`;
-    s+=`<text x="${cx+bw/2}" y="${d.net>=0?yTop-4:yTop+h+11}" fill="var(--text)" font-size="10" text-anchor="middle">${fmtU(d.net)}</text>`;
-    s+=`<text x="${cx+bw/2}" y="${H-8}" fill="var(--muted)" font-size="9" text-anchor="middle">${d.date.slice(5)}</text>`;
-  });
-  el.innerHTML = s+'</svg>';
-}
 
 /* ================= CRUD ================= */
 function openBetDialog(id){
@@ -567,21 +319,23 @@ function openBetDialog(id){
   document.getElementById('f-pick').value = b?b.pick:'';
   document.getElementById('f-odds').value = b?b.odds:'';
   document.getElementById('f-units').value = b?b.units:'';
-  document.getElementById('f-grade').value = b?b.grade:'B';
+  document.getElementById('f-grade').value = b?(b.grade||'B'):'B';
   document.getElementById('f-status').value = b?b.status:'pending';
   document.getElementById('f-notes').value = b?(b.notes||''):'';
   dlg.showModal();
 }
 document.getElementById('bet-form').addEventListener('submit',()=>{
   const id = document.getElementById('f-id').value || ('bet-'+Date.now());
+  const old = DATA.bets.find(x=>String(x.id)===String(id));
   const bet = {
+    ...(old||{}),
     id,
     date: document.getElementById('f-date').value,
     event: document.getElementById('f-event').value.trim(),
     playerA: document.getElementById('f-playerA').value.trim(),
     playerB: document.getElementById('f-playerB').value.trim(),
     pick: document.getElementById('f-pick').value.trim(),
-    odds: parseFloat(document.getElementById('f-odds').value),
+    odds: toDecimal(parseFloat(document.getElementById('f-odds').value)),
     units: parseFloat(document.getElementById('f-units').value),
     grade: document.getElementById('f-grade').value,
     status: document.getElementById('f-status').value,
@@ -599,7 +353,7 @@ function settle(id,result){
 }
 function deleteBet(id){
   const b = DATA.bets.find(x=>String(x.id)===String(id));
-  if(!b || !confirm(`Delete: ${b.pick} @ ${b.odds} (${b.date})?`)) return;
+  if(!b || !confirm(`Delete: ${b.pick} @ ${fmtAm(b.odds)} (${b.date})?`)) return;
   DATA.bets = DATA.bets.filter(x=>String(x.id)!==String(id));
   persist(); render();
 }
