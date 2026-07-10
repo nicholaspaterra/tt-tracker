@@ -39,3 +39,11 @@ _Started 2026-07-10. Written BEFORE any code changes, per mandate._
 
 ## Work log
 - 2026-07-10: Audit complete; this file written. Next: timestamped backup of bets.js to `backups/`, then git baseline.
+- 2026-07-10: bets.js backed up to `backups/bets-20260710-091011.js`. Git repo initialized, baseline committed. pytest 8.4.2 installed (user site).
+- 2026-07-10: Live capture done **via a real Chrome session** (plain HTTP is blocked, see blockers). Confirmed: Czech Liga Pro (`czech-liga-pro`) and TT Cup (`tt-cup`) are listed with ~170 and ~150 matches/day; the day-slate API (`api/matches?sport_id=11&date=...`) returns one protobuf with competitions, players, statuses, final scores AND per-match odds rows. Captured 12,188 real bytes (40 matches) + the real odds/list response into `tests/fixtures/`; Python parser reproduces the site's own parse 40/40.
+- 2026-07-10: Implemented storage hardening, `elo.py`, `czech.py`, engine integration, dashboard circuit split. Test suite: **68 passed** (incl. mocked full-`main()` integration runs). Dashboard verified rendering in Chrome against synthetic data — ROI-by-circuit numbers matched hand math; `logRec` produces labeled czech bets; no console errors.
+
+## Blockers & routing
+1. **aiscore 403s all non-browser clients from this network** (urllib and curl, HTML and API — Cloudflare-style challenge). Routed around it: fixtures captured through the user's Chrome; all tests mocked; `smoke_live.py` documents the limitation. Production runs need a network/runner that isn't challenged — verify GitHub Actions with one manual run (see SUMMARY.md).
+2. **Odds feed is region-gated** — odds/list returns only a gambling disclaimer here and the site's own odds tab is empty, while finished czech matches in the day slate DO carry odds rows. Engine degrades to MODEL PICK / NO BET when no line is visible; not a code defect.
+3. **No `gh` CLI on this machine.** Remote `nicholaspaterra/tt-tracker` is reachable read-only; push attempted with the osxkeychain credential helper — result noted below in the git section of SUMMARY/commit notes.

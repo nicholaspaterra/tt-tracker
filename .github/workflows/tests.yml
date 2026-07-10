@@ -1,0 +1,16 @@
+name: Tests
+
+on:
+  push: {}
+  workflow_dispatch: {}
+
+jobs:
+  pytest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install pytest
+        run: python3 -m pip install --quiet pytest
+      - name: Run test suite (fully mocked, no network)
+        run: python3 -m pytest tests/ -q

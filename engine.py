@@ -20,6 +20,7 @@ import json
 import math
 import os
 import re
+import shutil
 import sys
 import time
 import urllib.request
@@ -43,6 +44,11 @@ UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
 HERE = os.path.dirname(os.path.abspath(__file__))
 BETS_JS = os.path.join(HERE, "bets.js")
 LOG_FILE = os.path.join(HERE, "engine_log.txt")
+BACKUP_DIR = os.path.join(HERE, "backups")
+MAX_BACKUPS = 30
+VALID_GRADES = ("A", "B", "C")
+VALID_STATUSES = ("pending", "win", "loss", "push")
+DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
 
 # ---------------- io ----------------
 def log(msg):
@@ -66,6 +72,93 @@ def load_bets_file():
     if not m:
         raise ValueError("could not parse bets.js")
     return json.loads(m.group(1))
+
+def backup_bets_file(now=None):
+    """Timestamped copy of bets.js into backups/ before this run writes anything.
+    Keeps the newest MAX_BACKUPS. Never raises — a failed backup must not kill a run,
+    but save_bets_file refuses to run if no backup was made this run (see main)."""
+    try:
+        if not os.path.exists(BETS_JS):
+            return None
+        os.makedirs(BACKUP_DIR, exist_ok=True)
+        stamp = (now or datetime.now()).strftime("%Y%m%d-%H%M%S")
+        dest = os.path.join(BACKUP_DIR, "bets-%s.js" % stamp)
+        if not os.path.exists(dest):
+            shutil.copy2(BETS_JS, dest)
+        names = sorted(f for f in os.listdir(BACKUP_DIR)
+                       if f.startswith("bets-") and f.endswith(".js"))
+        for f in names[:-MAX_BACKUPS]:
+            os.remove(os.path.join(BACKUP_DIR, f))
+        return dest
+    except OSError as e:
+        log("warn: bets.js backup failed: %s" % e)
+        return None
+
+def to_decimal_odds(v):
+    """Odds in decimal (1.28) or American (-357 / +250) form -> decimal float, or
+    None if not interpretable as odds. Decimal odds must exceed 1.005."""
+    if isinstance(v, bool):
+        return None
+    try:
+        x = float(v)
+    except (TypeError, ValueError):
+        return None
+    if math.isnan(x) or math.isinf(x):
+        return None
+    if abs(x) >= 100:  # American
+        return round(1 + (x / 100 if x > 0 else 100 / abs(x)), 4)
+    return x if x > 1.005 else None
+
+def validate_bet(b):
+    """-> list of problems (empty means the entry is a usable bet)."""
+    problems = []
+    if not isinstance(b, dict):
+        return ["not an object"]
+    if not b.get("id"):
+        problems.append("missing id")
+    if not (isinstance(b.get("date"), str) and DATE_RE.match(b["date"])):
+        problems.append("bad date %r" % (b.get("date"),))
+    if to_decimal_odds(b.get("odds")) is None:
+        problems.append("bad odds %r" % (b.get("odds"),))
+    try:
+        if not float(b.get("units")) > 0:
+            problems.append("units must be > 0, got %r" % (b.get("units"),))
+    except (TypeError, ValueError):
+        problems.append("bad units %r" % (b.get("units"),))
+    if b.get("grade") not in VALID_GRADES:
+        problems.append("bad grade %r" % (b.get("grade"),))
+    if b.get("status") not in VALID_STATUSES:
+        problems.append("bad status %r" % (b.get("status"),))
+    for k in ("pick", "playerA", "playerB"):
+        if not (isinstance(b.get(k), str) and b[k].strip()):
+            problems.append("missing %s" % k)
+    return problems
+
+def sanitize_bets(data):
+    """Drop duplicate bet ids (first wins) and quarantine malformed entries into
+    data['quarantine'] (nothing is ever silently deleted). Normalizes odds/units
+    to numbers. -> (n_duplicates_dropped, n_quarantined)."""
+    bets = data.get("bets")
+    if not isinstance(bets, list):
+        data["bets"] = []
+        return 0, 0
+    seen, keep, dupes, quarantined = set(), [], 0, 0
+    for b in bets:
+        problems = validate_bet(b)
+        if problems:
+            data.setdefault("quarantine", []).append(
+                {"entry": b, "problems": problems})
+            quarantined += 1
+            continue
+        if b["id"] in seen:
+            dupes += 1
+            continue
+        seen.add(b["id"])
+        b["odds"] = to_decimal_odds(b["odds"])
+        b["units"] = round(float(b["units"]), 2)
+        keep.append(b)
+    data["bets"] = keep
+    return dupes, quarantined
 
 def save_bets_file(data):
     src = (
@@ -173,16 +266,21 @@ def _odds_set(msg_bytes):
     return vals
 
 def fetch_match_odds(match_id):
-    """-> (odds_home, odds_away, bookmaker) or None.
-    Response: field 15 = bookmaker block {1:handicap, 2:to-win, 3:totals, 4:book info}.
-    Each market = {1:opening, 2:current, 4:closing} odds-sets. The to-win set looks like
-    [home, "0"(draw), away, "0"] — no draws in table tennis, which is how we detect it."""
+    """-> (odds_home, odds_away, bookmaker) or None."""
     req = urllib.request.Request(ODDS_URL % match_id, headers={
         "User-Agent": UA, "Accept": "*/*",
         "Origin": "https://m.aiscore.com", "Referer": "https://m.aiscore.com/",
     })
     with urllib.request.urlopen(req, timeout=30) as r:
         raw = r.read()
+    return parse_match_odds(raw)
+
+def parse_match_odds(raw):
+    """odds/list protobuf response -> (odds_home, odds_away, bookmaker) or None.
+    Response: field 15 = bookmaker block {1:handicap, 2:to-win, 3:totals, 4:book info}.
+    Each market = {1:opening, 2:current, 4:closing} odds-sets. The to-win set looks like
+    [home, "0"(draw), away, "0"] — no draws in table tennis, which is how we detect it.
+    A response whose field 15 holds only the gambling disclaimer yields None."""
     for block in _pb_fields(raw).get(15, []):
         if not isinstance(block, bytes):
             continue
@@ -229,20 +327,27 @@ def auto_log_bets(data, recs):
     for r in recs:
         if r.get("units", 0) <= 0 or not r.get("rec", "").startswith("BET") or r["id"] in existing:
             continue
-        pick = re.search(r" on (.+?) @ ", r["rec"])
+        pick = r.get("pickName")
+        if not pick:  # older recs carry the pick only inside the rec string
+            m = re.search(r" on (.+?) @ ", r["rec"])
+            pick = m.group(1) if m else None
         if not pick:
             continue
-        data["bets"].append({
+        bet = {
             "id": "bet-" + r["id"],
             "recId": r["id"],
             "date": r["date"],
             "event": r["event"],
             "playerA": r["playerA"], "playerB": r["playerB"],
-            "pick": pick.group(1),
+            "pick": pick,
             "odds": r["bestOdds"], "units": r["units"], "grade": r["grade"],
             "status": "pending",
+            "circuit": r.get("circuit", "wtt"),
             "notes": "auto-logged by engine [rec:%s]" % r["id"],
-        })
+        }
+        if r.get("matchId"):
+            bet["matchId"] = r["matchId"]
+        data["bets"].append(bet)
         logged += 1
     return logged
 
@@ -250,8 +355,8 @@ def auto_settle(data, pages, by_name):
     """Settle pending bets from completed results on the players' pages."""
     settled = 0
     for b in data.get("bets", []):
-        if b.get("status") != "pending":
-            continue
+        if b.get("status") != "pending" or b.get("circuit") == "czech":
+            continue  # czech bets settle by match id in czech.settle_bets
         result = None
         for nm in (b.get("playerA"), b.get("playerB")):
             if not nm:
@@ -303,6 +408,40 @@ def bankroll_units(data):
             net -= b["units"]
     return data["settings"].get("startingBankrollUnits", 100) + net
 
+def net_units(b):
+    """Settled P&L of one bet in units (push/pending = 0)."""
+    if b.get("status") == "win":
+        return (b["odds"] - 1) * b["units"]
+    if b.get("status") == "loss":
+        return -b["units"]
+    return 0.0
+
+def roi_report(data):
+    """ROI split by confidence grade AND by circuit (wtt vs czech), from settled
+    bets only. Bets without a circuit label are WTT (pre-czech-era entries).
+    -> {"byGrade": {...}, "byCircuit": {...}}; each row
+       {bets, wins, losses, pushes, staked, net, roi} with roi as a fraction."""
+    by_grade, by_circuit = {}, {}
+    for b in data.get("bets", []):
+        st = b.get("status")
+        if st not in ("win", "loss", "push"):
+            continue
+        net = net_units(b)
+        for key, table in ((b.get("grade", "?"), by_grade),
+                           (b.get("circuit", "wtt"), by_circuit)):
+            row = table.setdefault(key, {"bets": 0, "wins": 0, "losses": 0,
+                                         "pushes": 0, "staked": 0.0, "net": 0.0})
+            row["bets"] += 1
+            row["staked"] += b["units"]
+            row["net"] += net
+            row["wins" if st == "win" else "losses" if st == "loss" else "pushes"] += 1
+    for table in (by_grade, by_circuit):
+        for row in table.values():
+            row["staked"] = round(row["staked"], 2)
+            row["net"] = round(row["net"], 2)
+            row["roi"] = round(row["net"] / row["staked"], 4) if row["staked"] else 0.0
+    return {"byGrade": by_grade, "byCircuit": by_circuit}
+
 def apply_edge(rec, odds_home, odds_away, book, bankroll):
     """Vig-strip, edge, quarter-Kelly (cap 2u, C-grade halved). Mutates rec."""
     imp_h, imp_a = 1 / odds_home, 1 / odds_away
@@ -317,16 +456,18 @@ def apply_edge(rec, odds_home, odds_away, book, bankroll):
     name = rec["playerA"] if side_a else rec["playerB"]
     rec["bestOdds"] = o
     if edge >= MIN_EDGE:
-        units = 0.25 * (p * o - 1) / (o - 1) * bankroll
-        units = min(units, 2.0)
+        units = 0.25 * (p * o - 1) / (o - 1) * bankroll  # quarter-Kelly (bankroll in units)
+        units = min(units, 2.0)                          # hard cap: nothing ever stakes > 2u
         if rec["grade"] == "C":
-            units /= 2
+            units /= 2                                   # C-grade stakes half (max 1u)
         units = round(units, 2)
         if units > 0:
             rec["units"] = units
+            rec["pickName"] = name
             rec["rec"] = "BET %.2fu on %s @ %s (%s)" % (units, name, am_odds(o), book)
             return
     rec["units"] = 0
+    rec["pickName"] = None
     rec["rec"] = "NO BET (edge %.1f%% @ %s %s/%s)" % (edge * 100, book, am_odds(odds_home), am_odds(odds_away))
 
 # ---------------- model ----------------
@@ -406,8 +547,19 @@ def main():
     now = datetime.now().astimezone()
     trim_log()
     log("engine run started")
-    data = load_bets_file()
+    try:
+        data = load_bets_file()
+    except (ValueError, json.JSONDecodeError) as e:
+        # Never write over a bets.js we could not read — that file is the bet log.
+        log("ERROR: bets.js unreadable (%s). Not touching it. "
+            "Restore the latest copy from backups/ and re-run." % e)
+        sys.exit(1)
+    backup_bets_file(now)
     data.setdefault("recommendations", [])
+    n_dupes, n_quarantined = sanitize_bets(data)
+    if n_dupes or n_quarantined:
+        log("bet log sanitized: %d duplicate(s) dropped, %d malformed entrie(s) quarantined"
+            % (n_dupes, n_quarantined))
 
     lists = []
     for url in RANKINGS_URLS:
@@ -475,6 +627,7 @@ def main():
             "id": rec_id,
             "date": m["date"],
             "event": m["tournament"],
+            "circuit": "wtt",
             "playerA": a, "playerB": b,
             "myProbA": round(prob, 3),
             "marketProbA": None, "bestOdds": None, "edge": None,
@@ -482,6 +635,8 @@ def main():
             "units": 0, "grade": grade,
             "reasoning": why,
         }
+        if m.get("mid"):
+            rec["matchId"] = m["mid"]
         # auto-pull odds and compute edge + stake
         if m.get("mid"):
             time.sleep(REQUEST_DELAY)
@@ -497,6 +652,17 @@ def main():
         new_recs.append(rec)
         log("modeled %s vs %s -> %.0f%% / %s / grade %s" % (a, b, prob * 100, rec["rec"], grade))
 
+    # Czech amateur pipeline (Liga Pro / TT Cup): separate Elo model + settlement.
+    # A czech failure must never take down the WTT run.
+    czech_recs = []
+    try:
+        import czech
+        czech_recs, cz_summary = czech.run(data, now)
+        log("czech pipeline: %s" % cz_summary)
+    except Exception as e:
+        log("warn: czech pipeline failed: %s" % e)
+    new_recs.extend(czech_recs)
+
     # merge: replace same-id recs, prune old ones
     cutoff = (now - timedelta(days=KEEP_REC_DAYS)).strftime("%Y-%m-%d")
     ids = {r["id"] for r in new_recs}
@@ -510,6 +676,13 @@ def main():
     n_logged = auto_log_bets(data, new_recs)
 
     save_bets_file(data)
+    rep = roi_report(data)
+    for label, table in (("grade", rep["byGrade"]), ("circuit", rep["byCircuit"])):
+        for key in sorted(table):
+            r = table[key]
+            log("ROI by %s %s: %dW-%dL-%dP staked %.2fu net %+.2fu roi %+.1f%%"
+                % (label, key, r["wins"], r["losses"], r["pushes"],
+                   r["staked"], r["net"], r["roi"] * 100))
     log("run summary: %d rec(s), %d bet(s) auto-logged, %d bet(s) auto-settled"
         % (len(new_recs), n_logged, n_settled))
     if not new_recs:

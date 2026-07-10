@@ -1,9 +1,11 @@
 # 🏓 TT Tracker — betting analysis + bankroll tracking
 
 ## Files
-- **index.html** — the dashboard. Open in Chrome/Edge. Bet log, P&L, charts, and the "Claude's daily picks" panel (fed by the engine).
-- **bets.js** — all data (settings, picks, bets). The app and engine both read/write it.
+- **index.html** — the dashboard. Open in Chrome/Edge. Bet log, P&L, charts, ROI by grade AND by circuit, and the "Claude's daily picks" panel (fed by the engine). Czech amateur picks wear an amber CZE chip.
+- **bets.js** — all data (settings, picks, bets). The app and engine both read/write it. The engine snapshots it to `backups/` before every run.
 - **engine.py** — the autonomous prediction engine. Fetches ITTF rankings, recent results, and upcoming WTT singles matches; models win probabilities; writes picks into bets.js.
+- **czech.py + elo.py + elo.json** — the Czech amateur circuit (Czech Liga Pro, TT Cup). These players aren't in ITTF rankings, so a self-maintained Elo store is bootstrapped from scraped results. Players with <10 rated matches are unbettable (NO BET); every amateur pick is grade-capped at C (half stake, max 1u) until the ROI-by-circuit table proves the circuit out. See DECISIONS.md.
+- **tests/** — 68 mocked tests incl. real captured protobuf fixtures. `python3 -m pytest tests/ -q`. `smoke_live.py` is the only thing that ever touches the live site outside engine runs, and only when you run it by hand.
 - **install.sh** — sets up hourly auto-runs (`bash install.sh`; remove with `bash install.sh remove`).
 - **Run Analysis.command** — double-click to run the engine any time.
 - **engine_log.txt** — what the engine did each run.

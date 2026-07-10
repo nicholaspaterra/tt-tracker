@@ -29,3 +29,9 @@
 [2026-07-08 18:44:48] upcoming WTT singles matches found: 1
 [2026-07-08 18:44:48] modeled Gamma Three vs Delta Four -> 82% / BET 1.00u on Gamma Three @ -357 (bet365) / grade C
 [2026-07-08 18:44:48] run summary: 1 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-10 13:03:06] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
+[2026-07-10 13:03:06] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
+[2026-07-10 13:04:10] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
+[2026-07-10 13:04:10] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
+[2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
+[2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
