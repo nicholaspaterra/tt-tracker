@@ -30,9 +30,12 @@
   .grade.A{color:var(--green)} .grade.B{color:var(--accent)} .grade.C{color:var(--amber)}
   .circuit-chip{display:inline-block;padding:1px 6px;border-radius:8px;font-size:10px;font-weight:700;letter-spacing:.04em;vertical-align:1px}
   .circuit-chip.czech{background:rgba(245,184,61,.18);color:var(--amber);border:1px solid rgba(245,184,61,.4)}
+  .circuit-chip.polish{background:rgba(186,143,255,.16);color:#ba8fff;border:1px solid rgba(186,143,255,.4)}
   .circuit-chip.wtt{background:rgba(79,140,255,.15);color:var(--accent);border:1px solid rgba(79,140,255,.35)}
   .wager-card.czech{border-color:var(--amber)}
   .wager-card.czech .bet-chip{background:var(--amber);color:#3a2c07}
+  .wager-card.polish{border-color:#ba8fff}
+  .wager-card.polish .bet-chip{background:#ba8fff;color:#2a1a47}
   .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-bottom:6px}
   .card{background:var(--panel);border:1px solid var(--border);border-radius:8px;padding:12px}
   .card .label{color:var(--muted);font-size:11px;text-transform:uppercase;letter-spacing:.05em}
@@ -120,7 +123,7 @@
       <th>Grade</th><th class="num">Bets</th><th class="num">Record</th><th class="num">Staked</th><th class="num">Net</th><th class="num">ROI</th>
     </tr></thead><tbody></tbody></table>
     <h2>ROI by circuit</h2>
-    <p class="sub" style="margin-bottom:8px">Czech amateur picks stay grade-capped at C (half stake) until this table proves they make money.</p>
+    <p class="sub" style="margin-bottom:8px">Amateur picks (Czech + Polish leagues) stay grade-capped at C (half stake) until this table proves they make money.</p>
     <table id="circuit-table"><thead><tr>
       <th>Circuit</th><th class="num">Bets</th><th class="num">Record</th><th class="num">Staked</th><th class="num">Net</th><th class="num">ROI</th>
     </tr></thead><tbody></tbody></table>
@@ -293,10 +296,11 @@ function gradeBreakdown(){
   }
   return Object.values(out);
 }
-function circuitOf(b){ return b.circuit === 'czech' ? 'czech' : 'wtt'; } // unlabeled = pre-czech-era WTT bets
+function circuitOf(b){ return (b.circuit==='czech'||b.circuit==='polish') ? b.circuit : 'wtt'; } // unlabeled = pre-amateur-era WTT bets
 function circuitBreakdown(){
   const out = {wtt:{g:'wtt',label:'WTT / ITTF',n:0,w:0,l:0,p:0,staked:0,net:0},
-               czech:{g:'czech',label:'Czech amateur',n:0,w:0,l:0,p:0,staked:0,net:0}};
+               czech:{g:'czech',label:'Czech amateur',n:0,w:0,l:0,p:0,staked:0,net:0},
+               polish:{g:'polish',label:'Polish amateur',n:0,w:0,l:0,p:0,staked:0,net:0}};
   for(const b of settled()){
     const r = out[circuitOf(b)];
     r.n++; r.staked=round2(r.staked+b.units); r.net=round2(r.net+netUnits(b));
@@ -304,7 +308,12 @@ function circuitBreakdown(){
   }
   return Object.values(out);
 }
-function circuitChip(x){ return circuitOf(x)==='czech' ? '<span class="circuit-chip czech" title="Czech Liga Pro / TT Cup — separate Elo model, C-grade capped">CZE</span>' : ''; }
+function circuitChip(x){
+  const c = circuitOf(x);
+  if(c==='czech')  return '<span class="circuit-chip czech" title="Czech Liga Pro / TT Cup — Elo model, C-grade capped">CZE</span>';
+  if(c==='polish') return '<span class="circuit-chip polish" title="TT Elite Series — Elo model, C-grade capped">POL</span>';
+  return '';
+}
 
 /* ================= rendering ================= */
 function render(){
@@ -340,8 +349,8 @@ function renderWagerCards(){
   el.innerHTML = open.map(b=>{
     const opp = b.pick===b.playerA ? b.playerB : b.playerA;
     const unitsTxt = b.units===1 ? '1 unit' : b.units.toFixed(2).replace(/\.00$/,'')+' units';
-    const cz = circuitOf(b)==='czech';
-    return `<div class="wager-card${cz?' czech':''}">
+    const circ = circuitOf(b);
+    return `<div class="wager-card${circ!=='wtt'?' '+circ:''}">
       <span class="bet-chip">BET</span>
       <div class="wager-units">${unitsTxt}</div>
       <div class="wager-line">on <b>${esc(b.pick)}</b> to win</div>

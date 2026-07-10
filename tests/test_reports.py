@@ -33,6 +33,8 @@ def synthetic_history():
         bet("b6", "A", "wtt", "push", 1.0, 2.0),
         # pending bets must not count anywhere
         bet("b7", "B", "wtt", "pending", 1.0, 2.0),
+        # win 1u @3.0  -> net +2.0   (C, polish)
+        bet("b8", "C", "polish", "win", 1.0, 3.0),
     ]
     return data
 
@@ -46,9 +48,9 @@ def test_roi_by_grade_matches_hand_computed_values():
     # Grade B: 1 win, staked 0.5, net +0.4, roi 0.8
     assert g["B"] == {"bets": 1, "wins": 1, "losses": 0, "pushes": 0,
                       "staked": 0.5, "net": 0.4, "roi": 0.8}
-    # Grade C: 1W 1L, staked 1.5, net 1.2-0.5=0.7, roi 0.7/1.5=0.466666->0.4667
-    assert g["C"] == {"bets": 2, "wins": 1, "losses": 1, "pushes": 0,
-                      "staked": 1.5, "net": 0.7, "roi": 0.4667}
+    # Grade C: 2W 1L, staked 1.5+1=2.5, net 1.2-0.5+2.0=2.7, roi 2.7/2.5=1.08
+    assert g["C"] == {"bets": 3, "wins": 2, "losses": 1, "pushes": 0,
+                      "staked": 2.5, "net": 2.7, "roi": 1.08}
 
 
 def test_roi_by_circuit_matches_hand_computed_values():
@@ -60,13 +62,15 @@ def test_roi_by_circuit_matches_hand_computed_values():
     # czech: b4,b5 = 2 bets, staked 1.5, net 0.7, roi 0.4667
     assert c["czech"] == {"bets": 2, "wins": 1, "losses": 1, "pushes": 0,
                           "staked": 1.5, "net": 0.7, "roi": 0.4667}
+    # polish: b8 = 1 bet, staked 1.0, net +2.0, roi 2.0
+    assert c["polish"] == {"bets": 1, "wins": 1, "losses": 0, "pushes": 0,
+                           "staked": 1.0, "net": 2.0, "roi": 2.0}
 
 
 def test_bankroll_curve_inputs_net_units_per_bet():
-    # bankroll = starting 100 + total settled net (2.0+0.4+0.7 = 3.1... by hand:
-    # +3.0 -1.0 +0.4 -0.5 +1.2 +0 = 3.1)
+    # by hand: +3.0 -1.0 +0.4 -0.5 +1.2 +0 +2.0 = 5.1
     data = synthetic_history()
-    assert engine.bankroll_units(data) == pytest.approx(103.1)
+    assert engine.bankroll_units(data) == pytest.approx(105.1)
 
 
 def test_empty_history_reports_empty_tables():

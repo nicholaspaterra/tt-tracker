@@ -38,6 +38,7 @@ REQUEST_DELAY = 1.2        # seconds between requests (be polite)
 LOOKAHEAD_HOURS = 48       # treat matches starting within this window as "today's slate"
 KEEP_REC_DAYS = 60         # prune recommendations older than this
 MIN_EDGE = 0.06            # minimum edge to trigger a bet (6%)
+AMATEUR_CIRCUITS = ("czech", "polish")  # bets settled by match id in czech.settle_bets
 WTT_SINGLES = re.compile(r"(WTT|Smash|Champions|Contender|Feeder|World Cup|World Championship|Olympic)", re.I)
 SINGLES_SUFFIX = re.compile(r",\s*(MS|WS)\s*$")   # aiscore tournament strings end ", MS"/", WS" for singles
 UA = ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
@@ -377,8 +378,8 @@ def auto_settle(data, pages, by_name):
     """Settle pending bets from completed results on the players' pages."""
     settled = 0
     for b in data.get("bets", []):
-        if b.get("status") != "pending" or b.get("circuit") == "czech":
-            continue  # czech bets settle by match id in czech.settle_bets
+        if b.get("status") != "pending" or b.get("circuit") in AMATEUR_CIRCUITS:
+            continue  # amateur bets settle by match id in czech.settle_bets
         result = None
         for nm in (b.get("playerA"), b.get("playerB")):
             if not nm:

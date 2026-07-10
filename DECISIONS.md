@@ -101,3 +101,10 @@ Flag anything you disagree with and it's a small change.
     The engine already degrades gracefully (MODEL PICK / NO BET). Expect
     "odds not found" until runs happen from a region/IP where the odds feed
     is served.
+
+16. **TT Elite Series added (2026-07-10, owner-approved).** Third amateur
+    league, labeled circuit `polish` so its ROI reports separately from the
+    Czech leagues. Shares the Elo pool with Czech Liga Pro / TT Cup (TT Cup
+    fields international players, so a shared pool models cross-league
+    meetings correctly). All amateur safety rails apply unchanged: 10-match
+    gate, C-grade half stake, bounded discovery.

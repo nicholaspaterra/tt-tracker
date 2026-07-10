@@ -19,6 +19,7 @@ TS = int(NOW.timestamp())
 
 COMPS = [pbenc.competition("c1", "Czech Liga Pro"),
          pbenc.competition("c2", "TT Cup"),
+         pbenc.competition("c3", "TT Elite Series"),
          pbenc.competition("c9", "WTT Feeder Somewhere, MS")]
 TEAMS = [pbenc.team("t1", "Alpha"), pbenc.team("t2", "Beta"),
          pbenc.team("t3", "Gamma"), pbenc.team("t4", "Delta"),
@@ -230,6 +231,54 @@ class TestSettlement:
         assert "20260710" in dates       # today
         assert "20260709" in dates       # the pending bet's day
         assert len(dates) <= czech.MAX_DATE_FETCHES
+
+
+class TestPolishCircuit:
+    def test_tt_elite_series_is_covered_with_polish_label(self, tmp_path, no_sleep):
+        # same Elo pool, same math as the czech flow (hand math in TestFullBetFlow),
+        # but the circuit label and rec id mark it as the Polish league
+        raw = response([pbenc.match("pm1", "c3", "t1", "t2", TS + 3600, 1,
+                                    towin=["2.4", "0", "1.55", "0"])])
+        recs, _ = run(fresh_data(), raw, seeded_store_path(tmp_path))
+        assert len(recs) == 1
+        r = recs[0]
+        assert r["circuit"] == "polish"
+        assert r["id"] == "rec-pl-pm1"
+        assert r["grade"] == "C"
+        assert r["units"] == 1.00
+
+    def test_polish_finals_feed_the_shared_elo_store(self, tmp_path, no_sleep):
+        raw = response([pbenc.match("pf1", "c3", "t5", "t6", TS - 7200, 100,
+                                    ft=(3, 0))])
+        path = str(tmp_path / "elo.json")
+        run(fresh_data(), raw, path)
+        store = elo.load_store(path)
+        assert store["players"]["Echo"]["r"] == 1516.0  # equals, winner +16
+
+    def test_polish_bet_settles_by_match_id(self, tmp_path, no_sleep):
+        data = fresh_data()
+        data["bets"] = [{"id": "bet-rec-pl-pm4", "recId": "rec-pl-pm4",
+                         "date": "2026-07-09", "event": "TT Elite Series",
+                         "playerA": "Alpha", "playerB": "Beta", "pick": "Beta",
+                         "odds": 2.5, "units": 0.5, "grade": "C",
+                         "status": "pending", "circuit": "polish",
+                         "matchId": "pm4", "notes": ""}]
+        raw = response([pbenc.match("pm4", "c3", "t1", "t2", TS - 7200, 100,
+                                    ft=(1, 3))])
+        run(data, raw, str(tmp_path / "e.json"))
+        assert data["bets"][0]["status"] == "win"
+
+    def test_wtt_auto_settle_skips_amateur_bets(self, tmp_path, no_sleep):
+        data = fresh_data()
+        for circ in ("czech", "polish"):
+            data["bets"].append({"id": "b-" + circ, "date": "2026-07-09",
+                                 "event": "E", "playerA": "Alpha",
+                                 "playerB": "Beta", "pick": "Alpha",
+                                 "odds": 2.0, "units": 1.0, "grade": "C",
+                                 "status": "pending", "circuit": circ,
+                                 "matchId": "x", "notes": ""})
+        assert engine.auto_settle(data, {}, {}) == 0
+        assert all(b["status"] == "pending" for b in data["bets"])
 
 
 class TestAutoLogIntegration:

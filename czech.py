@@ -37,8 +37,13 @@ import elo
 import engine
 
 MATCHES_URL = "https://api.aiscore.com/v1/m/api/matches?lang=2&sport_id=11&date=%s&tz=%s"
-CZECH_COMPS = ("czech liga pro", "tt cup")   # matched case-insensitively by name
-CIRCUIT = "czech"
+# competition name (lowercased) -> circuit label; ratings share one Elo pool
+# (TT Cup fields international players, so a shared pool is the correct model)
+COMP_CIRCUIT = {
+    "czech liga pro": "czech",
+    "tt cup": "czech",
+    "tt elite series": "polish",
+}
 LOOKAHEAD_HOURS = 12       # bound discovery: only matches starting inside this window
 MAX_CANDIDATES = 40        # hard cap on modeled matches per run
 MAX_ODDS_FETCHES = 15      # per-match odds calls per run (fallback only)
@@ -152,8 +157,13 @@ def parse_matches(raw):
     return matches
 
 
-def is_czech(match):
-    return (match["comp"] or "").strip().lower() in CZECH_COMPS
+def circuit_for(match):
+    """-> 'czech' / 'polish' for covered amateur leagues, else None."""
+    return COMP_CIRCUIT.get((match["comp"] or "").strip().lower())
+
+
+def is_amateur(match):
+    return circuit_for(match) is not None
 
 
 def is_singles(match):
@@ -170,7 +180,7 @@ def update_elo(store, matches, tz):
     match id inside the store, so refetching the same day is safe."""
     applied = 0
     for m in matches:
-        if not (is_czech(m) and is_singles(m) and decided(m)):
+        if not (is_amateur(m) and is_singles(m) and decided(m)):
             continue
         if not (m["home"] and m["away"]):
             continue
@@ -186,7 +196,7 @@ def settle_bets(data, matches_by_id):
     """Settle pending czech bets from final scores, matched by match id."""
     settled = 0
     for b in data.get("bets", []):
-        if b.get("status") != "pending" or b.get("circuit") != CIRCUIT:
+        if b.get("status") != "pending" or b.get("circuit") not in engine.AMATEUR_CIRCUITS:
             continue
         m = matches_by_id.get(b.get("matchId"))
         if not m or not decided(m):
@@ -196,7 +206,7 @@ def settle_bets(data, matches_by_id):
         b["notes"] = (b.get("notes", "") + " | %s won %d-%d (auto-settled)"
                       % (winner, m["ft"][0], m["ft"][1])).strip(" |")
         settled += 1
-        engine.log("czech settled: %s vs %s -> %s won -> bet %s"
+        engine.log("amateur settled: %s vs %s -> %s won -> bet %s"
                    % (b.get("playerA"), b.get("playerB"), winner, b["status"].upper()))
     return settled
 
@@ -210,7 +220,7 @@ def dates_to_fetch(data, now):
     if horizon.date() != now.date():
         dates.append(horizon.strftime("%Y%m%d"))
     for b in data.get("bets", []):
-        if b.get("status") == "pending" and b.get("circuit") == CIRCUIT:
+        if b.get("status") == "pending" and b.get("circuit") in engine.AMATEUR_CIRCUITS:
             d = (b.get("date") or "").replace("-", "")
             if len(d) == 8 and d not in dates:
                 dates.append(d)
@@ -218,16 +228,17 @@ def dates_to_fetch(data, now):
 
 
 def model_candidate(m, store, now, tz):
-    """One upcoming czech match -> recommendation dict (engine rec shape,
+    """One upcoming amateur match -> recommendation dict (engine rec shape,
     plus circuit/matchId). The Elo gate and grade cap live here."""
     date = datetime.fromtimestamp(m["start"], tz).strftime("%Y-%m-%d")
     ra, na = elo.rating(store, m["home"])
     rb, nb = elo.rating(store, m["away"])
+    circuit = circuit_for(m)
     rec = {
-        "id": "rec-cz-" + m["mid"],
+        "id": ("rec-cz-" if circuit == "czech" else "rec-pl-") + m["mid"],
         "date": date,
         "event": m["comp"],
-        "circuit": CIRCUIT,
+        "circuit": circuit,
         "matchId": m["mid"],
         "playerA": m["home"], "playerB": m["away"],
         "myProbA": None,
@@ -276,7 +287,7 @@ def run(data, now, fetch_bytes_fn=None, store_path=None):
     now_ts = now.timestamp()
     candidates = sorted(
         (m for m in all_matches
-         if is_czech(m) and is_singles(m) and m["status"] == 1
+         if is_amateur(m) and is_singles(m) and m["status"] == 1
          and m["home"] and m["away"] and m["start"]
          and -900 <= m["start"] - now_ts <= LOOKAHEAD_HOURS * 3600),
         key=lambda m: m["start"])
