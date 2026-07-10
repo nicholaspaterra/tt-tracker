@@ -11,12 +11,17 @@ import engine  # noqa: E402
 FIXTURES = os.path.join(os.path.dirname(os.path.abspath(__file__)), "fixtures")
 
 
+@pytest.fixture(autouse=True)
+def isolated_log(tmp_path, monkeypatch):
+    """No test may ever touch the real engine_log.txt."""
+    monkeypatch.setattr(engine, "LOG_FILE", str(tmp_path / "engine_log.txt"))
+
+
 @pytest.fixture
 def tmp_store(tmp_path, monkeypatch):
-    """Point the engine's storage (bets.js, log, backups) at a temp dir."""
+    """Point the engine's storage (bets.js, backups) at a temp dir."""
     bets = tmp_path / "bets.js"
     monkeypatch.setattr(engine, "BETS_JS", str(bets))
-    monkeypatch.setattr(engine, "LOG_FILE", str(tmp_path / "engine_log.txt"))
     monkeypatch.setattr(engine, "BACKUP_DIR", str(tmp_path / "backups"))
     return tmp_path
 
