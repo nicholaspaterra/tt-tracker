@@ -23,6 +23,7 @@ import re
 import shutil
 import sys
 import time
+import urllib.error
 import urllib.request
 from datetime import datetime, timedelta
 
@@ -60,10 +61,37 @@ def log(msg):
     except OSError:
         pass
 
+def _browser_fallback_ok(err):
+    """aiscore 403s plain-Python clients on some networks. When the opt-in
+    env flag is set, those requests retry through headless Chromium."""
+    return (isinstance(err, urllib.error.HTTPError) and err.code == 403
+            and os.environ.get("TT_BROWSER_FETCH") == "1")
+
 def fetch(url):
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept-Language": "en"})
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read().decode("utf-8", "replace")
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read().decode("utf-8", "replace")
+    except urllib.error.HTTPError as e:
+        if _browser_fallback_ok(e):
+            import browser_fetch
+            return browser_fetch.fetch_text(url)
+        raise
+
+def fetch_api_bytes(url):
+    """Raw-bytes fetch for the api.aiscore.com endpoints (protobuf)."""
+    req = urllib.request.Request(url, headers={
+        "User-Agent": UA, "Accept": "*/*",
+        "Origin": "https://m.aiscore.com", "Referer": "https://m.aiscore.com/",
+    })
+    try:
+        with urllib.request.urlopen(req, timeout=30) as r:
+            return r.read()
+    except urllib.error.HTTPError as e:
+        if _browser_fallback_ok(e):
+            import browser_fetch
+            return browser_fetch.fetch_bytes(url)
+        raise
 
 def load_bets_file():
     with open(BETS_JS) as f:
@@ -267,13 +295,7 @@ def _odds_set(msg_bytes):
 
 def fetch_match_odds(match_id):
     """-> (odds_home, odds_away, bookmaker) or None."""
-    req = urllib.request.Request(ODDS_URL % match_id, headers={
-        "User-Agent": UA, "Accept": "*/*",
-        "Origin": "https://m.aiscore.com", "Referer": "https://m.aiscore.com/",
-    })
-    with urllib.request.urlopen(req, timeout=30) as r:
-        raw = r.read()
-    return parse_match_odds(raw)
+    return parse_match_odds(fetch_api_bytes(ODDS_URL % match_id))
 
 def parse_match_odds(raw):
     """odds/list protobuf response -> (odds_home, odds_away, bookmaker) or None.

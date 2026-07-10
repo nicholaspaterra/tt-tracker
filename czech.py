@@ -31,7 +31,6 @@ in that response; per-match odds calls are a bounded fallback.
 """
 
 import time
-import urllib.request
 from datetime import datetime, timedelta
 
 import elo
@@ -48,13 +47,8 @@ GRADE_CAP = "C"            # every amateur pick is C until circuit ROI proves ot
 
 
 def fetch_bytes(url):
-    """Raw-bytes fetch with the same browser-ish headers as the odds endpoint."""
-    req = urllib.request.Request(url, headers={
-        "User-Agent": engine.UA, "Accept": "*/*",
-        "Origin": "https://m.aiscore.com", "Referer": "https://m.aiscore.com/",
-    })
-    with urllib.request.urlopen(req, timeout=30) as r:
-        return r.read()
+    """Raw-bytes fetch (shares the engine's headers + browser fallback)."""
+    return engine.fetch_api_bytes(url)
 
 
 def _s(v):

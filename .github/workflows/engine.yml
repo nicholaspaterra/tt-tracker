@@ -19,7 +19,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # aiscore's bot protection 403s plain-Python clients from some networks.
+      # The engine retries those requests through headless Chromium.
+      - name: Install browser-fetch fallback
+        run: |
+          python3 -m pip install --quiet playwright
+          python3 -m playwright install --with-deps chromium
+
       - name: Run prediction engine
+        env:
+          TT_BROWSER_FETCH: "1"
         run: python3 engine.py
 
       - name: Commit updated data
