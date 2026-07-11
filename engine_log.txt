@@ -133,3 +133,17 @@
 [2026-07-11 14:41:26] ROI by circuit polish: 1W-1L-0P staked 2.00u net +0.00u roi +0.0%
 [2026-07-11 14:41:26] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-11 14:41:26] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-11 16:05:00] engine run started
+[2026-07-11 16:05:06] rankings parsed: 952 players across 2 lists; scanning 160
+[2026-07-11 16:17:12] upcoming WTT singles matches found: 2
+[2026-07-11 16:17:12] skip Leo de Nodrest vs Tobias Hippler: player not in rankings table
+[2026-07-11 16:17:17] modeled Claire Picard vs Li Yu-jhun -> 14% / NO BET (edge 2.9% @ bet365 +450/-833) / grade C
+[2026-07-11 16:17:19] amateur settled: Richard Wagner vs Frantisek Pusch -> Richard Wagner won -> bet LOSS
+[2026-07-11 16:17:19] amateur settled: Milan Kolar vs David Horak -> David Horak won -> bet WIN
+[2026-07-11 16:17:19] amateur settled: Ivan Jemelka vs Petr Chlad -> Petr Chlad won -> bet LOSS
+[2026-07-11 16:17:39] czech pipeline: 1106 match(es) scanned, 50 elo update(s), 3 settled, 40 candidate(s) in 12h window, 15 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-11 16:17:39] ROI by grade C: 5W-6L-0P staked 10.74u net -1.70u roi -15.8%
+[2026-07-11 16:17:39] ROI by circuit czech: 3W-5L-0P staked 7.74u net -1.98u roi -25.6%
+[2026-07-11 16:17:39] ROI by circuit polish: 1W-1L-0P staked 2.00u net +0.00u roi +0.0%
+[2026-07-11 16:17:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-11 16:17:39] run summary: 41 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
