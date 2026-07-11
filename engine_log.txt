@@ -107,3 +107,11 @@
 [2026-07-10 23:18:11] ROI by circuit czech: 0W-2L-0P staked 2.00u net -2.00u roi -100.0%
 [2026-07-10 23:18:11] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-10 23:18:11] run summary: 43 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-11 07:20:52] engine run started (quick: amateur circuits only)
+[2026-07-11 07:20:54] amateur settled: Jakub Witkowski vs Jakub Zochniak -> Jakub Zochniak won -> bet WIN
+[2026-07-11 07:21:08] czech pipeline: 588 match(es) scanned, 139 elo update(s), 1 settled, 40 candidate(s) in 12h window, 24 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-07-11 07:21:08] ROI by grade C: 2W-2L-0P staked 4.00u net -0.72u roi -18.0%
+[2026-07-11 07:21:08] ROI by circuit czech: 0W-2L-0P staked 2.00u net -2.00u roi -100.0%
+[2026-07-11 07:21:08] ROI by circuit polish: 1W-0L-0P staked 1.00u net +1.00u roi +100.0%
+[2026-07-11 07:21:08] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-11 07:21:08] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
