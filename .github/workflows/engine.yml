@@ -67,4 +67,12 @@ jobs:
           git add bets.js engine_log.txt
           git add elo.json .discord_posted.json 2>/dev/null || true
           git diff --cached --quiet || git commit -m "engine run $(date -u '+%Y-%m-%d %H:%M UTC')"
+          # The branch may have moved during the run (code pushes land any
+          # time; engine runs themselves are serialized by the concurrency
+          # group). Rebase our data commit on top and retry; on conflict the
+          # freshly computed data files win (-X theirs under rebase).
+          for i in 1 2 3; do
+            git push && exit 0
+            git pull --rebase -X theirs origin main || { git rebase --abort; exit 1; }
+          done
           git push
