@@ -2,8 +2,16 @@ name: TT Engine
 
 on:
   schedule:
-    - cron: "*/30 * * * *"  # every 30 min (public repo = unlimited Actions minutes)
-  workflow_dispatch: {}     # lets you trigger a run manually from the Actions tab
+    # Off-peak minutes: GitHub heavily throttles top-of-hour crons; :03/:33
+    # fire far more reliably. Still best-effort — the Mac-side dispatcher
+    # (install.sh) covers the gaps whenever the owner's machine is awake.
+    - cron: "3,33 * * * *"
+  workflow_dispatch:
+    inputs:
+      full:
+        description: "Force a full run (WTT crawl included)"
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -32,9 +40,9 @@ jobs:
       - name: Pick run mode
         id: mode
         run: |
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+          if [ "${{ inputs.full }}" = "true" ]; then
             echo "quick=" >> "$GITHUB_OUTPUT"
-          elif [ "$(( $(date -u +%-H) % 2 ))" = "0" ] && [ "$(date -u +%M)" -lt 15 ]; then
+          elif [ "$(( $(date -u +%-H) % 2 ))" = "0" ] && [ "$(date -u +%M)" -lt 20 ]; then
             echo "quick=" >> "$GITHUB_OUTPUT"
           else
             echo "quick=1" >> "$GITHUB_OUTPUT"
