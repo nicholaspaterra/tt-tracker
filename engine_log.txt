@@ -247,3 +247,11 @@
 [2026-07-12 20:47:47] ROI by circuit polish: 5W-7L-0P staked 11.47u net -0.62u roi -5.4%
 [2026-07-12 20:47:47] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 20:47:47] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 21:59:03] engine run started (quick: amateur circuits only)
+[2026-07-12 21:59:06] amateur settled: Jakub Glanowski vs Staszczyk, Konrad -> Staszczyk, Konrad won -> bet LOSS
+[2026-07-12 21:59:27] czech pipeline: 1230 match(es) scanned, 29 elo update(s), 1 settled, 40 candidate(s) in 12h window, 9 gated NO BET (thin Elo), 10 BET rec(s)
+[2026-07-12 21:59:27] ROI by grade C: 16W-20L-0P staked 35.21u net -1.84u roi -5.2%
+[2026-07-12 21:59:27] ROI by circuit czech: 10W-12L-0P staked 21.74u net -0.50u roi -2.3%
+[2026-07-12 21:59:27] ROI by circuit polish: 5W-8L-0P staked 12.47u net -1.62u roi -13.0%
+[2026-07-12 21:59:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 21:59:27] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
