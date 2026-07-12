@@ -167,3 +167,13 @@
 [2026-07-11 22:34:10] ROI by circuit polish: 1W-1L-0P staked 2.00u net +0.00u roi +0.0%
 [2026-07-11 22:34:10] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-11 22:34:10] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 07:39:24] engine run started (quick: amateur circuits only)
+[2026-07-12 07:39:27] amateur settled: Filip Wolf vs Jiri Ruzicka -> Jiri Ruzicka won -> bet WIN
+[2026-07-12 07:39:27] amateur settled: Dariusz Maszczynski vs Kazimierz Rybak -> Kazimierz Rybak won -> bet WIN
+[2026-07-12 07:39:27] amateur settled: Marcin Marchlewski vs Filip Mlynarski -> Filip Mlynarski won -> bet LOSS
+[2026-07-12 07:39:48] czech pipeline: 1297 match(es) scanned, 185 elo update(s), 3 settled, 40 candidate(s) in 12h window, 16 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-12 07:39:48] ROI by grade C: 10W-10L-0P staked 19.21u net +0.78u roi +4.1%
+[2026-07-12 07:39:48] ROI by circuit czech: 7W-8L-0P staked 14.74u net +0.54u roi +3.7%
+[2026-07-12 07:39:48] ROI by circuit polish: 2W-2L-0P staked 3.47u net -0.04u roi -1.1%
+[2026-07-12 07:39:48] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 07:39:48] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
