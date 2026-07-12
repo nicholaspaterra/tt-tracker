@@ -255,3 +255,11 @@
 [2026-07-12 21:59:27] ROI by circuit polish: 5W-8L-0P staked 12.47u net -1.62u roi -13.0%
 [2026-07-12 21:59:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 21:59:27] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 22:29:05] engine run started (quick: amateur circuits only)
+[2026-07-12 22:29:08] amateur settled: Rutkowski Mateusz vs Jakub Glanowski -> Rutkowski Mateusz won -> bet LOSS
+[2026-07-12 22:29:29] czech pipeline: 1232 match(es) scanned, 12 elo update(s), 1 settled, 40 candidate(s) in 12h window, 10 gated NO BET (thin Elo), 11 BET rec(s)
+[2026-07-12 22:29:29] ROI by grade C: 16W-21L-0P staked 36.21u net -2.84u roi -7.8%
+[2026-07-12 22:29:29] ROI by circuit czech: 10W-12L-0P staked 21.74u net -0.50u roi -2.3%
+[2026-07-12 22:29:29] ROI by circuit polish: 5W-9L-0P staked 13.47u net -2.62u roi -19.4%
+[2026-07-12 22:29:29] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 22:29:29] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
