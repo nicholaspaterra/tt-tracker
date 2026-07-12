@@ -205,3 +205,12 @@
 [2026-07-12 15:40:40] ROI by circuit polish: 4W-2L-0P staked 5.47u net +1.63u roi +29.8%
 [2026-07-12 15:40:40] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 15:40:40] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 16:51:48] engine run started (quick: amateur circuits only)
+[2026-07-12 16:51:51] amateur settled: Grzegorz Mucha vs Adam Staniczek -> Adam Staniczek won -> bet WIN
+[2026-07-12 16:51:51] amateur settled: Michal Syroha vs Miroslav Barta -> Miroslav Barta won -> bet WIN
+[2026-07-12 16:52:12] czech pipeline: 1127 match(es) scanned, 38 elo update(s), 2 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-12 16:52:12] ROI by grade C: 16W-13L-0P staked 28.21u net +5.16u roi +18.3%
+[2026-07-12 16:52:12] ROI by circuit czech: 10W-11L-0P staked 20.74u net +0.50u roi +2.4%
+[2026-07-12 16:52:12] ROI by circuit polish: 5W-2L-0P staked 6.47u net +4.38u roi +67.7%
+[2026-07-12 16:52:12] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 16:52:12] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
