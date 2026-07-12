@@ -214,3 +214,13 @@
 [2026-07-12 16:52:12] ROI by circuit polish: 5W-2L-0P staked 6.47u net +4.38u roi +67.7%
 [2026-07-12 16:52:12] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 16:52:12] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 19:11:42] engine run started (quick: amateur circuits only)
+[2026-07-12 19:11:45] amateur settled: Krzysztof Kapik vs Maciej Nowalinski -> Maciej Nowalinski won -> bet LOSS
+[2026-07-12 19:11:45] amateur settled: Artur Kubiak vs Grzegorz Mucha -> Grzegorz Mucha won -> bet LOSS
+[2026-07-12 19:11:45] amateur settled: Jakub Zochniak vs Maciej Nowalinski -> Maciej Nowalinski won -> bet LOSS
+[2026-07-12 19:12:05] czech pipeline: 1142 match(es) scanned, 71 elo update(s), 3 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 13 BET rec(s)
+[2026-07-12 19:12:05] ROI by grade C: 16W-16L-0P staked 31.21u net +2.16u roi +6.9%
+[2026-07-12 19:12:05] ROI by circuit czech: 10W-11L-0P staked 20.74u net +0.50u roi +2.4%
+[2026-07-12 19:12:05] ROI by circuit polish: 5W-5L-0P staked 9.47u net +1.38u roi +14.6%
+[2026-07-12 19:12:05] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 19:12:05] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
