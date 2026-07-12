@@ -238,3 +238,12 @@
 [2026-07-12 20:10:39] ROI by circuit polish: 5W-6L-0P staked 10.47u net +0.38u roi +3.6%
 [2026-07-12 20:10:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 20:10:39] run summary: 42 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 20:47:23] engine run started (quick: amateur circuits only)
+[2026-07-12 20:47:26] amateur settled: Rutkowski Mateusz vs Maciej Nowalinski -> Maciej Nowalinski won -> bet LOSS
+[2026-07-12 20:47:26] amateur settled: Radek Muller vs Jachym Sebl -> Radek Muller won -> bet LOSS
+[2026-07-12 20:47:47] czech pipeline: 1193 match(es) scanned, 23 elo update(s), 2 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 11 BET rec(s)
+[2026-07-12 20:47:47] ROI by grade C: 16W-19L-0P staked 34.21u net -0.84u roi -2.5%
+[2026-07-12 20:47:47] ROI by circuit czech: 10W-12L-0P staked 21.74u net -0.50u roi -2.3%
+[2026-07-12 20:47:47] ROI by circuit polish: 5W-7L-0P staked 11.47u net -0.62u roi -5.4%
+[2026-07-12 20:47:47] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 20:47:47] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
