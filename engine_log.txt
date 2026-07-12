@@ -224,3 +224,17 @@
 [2026-07-12 19:12:05] ROI by circuit polish: 5W-5L-0P staked 9.47u net +1.38u roi +14.6%
 [2026-07-12 19:12:05] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 19:12:05] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 20:03:10] engine run started
+[2026-07-12 20:03:14] rankings parsed: 952 players across 2 lists; scanning 160
+[2026-07-12 20:10:10] upcoming WTT singles matches found: 2
+[2026-07-12 20:10:13] no odds posted yet for Leo de Nodrest vs Alexis Kouraichi
+[2026-07-12 20:10:13] modeled Leo de Nodrest vs Alexis Kouraichi -> 84% / MODEL PICK: Leo de Nodrest (84%) — odds not found; enter odds in app / grade C
+[2026-07-12 20:10:16] no odds posted yet for Huang Yu-Jie vs Tsai Yun-En
+[2026-07-12 20:10:16] modeled Huang Yu-Jie vs Tsai Yun-En -> 67% / MODEL PICK: Huang Yu-Jie (67%) — odds not found; enter odds in app / grade C
+[2026-07-12 20:10:19] amateur settled: Maciej Kolek vs Maciej Nowalinski -> Maciej Nowalinski won -> bet LOSS
+[2026-07-12 20:10:39] czech pipeline: 1188 match(es) scanned, 32 elo update(s), 1 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 13 BET rec(s)
+[2026-07-12 20:10:39] ROI by grade C: 16W-17L-0P staked 32.21u net +1.16u roi +3.6%
+[2026-07-12 20:10:39] ROI by circuit czech: 10W-11L-0P staked 20.74u net +0.50u roi +2.4%
+[2026-07-12 20:10:39] ROI by circuit polish: 5W-6L-0P staked 10.47u net +0.38u roi +3.6%
+[2026-07-12 20:10:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 20:10:39] run summary: 42 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
