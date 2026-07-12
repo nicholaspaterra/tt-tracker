@@ -270,3 +270,11 @@
 [2026-07-12 22:34:27] ROI by circuit polish: 5W-9L-0P staked 13.47u net -2.62u roi -19.4%
 [2026-07-12 22:34:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 22:34:27] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-12 22:59:13] engine run started (quick: amateur circuits only)
+[2026-07-12 22:59:16] amateur settled: Jaroslav Prokupek vs Pavel Fojt -> Jaroslav Prokupek won -> bet LOSS
+[2026-07-12 22:59:37] czech pipeline: 1231 match(es) scanned, 9 elo update(s), 1 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 10 BET rec(s)
+[2026-07-12 22:59:37] ROI by grade C: 16W-22L-0P staked 37.21u net -3.84u roi -10.3%
+[2026-07-12 22:59:37] ROI by circuit czech: 10W-13L-0P staked 22.74u net -1.50u roi -6.6%
+[2026-07-12 22:59:37] ROI by circuit polish: 5W-9L-0P staked 13.47u net -2.62u roi -19.4%
+[2026-07-12 22:59:37] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-12 22:59:37] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
