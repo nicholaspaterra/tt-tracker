@@ -297,3 +297,13 @@
 [2026-07-13 07:13:26] ROI by circuit polish: 6W-9L-0P staked 14.47u net -0.37u roi -2.6%
 [2026-07-13 07:13:26] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 07:13:26] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 10:43:17] engine run started (quick: amateur circuits only)
+[2026-07-13 10:43:19] amateur settled: Piotr Przewlocki vs Oliver Vincenec -> Piotr Przewlocki won -> bet LOSS
+[2026-07-13 10:43:19] amateur settled: Igor Szymanski vs Oliver Vincenec -> Oliver Vincenec won -> bet WIN
+[2026-07-13 10:43:19] amateur settled: Michal Cabis vs Radomir Revay -> Radomir Revay won -> bet WIN
+[2026-07-13 10:43:40] czech pipeline: 644 match(es) scanned, 109 elo update(s), 3 settled, 40 candidate(s) in 12h window, 13 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-07-13 10:43:40] ROI by grade C: 20W-26L-0P staked 45.21u net -3.06u roi -6.8%
+[2026-07-13 10:43:40] ROI by circuit czech: 12W-16L-0P staked 27.74u net -2.30u roi -8.3%
+[2026-07-13 10:43:40] ROI by circuit polish: 7W-10L-0P staked 16.47u net -1.04u roi -6.3%
+[2026-07-13 10:43:40] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 10:43:40] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
