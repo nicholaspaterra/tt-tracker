@@ -16378,7 +16378,7 @@ window.BETS_FILE = {
       "matchId": "zrkn1spye29fw7l",
       "playerA": "Jerzy Debski",
       "playerB": "Dariusz Maszczynski",
-      "myProbA": 0.586,
+      "myProbA": 0.59,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -16386,7 +16386,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1408 (n=33) vs 1348 (n=32)"
+      "reasoning": "Elo 1408 (n=33) vs 1344 (n=33)"
     },
     {
       "id": "rec-pl-oj7xpsvg083f4kg",
@@ -16663,15 +16663,15 @@ window.BETS_FILE = {
       "matchId": "jr7o1sog1nnhgk0",
       "playerA": "Miroslaw Warzecha",
       "playerB": "Gesiarz, Piotr",
-      "myProbA": 0.733,
+      "myProbA": 0.737,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Miroslaw Warzecha (73%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Miroslaw Warzecha (74%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1734 (n=36) vs 1559 (n=17)"
+      "reasoning": "Elo 1737 (n=37) vs 1559 (n=17)"
     },
     {
       "id": "rec-pl-ndqm1sye8gxarqv",
@@ -16824,6 +16824,25 @@ window.BETS_FILE = {
       "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1434 (n=25) vs 1474 (n=31)"
+    },
+    {
+      "id": "rec-cz-j3742s6gwyvugko",
+      "date": "2026-07-13",
+      "startTime": 1783971000,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "j3742s6gwyvugko",
+      "playerA": "Zdenek Bilek",
+      "playerB": "Jan Zajicek",
+      "myProbA": null,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "NO BET (Elo data too thin: 4 and 8 rated matches, need 10)",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1502 (n=4) vs 1550 (n=8)"
     }
   ],
   "bets": [

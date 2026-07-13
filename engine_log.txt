@@ -341,13 +341,13 @@
 [2026-07-13 17:36:53] ROI by circuit polish: 7W-13L-0P staked 19.47u net -4.04u roi -20.8%
 [2026-07-13 17:36:53] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 17:36:53] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-13 18:06:37] engine run started
-[2026-07-13 18:06:41] rankings parsed: 951 players across 2 lists; scanning 160
-[2026-07-13 18:12:51] upcoming WTT singles matches found: 0
-[2026-07-13 18:12:54] amateur settled: Karpiuk Mateusz vs Henryk Tkaczyk -> Karpiuk Mateusz won -> bet LOSS
-[2026-07-13 18:13:15] czech pipeline: 1142 match(es) scanned, 22 elo update(s), 1 settled, 40 candidate(s) in 12h window, 15 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-07-13 18:13:15] ROI by grade C: 23W-30L-0P staked 51.82u net -4.95u roi -9.6%
-[2026-07-13 18:13:15] ROI by circuit czech: 15W-16L-0P staked 30.35u net -0.19u roi -0.6%
-[2026-07-13 18:13:15] ROI by circuit polish: 7W-14L-0P staked 20.47u net -5.04u roi -24.6%
-[2026-07-13 18:13:15] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-13 18:13:15] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 18:13:54] engine run started
+[2026-07-13 18:13:56] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-13 18:17:18] upcoming WTT singles matches found: 0
+[2026-07-13 18:17:21] amateur settled: Karpiuk Mateusz vs Henryk Tkaczyk -> Karpiuk Mateusz won -> bet LOSS
+[2026-07-13 18:17:42] czech pipeline: 1142 match(es) scanned, 23 elo update(s), 1 settled, 40 candidate(s) in 12h window, 16 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-13 18:17:42] ROI by grade C: 23W-30L-0P staked 51.82u net -4.95u roi -9.6%
+[2026-07-13 18:17:42] ROI by circuit czech: 15W-16L-0P staked 30.35u net -0.19u roi -0.6%
+[2026-07-13 18:17:42] ROI by circuit polish: 7W-14L-0P staked 20.47u net -5.04u roi -24.6%
+[2026-07-13 18:17:42] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 18:17:42] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
