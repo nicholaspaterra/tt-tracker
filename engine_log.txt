@@ -324,3 +324,13 @@
 [2026-07-13 13:41:30] ROI by circuit polish: 7W-12L-0P staked 18.47u net -3.04u roi -16.5%
 [2026-07-13 13:41:30] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 13:41:30] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 17:06:20] engine run started (quick: amateur circuits only)
+[2026-07-13 17:06:23] amateur settled: Oleksandr Kolisnyk vs Ales Barton -> Oleksandr Kolisnyk won -> bet WIN
+[2026-07-13 17:06:23] amateur settled: Piotr Przewlocki vs Oliver Vincenec -> Piotr Przewlocki won -> bet LOSS
+[2026-07-13 17:06:23] amateur settled: Tomas Rein vs Budik Bohuslav -> Tomas Rein won -> bet WIN
+[2026-07-13 17:06:44] czech pipeline: 1128 match(es) scanned, 120 elo update(s), 3 settled, 40 candidate(s) in 12h window, 15 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-07-13 17:06:44] ROI by grade C: 23W-29L-0P staked 50.82u net -3.95u roi -7.8%
+[2026-07-13 17:06:44] ROI by circuit czech: 15W-16L-0P staked 30.35u net -0.19u roi -0.6%
+[2026-07-13 17:06:44] ROI by circuit polish: 7W-13L-0P staked 19.47u net -4.04u roi -20.8%
+[2026-07-13 17:06:44] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 17:06:44] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
