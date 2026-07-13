@@ -351,3 +351,13 @@
 [2026-07-13 18:17:42] ROI by circuit polish: 7W-14L-0P staked 20.47u net -5.04u roi -24.6%
 [2026-07-13 18:17:42] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 18:17:42] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 21:37:00] engine run started (quick: amateur circuits only)
+[2026-07-13 21:37:03] amateur settled: Krystian Kolodziej vs Krzysztof Kapik -> Krzysztof Kapik won -> bet WIN
+[2026-07-13 21:37:03] amateur settled: Krzysztof Kapik vs Jakub Kwapis -> Jakub Kwapis won -> bet LOSS
+[2026-07-13 21:37:03] amateur settled: Ondrej Fiklik vs Michal Brozek -> Ondrej Fiklik won -> bet LOSS
+[2026-07-13 21:37:24] czech pipeline: 1212 match(es) scanned, 115 elo update(s), 3 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-07-13 21:37:24] ROI by grade C: 24W-32L-0P staked 54.82u net -5.75u roi -10.5%
+[2026-07-13 21:37:24] ROI by circuit czech: 15W-17L-0P staked 31.35u net -1.19u roi -3.8%
+[2026-07-13 21:37:24] ROI by circuit polish: 8W-15L-0P staked 22.47u net -4.84u roi -21.5%
+[2026-07-13 21:37:24] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 21:37:24] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
