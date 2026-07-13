@@ -278,3 +278,12 @@
 [2026-07-12 22:59:37] ROI by circuit polish: 5W-9L-0P staked 13.47u net -2.62u roi -19.4%
 [2026-07-12 22:59:37] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-12 22:59:37] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 01:12:09] engine run started (quick: amateur circuits only)
+[2026-07-13 01:12:12] amateur settled: Jiri Dedek vs Jiri Plachy -> Jiri Plachy won -> bet LOSS
+[2026-07-13 01:12:12] amateur settled: Adam Staniczek vs Grzegorz Mucha -> Adam Staniczek won -> bet WIN
+[2026-07-13 01:12:33] czech pipeline: 1236 match(es) scanned, 45 elo update(s), 2 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-13 01:12:33] ROI by grade C: 17W-23L-0P staked 39.21u net -2.59u roi -6.6%
+[2026-07-13 01:12:33] ROI by circuit czech: 10W-14L-0P staked 23.74u net -2.50u roi -10.5%
+[2026-07-13 01:12:33] ROI by circuit polish: 6W-9L-0P staked 14.47u net -0.37u roi -2.6%
+[2026-07-13 01:12:33] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 01:12:33] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
