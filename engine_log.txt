@@ -361,3 +361,13 @@
 [2026-07-13 21:37:24] ROI by circuit polish: 8W-15L-0P staked 22.47u net -4.84u roi -21.5%
 [2026-07-13 21:37:24] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 21:37:24] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-13 23:41:26] engine run started (quick: amateur circuits only)
+[2026-07-13 23:41:29] amateur settled: Rutkowski Mateusz vs Jakub Kuzmicz -> Rutkowski Mateusz won -> bet LOSS
+[2026-07-13 23:41:29] amateur settled: Jakub Kwapis vs Rutkowski Mateusz -> Jakub Kwapis won -> bet LOSS
+[2026-07-13 23:41:29] amateur settled: Grzegorz Mucha vs Pawel Chojnacki -> Pawel Chojnacki won -> bet WIN
+[2026-07-13 23:41:50] czech pipeline: 1246 match(es) scanned, 50 elo update(s), 3 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-13 23:41:50] ROI by grade C: 25W-34L-0P staked 57.82u net -5.50u roi -9.5%
+[2026-07-13 23:41:50] ROI by circuit czech: 15W-17L-0P staked 31.35u net -1.19u roi -3.8%
+[2026-07-13 23:41:50] ROI by circuit polish: 9W-17L-0P staked 25.47u net -4.59u roi -18.0%
+[2026-07-13 23:41:50] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-13 23:41:50] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
