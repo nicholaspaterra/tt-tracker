@@ -445,3 +445,13 @@
 [2026-07-14 20:43:43] ROI by circuit polish: 13W-22L-0P staked 33.87u net -6.27u roi -18.5%
 [2026-07-14 20:43:43] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 20:43:43] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 23:38:53] engine run started (quick: amateur circuits only)
+[2026-07-14 23:38:56] amateur settled: Jakub Kwapis vs Jakub Kuzmicz -> Jakub Kuzmicz won -> bet WIN
+[2026-07-14 23:38:56] amateur settled: Jakub Kwapis vs Rutkowski Mateusz -> Jakub Kwapis won -> bet LOSS
+[2026-07-14 23:38:56] amateur settled: Rutkowski Mateusz vs Krzysztof Kapik -> Krzysztof Kapik won -> bet LOSS
+[2026-07-14 23:39:17] czech pipeline: 1225 match(es) scanned, 79 elo update(s), 3 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-14 23:39:17] ROI by grade C: 30W-50L-0P staked 77.48u net -16.64u roi -21.5%
+[2026-07-14 23:39:17] ROI by circuit czech: 15W-26L-0P staked 39.61u net -9.45u roi -23.9%
+[2026-07-14 23:39:17] ROI by circuit polish: 14W-24L-0P staked 36.87u net -7.47u roi -20.3%
+[2026-07-14 23:39:17] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 23:39:17] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
