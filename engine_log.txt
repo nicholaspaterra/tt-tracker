@@ -435,3 +435,13 @@
 [2026-07-14 16:44:41] ROI by circuit polish: 12W-21L-0P staked 31.87u net -6.37u roi -20.0%
 [2026-07-14 16:44:41] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 16:44:41] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 20:43:19] engine run started (quick: amateur circuits only)
+[2026-07-14 20:43:22] amateur settled: Miroslav Sklensky vs Krzysztof Kapik -> Miroslav Sklensky won -> bet LOSS
+[2026-07-14 20:43:22] amateur settled: Mariusz Adamus vs Wojciech Urban -> Mariusz Adamus won -> bet WIN
+[2026-07-14 20:43:22] amateur settled: Michal Raska vs Tomas Kindl -> Tomas Kindl won -> bet LOSS
+[2026-07-14 20:43:43] czech pipeline: 1174 match(es) scanned, 138 elo update(s), 3 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-14 20:43:43] ROI by grade C: 29W-48L-0P staked 74.48u net -15.44u roi -20.7%
+[2026-07-14 20:43:43] ROI by circuit czech: 15W-26L-0P staked 39.61u net -9.45u roi -23.9%
+[2026-07-14 20:43:43] ROI by circuit polish: 13W-22L-0P staked 33.87u net -6.27u roi -18.5%
+[2026-07-14 20:43:43] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 20:43:43] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
