@@ -371,3 +371,12 @@
 [2026-07-13 23:41:50] ROI by circuit polish: 9W-17L-0P staked 25.47u net -4.59u roi -18.0%
 [2026-07-13 23:41:50] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 23:41:50] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 06:24:22] engine run started (quick: amateur circuits only)
+[2026-07-14 06:24:25] amateur settled: Jerzy Michalik vs Pawel Chojnacki -> Pawel Chojnacki won -> bet LOSS
+[2026-07-14 06:24:25] amateur settled: Vladimir Cermak vs Alesh Bayer -> Alesh Bayer won -> bet LOSS
+[2026-07-14 06:24:45] czech pipeline: 547 match(es) scanned, 109 elo update(s), 2 settled, 40 candidate(s) in 12h window, 14 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-07-14 06:24:45] ROI by grade C: 25W-36L-0P staked 59.82u net -7.50u roi -12.5%
+[2026-07-14 06:24:45] ROI by circuit czech: 15W-18L-0P staked 32.35u net -2.19u roi -6.8%
+[2026-07-14 06:24:45] ROI by circuit polish: 9W-18L-0P staked 26.47u net -5.59u roi -21.1%
+[2026-07-14 06:24:45] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 06:24:45] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
