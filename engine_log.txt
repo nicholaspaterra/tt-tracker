@@ -399,3 +399,13 @@
 [2026-07-14 13:14:52] ROI by circuit polish: 10W-18L-0P staked 27.47u net -4.87u roi -17.7%
 [2026-07-14 13:14:52] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 13:14:52] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 14:24:14] engine run started (quick: amateur circuits only)
+[2026-07-14 14:24:17] amateur settled: Martin Olejnik vs Marcin Jadczyk -> Marcin Jadczyk won -> bet LOSS
+[2026-07-14 14:24:17] amateur settled: Sebastian Szostok vs Krzysztof Hetnar -> Sebastian Szostok won -> bet LOSS
+[2026-07-14 14:24:17] amateur settled: Michal Chalupa vs Zbynek Pagac -> Zbynek Pagac won -> bet LOSS
+[2026-07-14 14:24:38] czech pipeline: 1107 match(es) scanned, 42 elo update(s), 3 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-14 14:24:38] ROI by grade C: 26W-43L-0P staked 67.57u net -13.53u roi -20.0%
+[2026-07-14 14:24:38] ROI by circuit czech: 15W-23L-0P staked 37.10u net -6.94u roi -18.7%
+[2026-07-14 14:24:38] ROI by circuit polish: 10W-20L-0P staked 29.47u net -6.87u roi -23.3%
+[2026-07-14 14:24:38] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 14:24:38] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
