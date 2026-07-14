@@ -390,3 +390,12 @@
 [2026-07-14 11:52:29] ROI by circuit polish: 10W-18L-0P staked 27.47u net -4.87u roi -17.7%
 [2026-07-14 11:52:29] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 11:52:29] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 13:14:29] engine run started (quick: amateur circuits only)
+[2026-07-14 13:14:32] amateur settled: Jan Szotkowski vs Michal Sedlacek -> Michal Sedlacek won -> bet LOSS
+[2026-07-14 13:14:32] amateur settled: Ales Langer vs David Sykora -> Ales Langer won -> bet LOSS
+[2026-07-14 13:14:52] czech pipeline: 1103 match(es) scanned, 43 elo update(s), 2 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-14 13:14:52] ROI by grade C: 26W-40L-0P staked 64.57u net -10.53u roi -16.3%
+[2026-07-14 13:14:52] ROI by circuit czech: 15W-22L-0P staked 36.10u net -5.94u roi -16.4%
+[2026-07-14 13:14:52] ROI by circuit polish: 10W-18L-0P staked 27.47u net -4.87u roi -17.7%
+[2026-07-14 13:14:52] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 13:14:52] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
