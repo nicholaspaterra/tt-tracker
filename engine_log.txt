@@ -409,3 +409,11 @@
 [2026-07-14 14:24:38] ROI by circuit polish: 10W-20L-0P staked 29.47u net -6.87u roi -23.3%
 [2026-07-14 14:24:38] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 14:24:38] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-14 14:54:05] engine run started (quick: amateur circuits only)
+[2026-07-14 14:54:08] amateur settled: Tadeas Zika vs Jan Szotkowski -> Jan Szotkowski won -> bet LOSS
+[2026-07-14 14:54:28] czech pipeline: 1107 match(es) scanned, 18 elo update(s), 1 settled, 40 candidate(s) in 12h window, 14 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-14 14:54:28] ROI by grade C: 26W-44L-0P staked 68.57u net -14.53u roi -21.2%
+[2026-07-14 14:54:28] ROI by circuit czech: 15W-24L-0P staked 38.10u net -7.94u roi -20.8%
+[2026-07-14 14:54:28] ROI by circuit polish: 10W-20L-0P staked 29.47u net -6.87u roi -23.3%
+[2026-07-14 14:54:28] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-14 14:54:28] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
