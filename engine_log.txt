@@ -455,3 +455,13 @@
 [2026-07-14 23:39:17] ROI by circuit polish: 14W-24L-0P staked 36.87u net -7.47u roi -20.3%
 [2026-07-14 23:39:17] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 23:39:17] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-15 03:06:48] engine run started (quick: amateur circuits only)
+[2026-07-15 03:06:49] amateur settled: Pavel Fojt vs Dmitro Parhomenko -> Dmitro Parhomenko won -> bet WIN
+[2026-07-15 03:06:49] amateur settled: Jakub Kwapis vs Krzysztof Kapik -> Krzysztof Kapik won -> bet WIN
+[2026-07-15 03:06:49] amateur settled: Jakub Kaczmarek vs Wojciech Urban -> Jakub Kaczmarek won -> bet WIN
+[2026-07-15 03:07:09] czech pipeline: 531 match(es) scanned, 47 elo update(s), 3 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-15 03:07:09] ROI by grade C: 33W-50L-0P staked 80.48u net -12.94u roi -16.1%
+[2026-07-15 03:07:09] ROI by circuit czech: 16W-26L-0P staked 40.61u net -8.25u roi -20.3%
+[2026-07-15 03:07:09] ROI by circuit polish: 16W-24L-0P staked 38.87u net -4.97u roi -12.8%
+[2026-07-15 03:07:09] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-15 03:07:09] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
