@@ -553,3 +553,14 @@
 [2026-07-16 13:39:56] ROI by circuit polish: 20W-29L-0P staked 47.87u net -5.29u roi -11.1%
 [2026-07-16 13:39:56] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-16 13:39:56] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-16 14:09:42] engine run started
+[2026-07-16 14:09:47] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-16 14:16:25] upcoming WTT singles matches found: 0
+[2026-07-16 14:16:29] amateur settled: Mariusz Baron vs Rafal Gajda -> Mariusz Baron won -> bet WIN
+[2026-07-16 14:16:29] amateur settled: Adrian Wiecek vs Jakub Folwarski -> Jakub Folwarski won -> bet WIN
+[2026-07-16 14:16:49] czech pipeline: 1161 match(es) scanned, 25 elo update(s), 2 settled, 40 candidate(s) in 12h window, 9 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-16 14:16:49] ROI by grade C: 48W-58L-0P staked 103.48u net -3.88u roi -3.8%
+[2026-07-16 14:16:49] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
+[2026-07-16 14:16:49] ROI by circuit polish: 22W-29L-0P staked 49.87u net -3.54u roi -7.1%
+[2026-07-16 14:16:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-16 14:16:49] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
