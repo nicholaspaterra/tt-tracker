@@ -514,3 +514,15 @@
 [2026-07-15 21:16:49] ROI by circuit polish: 18W-28L-0P staked 44.87u net -7.04u roi -15.7%
 [2026-07-15 21:16:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-15 21:16:49] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-16 00:13:34] engine run started
+[2026-07-16 00:13:42] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-16 00:23:25] upcoming WTT singles matches found: 0
+[2026-07-16 00:23:28] amateur settled: Libor Prikasky vs Michal Kratochvil -> Libor Prikasky won -> bet WIN
+[2026-07-16 00:23:28] amateur settled: Jiri Ruzicka vs Ales Barton -> Jiri Ruzicka won -> bet WIN
+[2026-07-16 00:23:28] amateur settled: Tomas Vorisek vs Ondrej Kadavy -> Ondrej Kadavy won -> bet WIN
+[2026-07-16 00:23:49] czech pipeline: 1267 match(es) scanned, 72 elo update(s), 3 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 9 BET rec(s)
+[2026-07-16 00:23:49] ROI by grade C: 41W-57L-0P staked 95.48u net -9.93u roi -10.4%
+[2026-07-16 00:23:49] ROI by circuit czech: 22W-29L-0P staked 49.61u net -3.17u roi -6.4%
+[2026-07-16 00:23:49] ROI by circuit polish: 18W-28L-0P staked 44.87u net -7.04u roi -15.7%
+[2026-07-16 00:23:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-16 00:23:49] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
