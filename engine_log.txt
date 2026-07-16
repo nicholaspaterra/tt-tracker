@@ -526,3 +526,13 @@
 [2026-07-16 00:23:49] ROI by circuit polish: 18W-28L-0P staked 44.87u net -7.04u roi -15.7%
 [2026-07-16 00:23:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-16 00:23:49] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-16 08:38:16] engine run started (quick: amateur circuits only)
+[2026-07-16 08:38:17] amateur settled: Michal Kratochvil vs Jiri Ruzicka -> Jiri Ruzicka won -> bet WIN
+[2026-07-16 08:38:17] amateur settled: Jakub Tazler vs Michal Regner -> Michal Regner won -> bet WIN
+[2026-07-16 08:38:17] amateur settled: Ales Barton vs Libor Prikasky -> Libor Prikasky won -> bet WIN
+[2026-07-16 08:38:38] czech pipeline: 668 match(es) scanned, 174 elo update(s), 3 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-16 08:38:38] ROI by grade C: 44W-57L-0P staked 98.48u net -7.38u roi -7.5%
+[2026-07-16 08:38:38] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
+[2026-07-16 08:38:38] ROI by circuit polish: 18W-28L-0P staked 44.87u net -7.04u roi -15.7%
+[2026-07-16 08:38:38] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-16 08:38:38] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
