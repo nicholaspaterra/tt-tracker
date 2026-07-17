@@ -856,3 +856,12 @@
 [2026-07-17 13:05:08] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
 [2026-07-17 13:05:08] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 13:05:08] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 13:34:37] engine run started (quick: amateur circuits only)
+[2026-07-17 13:34:40] amateur settled: Ondrej Fiklik vs Daniel Hyza -> Daniel Hyza won -> bet LOSS
+[2026-07-17 13:34:40] amateur settled: Vaclav Jr Hejda vs Ales Langer -> Vaclav Jr Hejda won -> bet WIN
+[2026-07-17 13:35:01] czech pipeline: 861 match(es) scanned, 15 elo update(s), 2 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-07-17 13:35:01] ROI by grade C: 64W-75L-0P staked 134.45u net -3.24u roi -2.4%
+[2026-07-17 13:35:01] ROI by circuit czech: 37W-44L-0P staked 78.31u net -1.01u roi -1.3%
+[2026-07-17 13:35:01] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
+[2026-07-17 13:35:01] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 13:35:01] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
