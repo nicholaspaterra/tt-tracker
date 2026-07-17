@@ -755,3 +755,15 @@
 [2026-07-17 07:34:30] ROI by circuit polish: 25W-30L-0P staked 53.14u net -3.13u roi -5.9%
 [2026-07-17 07:34:30] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 07:34:30] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 08:04:11] engine run started
+[2026-07-17 08:04:15] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-17 08:12:37] upcoming WTT singles matches found: 0
+[2026-07-17 08:12:39] amateur settled: Dominik Pawlik vs Michal Janik -> Dominik Pawlik won -> bet WIN
+[2026-07-17 08:12:39] amateur settled: Jan Krupnik vs Dalibor Velky Junior -> Jan Krupnik won -> bet LOSS
+[2026-07-17 08:12:39] amateur settled: Schaniel Krzysztof vs Mateusz Sikon -> Mateusz Sikon won -> bet WIN
+[2026-07-17 08:13:00] czech pipeline: 625 match(es) scanned, 20 elo update(s), 3 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-07-17 08:13:00] ROI by grade C: 60W-69L-0P staked 125.17u net -1.73u roi -1.4%
+[2026-07-17 08:13:00] ROI by circuit czech: 33W-39L-0P staked 70.03u net -0.50u roi -0.7%
+[2026-07-17 08:13:00] ROI by circuit polish: 26W-30L-0P staked 54.14u net -1.51u roi -2.8%
+[2026-07-17 08:13:00] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 08:13:00] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
