@@ -831,3 +831,13 @@
 [2026-07-17 11:59:54] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
 [2026-07-17 11:59:54] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 11:59:54] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 12:04:33] engine run started
+[2026-07-17 12:04:37] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-17 12:10:57] upcoming WTT singles matches found: 0
+[2026-07-17 12:11:01] amateur settled: Jakub Volny vs Ondrej Kus -> Jakub Volny won -> bet LOSS
+[2026-07-17 12:11:21] czech pipeline: 838 match(es) scanned, 7 elo update(s), 1 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-17 12:11:21] ROI by grade C: 63W-73L-0P staked 131.45u net -2.44u roi -1.9%
+[2026-07-17 12:11:21] ROI by circuit czech: 36W-42L-0P staked 75.31u net -0.21u roi -0.3%
+[2026-07-17 12:11:21] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
+[2026-07-17 12:11:21] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 12:11:21] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
