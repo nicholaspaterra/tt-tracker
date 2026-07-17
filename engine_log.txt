@@ -907,3 +907,13 @@
 [2026-07-17 16:38:34] ROI by circuit polish: 28W-31L-0P staked 57.14u net -0.61u roi -1.1%
 [2026-07-17 16:38:34] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 16:38:34] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 18:45:10] engine run started (quick: amateur circuits only)
+[2026-07-17 18:45:14] amateur settled: Jakub Kuzmicz vs Krystian Kolodziej -> Jakub Kuzmicz won -> bet WIN
+[2026-07-17 18:45:14] amateur settled: Marcin Marchlewski vs Krystian Kolodziej -> Krystian Kolodziej won -> bet LOSS
+[2026-07-17 18:45:14] amateur settled: Pawel Adamus vs Jesiek, Jakub -> Jesiek, Jakub won -> bet WIN
+[2026-07-17 18:45:35] czech pipeline: 1165 match(es) scanned, 70 elo update(s), 3 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-17 18:45:35] ROI by grade C: 71W-76L-0P staked 142.45u net +3.38u roi +2.4%
+[2026-07-17 18:45:35] ROI by circuit czech: 40W-44L-0P staked 81.31u net +2.81u roi +3.5%
+[2026-07-17 18:45:35] ROI by circuit polish: 30W-32L-0P staked 60.14u net +0.29u roi +0.5%
+[2026-07-17 18:45:35] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 18:45:35] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
