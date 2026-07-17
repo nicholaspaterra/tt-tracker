@@ -898,3 +898,12 @@
 [2026-07-17 15:35:22] ROI by circuit polish: 28W-31L-0P staked 57.14u net -0.61u roi -1.1%
 [2026-07-17 15:35:22] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 15:35:22] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 16:38:10] engine run started (quick: amateur circuits only)
+[2026-07-17 16:38:13] amateur settled: Michal Vedmoch vs Simon Kadavy -> Michal Vedmoch won -> bet WIN
+[2026-07-17 16:38:13] amateur settled: Zdenek Zahradka vs Adam Kral -> Adam Kral won -> bet WIN
+[2026-07-17 16:38:34] czech pipeline: 1140 match(es) scanned, 38 elo update(s), 2 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-17 16:38:34] ROI by grade C: 69W-75L-0P staked 139.45u net +2.48u roi +1.8%
+[2026-07-17 16:38:34] ROI by circuit czech: 40W-44L-0P staked 81.31u net +2.81u roi +3.5%
+[2026-07-17 16:38:34] ROI by circuit polish: 28W-31L-0P staked 57.14u net -0.61u roi -1.1%
+[2026-07-17 16:38:34] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 16:38:34] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
