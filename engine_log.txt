@@ -815,3 +815,12 @@
 [2026-07-17 11:05:00] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
 [2026-07-17 11:05:00] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 11:05:00] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 11:34:25] engine run started (quick: amateur circuits only)
+[2026-07-17 11:34:26] amateur settled: Ondrej Fiklik vs Pavel Benes -> Ondrej Fiklik won -> bet WIN
+[2026-07-17 11:34:26] amateur settled: Radek Vosyka vs Pavel Chvatal -> Radek Vosyka won -> bet LOSS
+[2026-07-17 11:34:47] czech pipeline: 645 match(es) scanned, 16 elo update(s), 2 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-17 11:34:47] ROI by grade C: 63W-72L-0P staked 130.45u net -1.44u roi -1.1%
+[2026-07-17 11:34:47] ROI by circuit czech: 36W-41L-0P staked 74.31u net +0.79u roi +1.1%
+[2026-07-17 11:34:47] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
+[2026-07-17 11:34:47] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 11:34:47] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
