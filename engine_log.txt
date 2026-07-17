@@ -676,3 +676,11 @@
 [2026-07-17 03:04:16] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-17 03:04:16] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 03:04:16] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 03:34:01] engine run started (quick: amateur circuits only)
+[2026-07-17 03:34:03] amateur settled: Maciej Nowalinski vs Karol Wisniewski -> Maciej Nowalinski won -> bet WIN
+[2026-07-17 03:34:24] czech pipeline: 565 match(es) scanned, 8 elo update(s), 1 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-17 03:34:24] ROI by grade C: 55W-67L-0P staked 119.03u net -4.41u roi -3.7%
+[2026-07-17 03:34:24] ROI by circuit czech: 31W-37L-0P staked 66.61u net -0.59u roi -0.9%
+[2026-07-17 03:34:24] ROI by circuit polish: 23W-30L-0P staked 51.42u net -4.10u roi -8.0%
+[2026-07-17 03:34:24] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 03:34:24] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
