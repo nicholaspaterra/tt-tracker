@@ -659,3 +659,11 @@
 [2026-07-17 02:12:41] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-17 02:12:41] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 02:12:41] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 02:33:43] engine run started (quick: amateur circuits only)
+[2026-07-17 02:33:45] amateur settled: Pavel Berdych vs Ludek Madle -> Pavel Berdych won -> bet WIN
+[2026-07-17 02:34:06] czech pipeline: 559 match(es) scanned, 5 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-17 02:34:06] ROI by grade C: 54W-65L-0P staked 116.48u net -2.85u roi -2.5%
+[2026-07-17 02:34:06] ROI by circuit czech: 31W-35L-0P staked 64.61u net +1.41u roi +2.2%
+[2026-07-17 02:34:06] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
+[2026-07-17 02:34:06] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 02:34:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
