@@ -667,3 +667,12 @@
 [2026-07-17 02:34:06] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-17 02:34:06] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 02:34:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 03:03:53] engine run started (quick: amateur circuits only)
+[2026-07-17 03:03:54] amateur settled: Vladimr Postelt vs Dmitro Parhomenko -> Vladimr Postelt won -> bet LOSS
+[2026-07-17 03:03:54] amateur settled: Petr Picek vs Steffan Jan -> Petr Picek won -> bet LOSS
+[2026-07-17 03:04:16] czech pipeline: 563 match(es) scanned, 8 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-17 03:04:16] ROI by grade C: 54W-67L-0P staked 118.48u net -4.85u roi -4.1%
+[2026-07-17 03:04:16] ROI by circuit czech: 31W-37L-0P staked 66.61u net -0.59u roi -0.9%
+[2026-07-17 03:04:16] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
+[2026-07-17 03:04:16] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 03:04:16] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
