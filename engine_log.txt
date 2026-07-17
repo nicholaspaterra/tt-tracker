@@ -848,3 +848,11 @@
 [2026-07-17 12:34:56] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
 [2026-07-17 12:34:56] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 12:34:56] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 13:04:45] engine run started (quick: amateur circuits only)
+[2026-07-17 13:04:48] amateur settled: Radek Vosyka vs Jan Lovl -> Jan Lovl won -> bet LOSS
+[2026-07-17 13:05:08] czech pipeline: 851 match(es) scanned, 18 elo update(s), 1 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-07-17 13:05:08] ROI by grade C: 63W-74L-0P staked 132.45u net -3.44u roi -2.6%
+[2026-07-17 13:05:08] ROI by circuit czech: 36W-43L-0P staked 76.31u net -1.21u roi -1.6%
+[2026-07-17 13:05:08] ROI by circuit polish: 26W-31L-0P staked 55.14u net -2.51u roi -4.5%
+[2026-07-17 13:05:08] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 13:05:08] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
