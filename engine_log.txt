@@ -890,3 +890,11 @@
 [2026-07-17 15:05:12] ROI by circuit polish: 27W-31L-0P staked 56.14u net -1.51u roi -2.7%
 [2026-07-17 15:05:12] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 15:05:12] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 15:34:57] engine run started (quick: amateur circuits only)
+[2026-07-17 15:35:01] amateur settled: Maciej Nowalinski vs Adamiak Grzegorz -> Maciej Nowalinski won -> bet WIN
+[2026-07-17 15:35:22] czech pipeline: 1140 match(es) scanned, 15 elo update(s), 1 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-07-17 15:35:22] ROI by grade C: 67W-75L-0P staked 137.45u net -0.24u roi -0.2%
+[2026-07-17 15:35:22] ROI by circuit czech: 38W-44L-0P staked 79.31u net +0.09u roi +0.1%
+[2026-07-17 15:35:22] ROI by circuit polish: 28W-31L-0P staked 57.14u net -0.61u roi -1.1%
+[2026-07-17 15:35:22] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 15:35:22] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
