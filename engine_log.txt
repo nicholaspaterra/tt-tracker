@@ -641,3 +641,12 @@
 [2026-07-17 01:04:06] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-17 01:04:06] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 01:04:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 01:33:38] engine run started (quick: amateur circuits only)
+[2026-07-17 01:33:39] amateur settled: Jiri Plachy vs Dmitro Parhomenko -> Dmitro Parhomenko won -> bet WIN
+[2026-07-17 01:33:39] amateur settled: Tomas Andrle vs Steffan Jan -> Tomas Andrle won -> bet LOSS
+[2026-07-17 01:34:01] czech pipeline: 559 match(es) scanned, 8 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-17 01:34:01] ROI by grade C: 53W-65L-0P staked 115.48u net -3.51u roi -3.0%
+[2026-07-17 01:34:01] ROI by circuit czech: 30W-35L-0P staked 63.61u net +0.75u roi +1.2%
+[2026-07-17 01:34:01] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
+[2026-07-17 01:34:01] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 01:34:01] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
