@@ -984,3 +984,11 @@
 [2026-07-17 22:57:07] ROI by circuit polish: 31W-34L-0P staked 63.14u net -0.61u roi -1.0%
 [2026-07-17 22:57:07] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 22:57:07] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 23:34:20] engine run started (quick: amateur circuits only)
+[2026-07-17 23:34:23] amateur settled: Mihail Trinta vs Frantisek Briza -> Frantisek Briza won -> bet LOSS
+[2026-07-17 23:34:43] czech pipeline: 1235 match(es) scanned, 14 elo update(s), 1 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-17 23:34:43] ROI by grade C: 73W-82L-0P staked 150.45u net +0.88u roi +0.6%
+[2026-07-17 23:34:43] ROI by circuit czech: 41W-48L-0P staked 86.31u net +1.21u roi +1.4%
+[2026-07-17 23:34:43] ROI by circuit polish: 31W-34L-0P staked 63.14u net -0.61u roi -1.0%
+[2026-07-17 23:34:43] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 23:34:43] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
