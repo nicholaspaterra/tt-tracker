@@ -782,3 +782,11 @@
 [2026-07-17 09:04:49] ROI by circuit polish: 26W-30L-0P staked 54.14u net -1.51u roi -2.8%
 [2026-07-17 09:04:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 09:04:49] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 09:34:18] engine run started (quick: amateur circuits only)
+[2026-07-17 09:34:20] amateur settled: Martin Filipek vs Radek Muller -> Radek Muller won -> bet WIN
+[2026-07-17 09:34:40] czech pipeline: 639 match(es) scanned, 14 elo update(s), 1 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-17 09:34:40] ROI by grade C: 61W-70L-0P staked 126.45u net -1.64u roi -1.3%
+[2026-07-17 09:34:40] ROI by circuit czech: 34W-40L-0P staked 71.31u net -0.41u roi -0.6%
+[2026-07-17 09:34:40] ROI by circuit polish: 26W-30L-0P staked 54.14u net -1.51u roi -2.8%
+[2026-07-17 09:34:40] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 09:34:40] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
