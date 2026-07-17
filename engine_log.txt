@@ -925,3 +925,14 @@
 [2026-07-17 19:33:03] ROI by circuit polish: 30W-32L-0P staked 60.14u net +0.29u roi +0.5%
 [2026-07-17 19:33:03] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 19:33:03] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 20:02:34] engine run started
+[2026-07-17 20:02:40] rankings parsed: 951 players across 2 lists; scanning 160
+[2026-07-17 20:09:28] upcoming WTT singles matches found: 0
+[2026-07-17 20:09:31] amateur settled: Heczko, Marcel vs Marek Volny -> Heczko, Marcel won -> bet LOSS
+[2026-07-17 20:09:31] amateur settled: Frantisek Chaloupka vs Kleprlik Kamil -> Kleprlik Kamil won -> bet LOSS
+[2026-07-17 20:09:51] czech pipeline: 1165 match(es) scanned, 21 elo update(s), 2 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-07-17 20:09:52] ROI by grade C: 71W-79L-0P staked 145.45u net +0.38u roi +0.3%
+[2026-07-17 20:09:52] ROI by circuit czech: 40W-47L-0P staked 84.31u net -0.19u roi -0.2%
+[2026-07-17 20:09:52] ROI by circuit polish: 30W-32L-0P staked 60.14u net +0.29u roi +0.5%
+[2026-07-17 20:09:52] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 20:09:52] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
