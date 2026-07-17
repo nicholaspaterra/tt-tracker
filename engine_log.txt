@@ -693,3 +693,12 @@
 [2026-07-17 04:11:13] ROI by circuit polish: 23W-30L-0P staked 51.42u net -4.10u roi -8.0%
 [2026-07-17 04:11:13] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 04:11:13] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-17 04:33:55] engine run started (quick: amateur circuits only)
+[2026-07-17 04:33:56] amateur settled: Igor Szymanski vs Schaniel Krzysztof -> Schaniel Krzysztof won -> bet WIN
+[2026-07-17 04:33:56] amateur settled: Maciej Nowalinski vs Krzysztof Wloczko -> Krzysztof Wloczko won -> bet WIN
+[2026-07-17 04:34:16] czech pipeline: 565 match(es) scanned, 8 elo update(s), 2 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-17 04:34:16] ROI by grade C: 57W-67L-0P staked 120.75u net -3.44u roi -2.9%
+[2026-07-17 04:34:16] ROI by circuit czech: 31W-37L-0P staked 66.61u net -0.59u roi -0.9%
+[2026-07-17 04:34:16] ROI by circuit polish: 25W-30L-0P staked 53.14u net -3.13u roi -5.9%
+[2026-07-17 04:34:16] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-17 04:34:16] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
