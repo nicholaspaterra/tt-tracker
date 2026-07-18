@@ -992,3 +992,13 @@
 [2026-07-17 23:34:43] ROI by circuit polish: 31W-34L-0P staked 63.14u net -0.61u roi -1.0%
 [2026-07-17 23:34:43] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 23:34:43] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 01:46:02] engine run started (quick: amateur circuits only)
+[2026-07-18 01:46:05] amateur settled: Pawel Adamus vs Michal Durda -> Michal Durda won -> bet WIN
+[2026-07-18 01:46:05] amateur settled: Wojciech Wojtaszczyk vs Kurek, Pawel -> Kurek, Pawel won -> bet LOSS
+[2026-07-18 01:46:05] amateur settled: Tomasz Filbrand vs Rutkowski Mateusz -> Rutkowski Mateusz won -> bet WIN
+[2026-07-18 01:46:26] czech pipeline: 1235 match(es) scanned, 40 elo update(s), 3 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-18 01:46:27] ROI by grade C: 75W-83L-0P staked 153.45u net +0.93u roi +0.6%
+[2026-07-18 01:46:27] ROI by circuit czech: 41W-48L-0P staked 86.31u net +1.21u roi +1.4%
+[2026-07-18 01:46:27] ROI by circuit polish: 33W-35L-0P staked 66.14u net -0.56u roi -0.9%
+[2026-07-18 01:46:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 01:46:27] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
