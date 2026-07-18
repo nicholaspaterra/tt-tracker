@@ -1,13 +1,3 @@
-[2026-07-08 17:53:28] wrote 1 recommendation(s) to bets.js — open index.html and enter odds
-[2026-07-08 17:54:12] engine run started
-[2026-07-08 17:54:12] rankings parsed: 2 players
-[2026-07-08 17:54:12] upcoming WTT singles matches found: 1
-[2026-07-08 17:54:12] modeled Alpha One vs Beta Two -> 82% / BET 1.00u on Alpha One @ 1.28 (bet365) / grade C
-[2026-07-08 17:54:12] wrote 1 recommendation(s) to bets.js — open index.html and enter odds
-[2026-07-08 18:02:59] engine run started
-[2026-07-08 18:02:59] rankings parsed: 2 players
-[2026-07-08 18:02:59] upcoming WTT singles matches found: 1
-[2026-07-08 18:02:59] modeled Alpha One vs Beta Two -> 82% / BET 1.00u on Alpha One @ 1.28 (bet365) / grade C
 [2026-07-08 18:02:59] run summary: 1 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-08 18:02:59] engine run started
 [2026-07-08 18:02:59] rankings parsed: 2 players
@@ -1008,3 +998,11 @@
 [2026-07-18 07:12:31] ROI by circuit polish: 34W-36L-0P staked 68.06u net -0.23u roi -0.3%
 [2026-07-18 07:12:31] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-18 07:12:31] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 08:40:10] engine run started (quick: amateur circuits only)
+[2026-07-18 08:40:12] amateur settled: Jan Gembala vs Jiri Skalicky -> Jiri Skalicky won -> bet WIN
+[2026-07-18 08:40:33] czech pipeline: 583 match(es) scanned, 47 elo update(s), 1 settled, 40 candidate(s) in 12h window, 15 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-07-18 08:40:33] ROI by grade C: 78W-84L-0P staked 157.37u net +4.13u roi +2.6%
+[2026-07-18 08:40:33] ROI by circuit czech: 43W-48L-0P staked 88.31u net +4.08u roi +4.6%
+[2026-07-18 08:40:33] ROI by circuit polish: 34W-36L-0P staked 68.06u net -0.23u roi -0.3%
+[2026-07-18 08:40:33] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 08:40:33] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
