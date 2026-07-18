@@ -1,15 +1,3 @@
-[2026-07-10 13:03:06] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
-[2026-07-10 13:04:10] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
-[2026-07-10 13:04:10] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
-[2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet WIN
-[2026-07-10 13:08:52] czech settled: Alpha vs Beta -> Alpha won -> bet LOSS
-[2026-07-10 14:04:05] warn: czech odds fetch failed for m2q10s6ygn3cek6: HTTP Error 403: Forbidden
-[2026-07-10 14:04:06] warn: czech odds fetch failed for jr7o1sogj3dfgk0: HTTP Error 403: Forbidden
-[2026-07-10 14:04:08] warn: czech odds fetch failed for vmqyosx1p84sgk9: HTTP Error 403: Forbidden
-[2026-07-10 14:04:09] warn: czech odds fetch failed for g676ps9zwrjbokr: HTTP Error 403: Forbidden
-[2026-07-10 14:04:10] warn: czech odds fetch failed for ndqm1syeo3nsrqv: HTTP Error 403: Forbidden
-[2026-07-10 14:04:12] warn: czech odds fetch failed for vrqwys2d154f4kn: HTTP Error 403: Forbidden
-[2026-07-10 14:04:13] warn: czech odds fetch failed for ndqm1sye469brqv: HTTP Error 403: Forbidden
 [2026-07-10 14:04:14] warn: czech odds fetch failed for o17p1slwzp2fy7j: HTTP Error 403: Forbidden
 [2026-07-10 14:04:16] warn: czech odds fetch failed for 34kges4ln1efeqo: HTTP Error 403: Forbidden
 [2026-07-10 14:04:17] warn: czech odds fetch failed for jr7o1sogjdeugk0: HTTP Error 403: Forbidden
@@ -1010,3 +998,10 @@
 [2026-07-18 14:26:39] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
 [2026-07-18 14:26:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-18 14:26:39] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 14:42:24] engine run started (quick: amateur circuits only)
+[2026-07-18 14:42:46] czech pipeline: 1114 match(es) scanned, 4 elo update(s), 0 settled, 40 candidate(s) in 12h window, 10 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-07-18 14:42:46] ROI by grade C: 81W-87L-0P staked 163.37u net +4.43u roi +2.7%
+[2026-07-18 14:42:46] ROI by circuit czech: 46W-50L-0P staked 93.31u net +5.38u roi +5.8%
+[2026-07-18 14:42:46] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
+[2026-07-18 14:42:46] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 14:42:46] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
