@@ -1,11 +1,3 @@
-[2026-07-10 18:17:22] warn: czech odds fetch failed for ezk9zsw2n31u17n: HTTP Error 403: Forbidden
-[2026-07-10 18:17:23] warn: czech odds fetch failed for l6keds42z8dfv75: HTTP Error 403: Forbidden
-[2026-07-10 18:17:24] warn: czech odds fetch failed for xvkjds1w98wi8k9: HTTP Error 403: Forbidden
-[2026-07-10 18:17:26] warn: czech odds fetch failed for jek35sp46nvb97o: HTTP Error 403: Forbidden
-[2026-07-10 18:17:27] warn: czech odds fetch failed for ndqm1syex9ytrqv: HTTP Error 403: Forbidden
-[2026-07-10 18:17:28] warn: czech odds fetch failed for ndqm1syexmyarqv: HTTP Error 403: Forbidden
-[2026-07-10 18:17:30] warn: czech odds fetch failed for oj7xpsvg146u4kg: HTTP Error 403: Forbidden
-[2026-07-10 18:17:31] warn: czech odds fetch failed for g676ps9zvpouokr: HTTP Error 403: Forbidden
 [2026-07-10 18:17:33] warn: czech odds fetch failed for jr7o1sog6ylsgk0: HTTP Error 403: Forbidden
 [2026-07-10 18:17:34] warn: czech odds fetch failed for ndkzlsdpz2oaxq3: HTTP Error 403: Forbidden
 [2026-07-10 18:17:35] warn: czech odds fetch failed for 9gkl1sjxl2ysmqx: HTTP Error 403: Forbidden
@@ -1006,3 +998,12 @@
 [2026-07-18 15:06:45] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
 [2026-07-18 15:06:45] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-18 15:06:45] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 15:36:07] engine run started (quick: amateur circuits only)
+[2026-07-18 15:36:10] amateur settled: Sindler, Jaroslav vs Skvor, Ondrej -> Skvor, Ondrej won -> bet LOSS
+[2026-07-18 15:36:10] amateur settled: Jiri Svec vs Vaclav Hruska -> Jiri Svec won -> bet WIN
+[2026-07-18 15:36:27] czech pipeline: 1115 match(es) scanned, 14 elo update(s), 2 settled, 40 candidate(s) in 12h window, 13 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-07-18 15:36:27] ROI by grade C: 82W-89L-0P staked 166.37u net +3.63u roi +2.2%
+[2026-07-18 15:36:27] ROI by circuit czech: 47W-52L-0P staked 96.31u net +4.58u roi +4.8%
+[2026-07-18 15:36:27] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
+[2026-07-18 15:36:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 15:36:27] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
