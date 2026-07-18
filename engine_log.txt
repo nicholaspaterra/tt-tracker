@@ -1,12 +1,3 @@
-[2026-07-10 22:41:44] czech pipeline: 1263 match(es) scanned, 119 elo update(s), 2 settled, 40 candidate(s) in 12h window, 19 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-07-10 22:41:44] ROI by grade C: 0W-2L-0P staked 2.00u net -2.00u roi -100.0%
-[2026-07-10 22:41:44] ROI by circuit czech: 0W-2L-0P staked 2.00u net -2.00u roi -100.0%
-[2026-07-10 22:41:44] run summary: 44 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-10 22:58:23] engine run started
-[2026-07-10 22:58:30] rankings parsed: 952 players across 2 lists; scanning 160
-[2026-07-10 23:05:37] upcoming WTT singles matches found: 3
-[2026-07-10 23:05:41] no odds posted yet for Amy Wang vs Valentina Rios-Salazar
-[2026-07-10 23:05:41] modeled Amy Wang vs Valentina Rios-Salazar -> 90% / MODEL PICK: Amy Wang (90%) — odds not found; enter odds in app / grade C
 [2026-07-10 23:05:44] no odds posted yet for Claire Picard vs Li Yu-jhun
 [2026-07-10 23:05:44] modeled Claire Picard vs Li Yu-jhun -> 15% / MODEL PICK: Li Yu-jhun (85%) — odds not found; enter odds in app / grade C
 [2026-07-10 23:05:49] no odds posted yet for Huang Yu-Jie vs Beatriz Kanashiro
@@ -1007,3 +998,10 @@
 [2026-07-18 16:56:53] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
 [2026-07-18 16:56:53] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-18 16:56:53] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 17:27:35] engine run started (quick: amateur circuits only)
+[2026-07-18 17:27:58] czech pipeline: 1130 match(es) scanned, 13 elo update(s), 0 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-07-18 17:27:58] ROI by grade C: 83W-91L-0P staked 169.37u net +2.63u roi +1.6%
+[2026-07-18 17:27:58] ROI by circuit czech: 48W-54L-0P staked 99.31u net +3.58u roi +3.6%
+[2026-07-18 17:27:58] ROI by circuit polish: 34W-37L-0P staked 69.06u net -1.23u roi -1.8%
+[2026-07-18 17:27:58] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 17:27:58] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
