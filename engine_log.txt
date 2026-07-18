@@ -1,7 +1,3 @@
-[2026-07-08 17:53:28] engine run started
-[2026-07-08 17:53:28] rankings parsed: 2 players
-[2026-07-08 17:53:28] upcoming WTT singles matches found: 1
-[2026-07-08 17:53:28] modeled Alpha One vs Beta Two -> 82% / MODEL PICK: Alpha One (82%) — odds not found; enter odds in app / grade C
 [2026-07-08 17:53:28] wrote 1 recommendation(s) to bets.js — open index.html and enter odds
 [2026-07-08 17:54:12] engine run started
 [2026-07-08 17:54:12] rankings parsed: 2 players
@@ -1002,3 +998,13 @@
 [2026-07-18 01:46:27] ROI by circuit polish: 33W-35L-0P staked 66.14u net -0.56u roi -0.9%
 [2026-07-18 01:46:27] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-18 01:46:27] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-18 07:12:20] engine run started (quick: amateur circuits only)
+[2026-07-18 07:12:22] amateur settled: Adam Svoboda vs Mihail Trinta -> Mihail Trinta won -> bet WIN
+[2026-07-18 07:12:22] amateur settled: Glica, Rafal vs Wojciech Urban -> Wojciech Urban won -> bet WIN
+[2026-07-18 07:12:22] amateur settled: Rutkowski Mateusz vs Marcin Marchlewski -> Rutkowski Mateusz won -> bet LOSS
+[2026-07-18 07:12:31] czech pipeline: 535 match(es) scanned, 104 elo update(s), 3 settled, 40 candidate(s) in 12h window, 22 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-07-18 07:12:31] ROI by grade C: 77W-84L-0P staked 156.37u net +2.88u roi +1.8%
+[2026-07-18 07:12:31] ROI by circuit czech: 42W-48L-0P staked 87.31u net +2.83u roi +3.2%
+[2026-07-18 07:12:31] ROI by circuit polish: 34W-36L-0P staked 68.06u net -0.23u roi -0.3%
+[2026-07-18 07:12:31] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-18 07:12:31] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
