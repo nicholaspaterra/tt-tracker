@@ -1,10 +1,3 @@
-[2026-07-13 01:12:09] engine run started (quick: amateur circuits only)
-[2026-07-13 01:12:12] amateur settled: Jiri Dedek vs Jiri Plachy -> Jiri Plachy won -> bet LOSS
-[2026-07-13 01:12:12] amateur settled: Adam Staniczek vs Grzegorz Mucha -> Adam Staniczek won -> bet WIN
-[2026-07-13 01:12:33] czech pipeline: 1236 match(es) scanned, 45 elo update(s), 2 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-07-13 01:12:33] ROI by grade C: 17W-23L-0P staked 39.21u net -2.59u roi -6.6%
-[2026-07-13 01:12:33] ROI by circuit czech: 10W-14L-0P staked 23.74u net -2.50u roi -10.5%
-[2026-07-13 01:12:33] ROI by circuit polish: 6W-9L-0P staked 14.47u net -0.37u roi -2.6%
 [2026-07-13 01:12:33] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-13 01:12:33] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-13 07:13:05] engine run started (quick: amateur circuits only)
@@ -1005,3 +998,11 @@
 [2026-07-20 05:55:53] ROI by circuit polish: 44W-48L-0P staked 90.06u net -0.92u roi -1.0%
 [2026-07-20 05:55:53] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-20 05:55:53] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-20 06:24:34] engine run started (quick: amateur circuits only)
+[2026-07-20 06:24:36] amateur settled: Krzysztof Hetnar vs Pawel Adamus -> Krzysztof Hetnar won -> bet LOSS
+[2026-07-20 06:24:57] czech pipeline: 566 match(es) scanned, 15 elo update(s), 1 settled, 40 candidate(s) in 12h window, 14 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-07-20 06:24:57] ROI by grade C: 99W-113L-0P staked 207.37u net -1.47u roi -0.7%
+[2026-07-20 06:24:57] ROI by circuit czech: 54W-64L-0P staked 115.31u net +0.17u roi +0.1%
+[2026-07-20 06:24:57] ROI by circuit polish: 44W-49L-0P staked 91.06u net -1.92u roi -2.1%
+[2026-07-20 06:24:57] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-20 06:24:57] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
