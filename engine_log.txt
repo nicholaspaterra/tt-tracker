@@ -1,12 +1,3 @@
-[2026-07-14 13:14:32] amateur settled: Ales Langer vs David Sykora -> Ales Langer won -> bet LOSS
-[2026-07-14 13:14:52] czech pipeline: 1103 match(es) scanned, 43 elo update(s), 2 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-07-14 13:14:52] ROI by grade C: 26W-40L-0P staked 64.57u net -10.53u roi -16.3%
-[2026-07-14 13:14:52] ROI by circuit czech: 15W-22L-0P staked 36.10u net -5.94u roi -16.4%
-[2026-07-14 13:14:52] ROI by circuit polish: 10W-18L-0P staked 27.47u net -4.87u roi -17.7%
-[2026-07-14 13:14:52] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-14 13:14:52] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-14 14:24:14] engine run started (quick: amateur circuits only)
-[2026-07-14 14:24:17] amateur settled: Martin Olejnik vs Marcin Jadczyk -> Marcin Jadczyk won -> bet LOSS
 [2026-07-14 14:24:17] amateur settled: Sebastian Szostok vs Krzysztof Hetnar -> Sebastian Szostok won -> bet LOSS
 [2026-07-14 14:24:17] amateur settled: Michal Chalupa vs Zbynek Pagac -> Zbynek Pagac won -> bet LOSS
 [2026-07-14 14:24:38] czech pipeline: 1107 match(es) scanned, 42 elo update(s), 3 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 3 BET rec(s)
@@ -1007,3 +998,18 @@
 [2026-07-20 23:52:50] ROI by circuit polish: 47W-57L-0P staked 102.06u net -4.52u roi -4.4%
 [2026-07-20 23:52:50] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-20 23:52:50] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-21 00:15:59] engine run started
+[2026-07-21 00:16:03] rankings parsed: 945 players across 2 lists; scanning 160
+[2026-07-21 00:22:50] upcoming WTT singles matches found: 5
+[2026-07-21 00:22:54] modeled Yeh Yi-Tian vs Kong Tsz Lam -> 93% / NO BET (edge 5.2% @ bet365 -1429/+650) / grade C
+[2026-07-21 00:22:54] skip Anujin Batmunkh vs Shao Jieni: player not in rankings table
+[2026-07-21 00:22:54] skip Bolor Batmunkh vs Chien Tung-chuan: player not in rankings table
+[2026-07-21 00:22:54] skip Kim Seong-jin vs Darisu Garmaeva: player not in rankings table
+[2026-07-21 00:22:54] skip Sanjaa, Burenjargal vs Misuzu Takeya: player not in rankings table
+[2026-07-21 00:22:57] amateur settled: Jakub Kuzmicz vs Artur Gromek -> Jakub Kuzmicz won -> bet WIN
+[2026-07-21 00:23:18] czech pipeline: 1333 match(es) scanned, 8 elo update(s), 1 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-21 00:23:18] ROI by grade C: 108W-127L-0P staked 230.37u net -3.81u roi -1.7%
+[2026-07-21 00:23:18] ROI by circuit czech: 59W-70L-0P staked 126.31u net -0.01u roi -0.0%
+[2026-07-21 00:23:18] ROI by circuit polish: 48W-57L-0P staked 103.06u net -4.08u roi -4.0%
+[2026-07-21 00:23:18] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-21 00:23:18] run summary: 41 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
