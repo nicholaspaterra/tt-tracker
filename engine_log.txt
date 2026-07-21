@@ -1,10 +1,3 @@
-[2026-07-16 09:06:36] ROI by grade C: 44W-57L-0P staked 98.48u net -7.38u roi -7.5%
-[2026-07-16 09:06:36] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
-[2026-07-16 09:06:36] ROI by circuit polish: 18W-28L-0P staked 44.87u net -7.04u roi -15.7%
-[2026-07-16 09:06:36] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-16 09:06:36] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-16 13:39:32] engine run started (quick: amateur circuits only)
-[2026-07-16 13:39:35] amateur settled: Josef Braun vs Adrian Wiecek -> Adrian Wiecek won -> bet LOSS
 [2026-07-16 13:39:35] amateur settled: Adrian Wiecek vs Adamiak Grzegorz -> Adamiak Grzegorz won -> bet WIN
 [2026-07-16 13:39:35] amateur settled: Amirreza Abbasi vs Jakub Folwarski -> Jakub Folwarski won -> bet WIN
 [2026-07-16 13:39:56] czech pipeline: 911 match(es) scanned, 147 elo update(s), 3 settled, 40 candidate(s) in 12h window, 10 gated NO BET (thin Elo), 8 BET rec(s)
@@ -1005,3 +998,10 @@
 [2026-07-21 15:58:07] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
 [2026-07-21 15:58:07] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-21 15:58:07] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-21 20:39:46] engine run started (quick: amateur circuits only)
+[2026-07-21 20:40:10] czech pipeline: 1286 match(es) scanned, 159 elo update(s), 0 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-07-21 20:40:10] ROI by grade C: 115W-134L-0P staked 244.24u net -3.73u roi -1.5%
+[2026-07-21 20:40:10] ROI by circuit czech: 62W-72L-0P staked 131.18u net +0.78u roi +0.6%
+[2026-07-21 20:40:10] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
+[2026-07-21 20:40:10] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-21 20:40:10] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
