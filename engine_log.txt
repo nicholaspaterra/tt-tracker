@@ -1,18 +1,3 @@
-[2026-07-14 14:24:17] amateur settled: Sebastian Szostok vs Krzysztof Hetnar -> Sebastian Szostok won -> bet LOSS
-[2026-07-14 14:24:17] amateur settled: Michal Chalupa vs Zbynek Pagac -> Zbynek Pagac won -> bet LOSS
-[2026-07-14 14:24:38] czech pipeline: 1107 match(es) scanned, 42 elo update(s), 3 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-07-14 14:24:38] ROI by grade C: 26W-43L-0P staked 67.57u net -13.53u roi -20.0%
-[2026-07-14 14:24:38] ROI by circuit czech: 15W-23L-0P staked 37.10u net -6.94u roi -18.7%
-[2026-07-14 14:24:38] ROI by circuit polish: 10W-20L-0P staked 29.47u net -6.87u roi -23.3%
-[2026-07-14 14:24:38] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-14 14:24:38] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-14 14:54:05] engine run started (quick: amateur circuits only)
-[2026-07-14 14:54:08] amateur settled: Tadeas Zika vs Jan Szotkowski -> Jan Szotkowski won -> bet LOSS
-[2026-07-14 14:54:28] czech pipeline: 1107 match(es) scanned, 18 elo update(s), 1 settled, 40 candidate(s) in 12h window, 14 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-07-14 14:54:28] ROI by grade C: 26W-44L-0P staked 68.57u net -14.53u roi -21.2%
-[2026-07-14 14:54:28] ROI by circuit czech: 15W-24L-0P staked 38.10u net -7.94u roi -20.8%
-[2026-07-14 14:54:28] ROI by circuit polish: 10W-20L-0P staked 29.47u net -6.87u roi -23.3%
-[2026-07-14 14:54:28] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-14 14:54:28] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-14 15:24:08] engine run started (quick: amateur circuits only)
 [2026-07-14 15:24:11] amateur settled: Igor Szymanski vs Wojciech Urban -> Wojciech Urban won -> bet LOSS
@@ -1013,3 +998,11 @@
 [2026-07-21 00:23:18] ROI by circuit polish: 48W-57L-0P staked 103.06u net -4.08u roi -4.0%
 [2026-07-21 00:23:18] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-21 00:23:18] run summary: 41 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-21 00:51:47] engine run started (quick: amateur circuits only)
+[2026-07-21 00:51:49] amateur settled: Artur Kubiak vs Henryk Tkaczyk -> Artur Kubiak won -> bet LOSS
+[2026-07-21 00:52:19] czech pipeline: 610 match(es) scanned, 9 elo update(s), 1 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-21 00:52:19] ROI by grade C: 108W-128L-0P staked 231.37u net -4.81u roi -2.1%
+[2026-07-21 00:52:19] ROI by circuit czech: 59W-70L-0P staked 126.31u net -0.01u roi -0.0%
+[2026-07-21 00:52:19] ROI by circuit polish: 48W-58L-0P staked 104.06u net -5.08u roi -4.9%
+[2026-07-21 00:52:19] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-21 00:52:19] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
