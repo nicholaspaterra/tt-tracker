@@ -1,10 +1,3 @@
-[2026-07-16 22:06:46] engine run started
-[2026-07-16 22:06:51] rankings parsed: 951 players across 2 lists; scanning 160
-[2026-07-16 22:13:28] upcoming WTT singles matches found: 0
-[2026-07-16 22:13:31] amateur settled: Hrabec, Jan vs Milkov, Tomas -> Hrabec, Jan won -> bet LOSS
-[2026-07-16 22:13:52] czech pipeline: 1230 match(es) scanned, 85 elo update(s), 1 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-07-16 22:13:52] ROI by grade C: 51W-62L-0P staked 110.48u net -4.16u roi -3.8%
-[2026-07-16 22:13:52] ROI by circuit czech: 28W-32L-0P staked 58.61u net +0.10u roi +0.2%
 [2026-07-16 22:13:52] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-16 22:13:52] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-16 22:13:52] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
@@ -1005,3 +998,14 @@
 [2026-07-22 20:20:38] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
 [2026-07-22 20:20:38] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-22 20:20:38] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-22 22:18:10] engine run started
+[2026-07-22 22:18:15] rankings parsed: 946 players across 2 lists; scanning 160
+[2026-07-22 22:33:56] upcoming WTT singles matches found: 1
+[2026-07-22 22:34:03] no odds posted yet for Yeh Yi-Tian vs Yuna Ojio
+[2026-07-22 22:34:03] modeled Yeh Yi-Tian vs Yuna Ojio -> 80% / MODEL PICK: Yeh Yi-Tian (80%) — odds not found; enter odds in app / grade C
+[2026-07-22 22:34:29] czech pipeline: 536 match(es) scanned, 0 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-22 22:34:29] ROI by grade C: 115W-135L-0P staked 245.24u net -4.73u roi -1.9%
+[2026-07-22 22:34:29] ROI by circuit czech: 62W-73L-0P staked 132.18u net -0.22u roi -0.2%
+[2026-07-22 22:34:29] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
+[2026-07-22 22:34:29] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-22 22:34:29] run summary: 41 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
