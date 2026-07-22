@@ -1,20 +1,3 @@
-[2026-07-16 13:39:56] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-16 14:09:42] engine run started
-[2026-07-16 14:09:47] rankings parsed: 951 players across 2 lists; scanning 160
-[2026-07-16 14:16:25] upcoming WTT singles matches found: 0
-[2026-07-16 14:16:29] amateur settled: Mariusz Baron vs Rafal Gajda -> Mariusz Baron won -> bet WIN
-[2026-07-16 14:16:29] amateur settled: Adrian Wiecek vs Jakub Folwarski -> Jakub Folwarski won -> bet WIN
-[2026-07-16 14:16:49] czech pipeline: 1161 match(es) scanned, 25 elo update(s), 2 settled, 40 candidate(s) in 12h window, 9 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-07-16 14:16:49] ROI by grade C: 48W-58L-0P staked 103.48u net -3.88u roi -3.8%
-[2026-07-16 14:16:49] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
-[2026-07-16 14:16:49] ROI by circuit polish: 22W-29L-0P staked 49.87u net -3.54u roi -7.1%
-[2026-07-16 14:16:49] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-16 14:16:49] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-16 14:39:45] engine run started (quick: amateur circuits only)
-[2026-07-16 14:40:09] czech pipeline: 1183 match(es) scanned, 13 elo update(s), 0 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 2 BET rec(s)
-[2026-07-16 14:40:09] ROI by grade C: 48W-58L-0P staked 103.48u net -3.88u roi -3.8%
-[2026-07-16 14:40:09] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
-[2026-07-16 14:40:09] ROI by circuit polish: 22W-29L-0P staked 49.87u net -3.54u roi -7.1%
 [2026-07-16 14:40:09] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-16 14:40:09] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-16 15:22:01] engine run started (quick: amateur circuits only)
@@ -1015,3 +998,11 @@
 [2026-07-22 00:17:39] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
 [2026-07-22 00:17:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-22 00:17:39] run summary: 43 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-22 09:41:46] engine run started (quick: amateur circuits only)
+[2026-07-22 09:41:48] amateur settled: Marcel Pikous vs Michal Regner -> Michal Regner won -> bet LOSS
+[2026-07-22 09:42:10] czech pipeline: 673 match(es) scanned, 205 elo update(s), 1 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-07-22 09:42:10] ROI by grade C: 115W-135L-0P staked 245.24u net -4.73u roi -1.9%
+[2026-07-22 09:42:10] ROI by circuit czech: 62W-73L-0P staked 132.18u net -0.22u roi -0.2%
+[2026-07-22 09:42:10] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
+[2026-07-22 09:42:10] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-22 09:42:10] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
