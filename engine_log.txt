@@ -1,10 +1,3 @@
-[2026-07-16 13:39:35] amateur settled: Adrian Wiecek vs Adamiak Grzegorz -> Adamiak Grzegorz won -> bet WIN
-[2026-07-16 13:39:35] amateur settled: Amirreza Abbasi vs Jakub Folwarski -> Jakub Folwarski won -> bet WIN
-[2026-07-16 13:39:56] czech pipeline: 911 match(es) scanned, 147 elo update(s), 3 settled, 40 candidate(s) in 12h window, 10 gated NO BET (thin Elo), 8 BET rec(s)
-[2026-07-16 13:39:56] ROI by grade C: 46W-58L-0P staked 101.48u net -5.63u roi -5.5%
-[2026-07-16 13:39:56] ROI by circuit czech: 25W-29L-0P staked 52.61u net -0.62u roi -1.2%
-[2026-07-16 13:39:56] ROI by circuit polish: 20W-29L-0P staked 47.87u net -5.29u roi -11.1%
-[2026-07-16 13:39:56] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-16 13:39:56] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-16 14:09:42] engine run started
 [2026-07-16 14:09:47] rankings parsed: 951 players across 2 lists; scanning 160
@@ -1005,3 +998,20 @@
 [2026-07-21 20:40:10] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
 [2026-07-21 20:40:10] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-21 20:40:10] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-22 00:09:36] engine run started
+[2026-07-22 00:09:41] rankings parsed: 946 players across 2 lists; scanning 160
+[2026-07-22 00:17:01] upcoming WTT singles matches found: 5
+[2026-07-22 00:17:01] skip Yeh Yi-Tian vs Law Sum Yee: player not in rankings table
+[2026-07-22 00:17:06] no odds posted yet for Kotona Okada vs Shao Jieni
+[2026-07-22 00:17:06] modeled Kotona Okada vs Shao Jieni -> 28% / MODEL PICK: Shao Jieni (72%) — odds not found; enter odds in app / grade C
+[2026-07-22 00:17:11] no odds posted yet for Wong Hoi Tung vs Chien Tung-chuan
+[2026-07-22 00:17:11] modeled Wong Hoi Tung vs Chien Tung-chuan -> 20% / MODEL PICK: Chien Tung-chuan (80%) — odds not found; enter odds in app / grade C
+[2026-07-22 00:17:16] no odds posted yet for Kim Seong-jin vs Hardee Chetan Patel
+[2026-07-22 00:17:16] modeled Kim Seong-jin vs Hardee Chetan Patel -> 91% / MODEL PICK: Kim Seong-jin (91%) — odds not found; enter odds in app / grade C
+[2026-07-22 00:17:16] skip Bolor Erdene Batmunkh vs Misuzu Takeya: player not in rankings table
+[2026-07-22 00:17:39] czech pipeline: 569 match(es) scanned, 3 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-07-22 00:17:39] ROI by grade C: 115W-134L-0P staked 244.24u net -3.73u roi -1.5%
+[2026-07-22 00:17:39] ROI by circuit czech: 62W-72L-0P staked 131.18u net +0.78u roi +0.6%
+[2026-07-22 00:17:39] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
+[2026-07-22 00:17:39] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-22 00:17:39] run summary: 43 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
