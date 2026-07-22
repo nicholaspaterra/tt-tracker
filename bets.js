@@ -74686,15 +74686,15 @@ window.BETS_FILE = {
       "matchId": "527rxsrg1dmf47e",
       "playerA": "Josef Braun",
       "playerB": "Adrian Wiecek",
-      "myProbA": 0.351,
+      "myProbA": 0.325,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Adrian Wiecek (65%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Adrian Wiecek (67%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1558 (n=55) vs 1665 (n=55)"
+      "reasoning": "Elo 1558 (n=55) vs 1685 (n=56)"
     },
     {
       "id": "rec-cz-o17p1slxngpfy7j",
@@ -74766,11 +74766,11 @@ window.BETS_FILE = {
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "NO BET (Elo data too thin: 54 and 6 rated matches, need 10)",
+      "rec": "NO BET (Elo data too thin: 54 and 7 rated matches, need 10)",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1395 (n=54) vs 1460 (n=6)"
+      "reasoning": "Elo 1395 (n=54) vs 1445 (n=7)"
     },
     {
       "id": "rec-pl-9gkl1sj8pyrimqx",
@@ -75142,15 +75142,15 @@ window.BETS_FILE = {
       "matchId": "jek35spz50ma97o",
       "playerA": "Krystian Kolodziej",
       "playerB": "Jakub Folwarski",
-      "myProbA": 0.289,
+      "myProbA": 0.313,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Jakub Folwarski (71%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Jakub Folwarski (69%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1593 (n=80) vs 1749 (n=45)"
+      "reasoning": "Elo 1593 (n=80) vs 1730 (n=46)"
     },
     {
       "id": "rec-cz-ndkzlsdw6vgaxq3",
@@ -75227,6 +75227,25 @@ window.BETS_FILE = {
       "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1429 (n=42) vs 1500 (n=0)"
+    },
+    {
+      "id": "rec-cz-ezk9zsw8mggi17n",
+      "date": "2026-07-22",
+      "startTime": 1784718000,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "ezk9zsw8mggi17n",
+      "playerA": "Michal Vavrecka",
+      "playerB": "Radovan Polasek",
+      "myProbA": 0.554,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Michal Vavrecka (55%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1528 (n=56) vs 1491 (n=71)"
     }
   ],
   "bets": [
