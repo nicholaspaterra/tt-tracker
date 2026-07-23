@@ -1,11 +1,3 @@
-[2026-07-17 00:33:54] engine run started (quick: amateur circuits only)
-[2026-07-17 00:33:55] amateur settled: Jan Potensky vs Pavel Berdych -> Pavel Berdych won -> bet LOSS
-[2026-07-17 00:34:17] czech pipeline: 481 match(es) scanned, 8 elo update(s), 1 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 5 BET rec(s)
-[2026-07-17 00:34:17] ROI by grade C: 52W-64L-0P staked 113.48u net -3.41u roi -3.0%
-[2026-07-17 00:34:17] ROI by circuit czech: 29W-34L-0P staked 61.61u net +0.85u roi +1.4%
-[2026-07-17 00:34:17] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
-[2026-07-17 00:34:17] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-17 00:34:17] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-17 01:03:44] engine run started (quick: amateur circuits only)
 [2026-07-17 01:04:06] czech pipeline: 481 match(es) scanned, 9 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 3 BET rec(s)
 [2026-07-17 01:04:06] ROI by grade C: 52W-64L-0P staked 113.48u net -3.41u roi -3.0%
@@ -1006,3 +998,25 @@
 [2026-07-23 13:29:26] ROI by circuit polish: 52W-63L-0P staked 113.06u net -5.78u roi -5.1%
 [2026-07-23 13:29:26] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-23 13:29:26] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-23 16:04:29] engine run started
+[2026-07-23 16:04:34] rankings parsed: 946 players across 2 lists; scanning 160
+[2026-07-23 16:13:54] upcoming WTT singles matches found: 7
+[2026-07-23 16:13:58] no odds posted yet for Emanuel Otalvaro vs Joe Seyfried
+[2026-07-23 16:13:58] modeled Emanuel Otalvaro vs Joe Seyfried -> 19% / MODEL PICK: Joe Seyfried (81%) — odds not found; enter odds in app / grade C
+[2026-07-23 16:14:04] no odds posted yet for Felipe Olivares vs Leo de Nodrest
+[2026-07-23 16:14:04] modeled Felipe Olivares vs Leo de Nodrest -> 8% / MODEL PICK: Leo de Nodrest (92%) — odds not found; enter odds in app / grade C
+[2026-07-23 16:14:08] no odds posted yet for Jakub Zelinka vs Ryoichi Yoshiyama
+[2026-07-23 16:14:08] modeled Jakub Zelinka vs Ryoichi Yoshiyama -> 15% / MODEL PICK: Ryoichi Yoshiyama (85%) — odds not found; enter odds in app / grade C
+[2026-07-23 16:14:13] modeled Chan Baldwin Ho Wah vs Edward Ly -> 68% / BET 1.00u on Edward Ly @ +350 (bet365) / grade C
+[2026-07-23 16:14:17] modeled Yoo Yerin vs Paulina Vega -> 77% / NO BET (edge 1.2% @ bet365 -500/+333) / grade C
+[2026-07-23 16:14:17] skip Isabel Amorim vs Su Tsz Tung: player not in rankings table
+[2026-07-23 16:14:17] skip Bianca Borges vs Sachi Aoki: player not in rankings table
+[2026-07-23 16:14:20] amateur settled: Jan Szotkowski vs Tadeas Zika -> Jan Szotkowski won -> bet LOSS
+[2026-07-23 16:14:20] amateur settled: Patrik Klos vs Grzegorz Felkel -> Grzegorz Felkel won -> bet WIN
+[2026-07-23 16:14:20] amateur settled: Zbynek Pagac vs Roman Hudeczek -> Roman Hudeczek won -> bet WIN
+[2026-07-23 16:14:42] czech pipeline: 1320 match(es) scanned, 88 elo update(s), 3 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-07-23 16:14:42] ROI by grade C: 120W-137L-0P staked 252.03u net -2.55u roi -1.0%
+[2026-07-23 16:14:42] ROI by circuit czech: 66W-74L-0P staked 136.97u net +2.12u roi +1.6%
+[2026-07-23 16:14:42] ROI by circuit polish: 53W-63L-0P staked 114.06u net -4.95u roi -4.3%
+[2026-07-23 16:14:42] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
+[2026-07-23 16:14:42] run summary: 45 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
