@@ -1,12 +1,3 @@
-[2026-07-17 02:12:41] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
-[2026-07-17 02:12:41] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-17 02:12:41] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-17 02:33:43] engine run started (quick: amateur circuits only)
-[2026-07-17 02:33:45] amateur settled: Pavel Berdych vs Ludek Madle -> Pavel Berdych won -> bet WIN
-[2026-07-17 02:34:06] czech pipeline: 559 match(es) scanned, 5 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-07-17 02:34:06] ROI by grade C: 54W-65L-0P staked 116.48u net -2.85u roi -2.5%
-[2026-07-17 02:34:06] ROI by circuit czech: 31W-35L-0P staked 64.61u net +1.41u roi +2.2%
-[2026-07-17 02:34:06] ROI by circuit polish: 22W-30L-0P staked 50.87u net -4.54u roi -8.9%
 [2026-07-17 02:34:06] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-17 02:34:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-17 03:03:53] engine run started (quick: amateur circuits only)
@@ -1007,3 +998,54 @@
 [2026-07-23 20:36:26] ROI by circuit polish: 54W-63L-0P staked 115.06u net -4.45u roi -3.9%
 [2026-07-23 20:36:26] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-23 20:36:26] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-24 00:15:14] engine run started
+[2026-07-24 00:15:19] rankings parsed: 946 players across 2 lists; scanning 160
+[2026-07-24 00:25:32] upcoming WTT singles matches found: 20
+[2026-07-24 00:25:34] no odds posted yet for Wim Verdonschot vs Thibault Poret
+[2026-07-24 00:25:34] modeled Wim Verdonschot vs Thibault Poret -> 37% / MODEL PICK: Thibault Poret (63%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:35] no odds posted yet for Ryoichi Yoshiyama vs An Jae-hyun
+[2026-07-24 00:25:35] modeled Ryoichi Yoshiyama vs An Jae-hyun -> 34% / MODEL PICK: An Jae-hyun (66%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:37] no odds posted yet for Hugo Calderano vs Andre Bertelsmeier
+[2026-07-24 00:25:37] modeled Hugo Calderano vs Andre Bertelsmeier -> 83% / MODEL PICK: Hugo Calderano (83%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:38] no odds posted yet for Chan Baldwin Ho Wah vs Benedikt Duda
+[2026-07-24 00:25:38] modeled Chan Baldwin Ho Wah vs Benedikt Duda -> 22% / MODEL PICK: Benedikt Duda (78%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:42] no odds posted yet for Hina Hayata vs Ng Wing Lam
+[2026-07-24 00:25:42] modeled Hina Hayata vs Ng Wing Lam -> 90% / MODEL PICK: Hina Hayata (90%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:47] no odds posted yet for Victoria Strassburger vs Satsuki Odo
+[2026-07-24 00:25:47] modeled Victoria Strassburger vs Satsuki Odo -> 5% / MODEL PICK: Satsuki Odo (95%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:49] no odds posted yet for Honoka Hashimoto vs Sachi Aoki
+[2026-07-24 00:25:49] modeled Honoka Hashimoto vs Sachi Aoki -> 80% / MODEL PICK: Honoka Hashimoto (80%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:25:50] no odds posted yet for Charlotte Lutz vs Hitomi Sato
+[2026-07-24 00:25:50] modeled Charlotte Lutz vs Hitomi Sato -> 20% / MODEL PICK: Hitomi Sato (80%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:00] no odds posted yet for Miyu Nagasaki vs Giulia Takahashi
+[2026-07-24 00:26:00] modeled Miyu Nagasaki vs Giulia Takahashi -> 83% / MODEL PICK: Miyu Nagasaki (83%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:15] no odds posted yet for Sakura Yokoi vs Ana Codina
+[2026-07-24 00:26:15] modeled Sakura Yokoi vs Ana Codina -> 95% / MODEL PICK: Sakura Yokoi (95%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:29] no odds posted yet for Daniela Ortega vs Bruna Takahashi
+[2026-07-24 00:26:29] modeled Daniela Ortega vs Bruna Takahashi -> 16% / MODEL PICK: Bruna Takahashi (84%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:31] no odds posted yet for Yoo Yerin vs Doo Hoi-kem
+[2026-07-24 00:26:31] modeled Yoo Yerin vs Doo Hoi-kem -> 41% / MODEL PICK: Doo Hoi-kem (59%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:36] no odds posted yet for Kaho Akae vs Lee Hoi Man Karen
+[2026-07-24 00:26:36] modeled Kaho Akae vs Lee Hoi Man Karen -> 86% / MODEL PICK: Kaho Akae (86%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:41] no odds posted yet for Debora Vivarelli vs Lily Zhang
+[2026-07-24 00:26:41] modeled Debora Vivarelli vs Lily Zhang -> 20% / MODEL PICK: Lily Zhang (80%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:46] no odds posted yet for Nina Mittelham vs Beatriz Fiore
+[2026-07-24 00:26:46] modeled Nina Mittelham vs Beatriz Fiore -> 94% / MODEL PICK: Nina Mittelham (94%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:52] no odds posted yet for Huang Yu-Jie vs Franziska Schreiner
+[2026-07-24 00:26:52] modeled Huang Yu-Jie vs Franziska Schreiner -> 81% / MODEL PICK: Huang Yu-Jie (81%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:26:58] no odds posted yet for Laura Watanabe vs Elizabet Abraamian
+[2026-07-24 00:26:58] modeled Laura Watanabe vs Elizabet Abraamian -> 22% / MODEL PICK: Elizabet Abraamian (78%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:27:01] no odds posted yet for Valentina Rios-Salazar vs Zhang Mo
+[2026-07-24 00:27:01] modeled Valentina Rios-Salazar vs Zhang Mo -> 13% / MODEL PICK: Zhang Mo (87%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:27:05] no odds posted yet for Sreeja Akula vs Claire Picard
+[2026-07-24 00:27:05] modeled Sreeja Akula vs Claire Picard -> 73% / MODEL PICK: Sreeja Akula (73%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:27:07] no odds posted yet for Su Tsz Tung vs Saki Shibata
+[2026-07-24 00:27:07] modeled Su Tsz Tung vs Saki Shibata -> 44% / MODEL PICK: Saki Shibata (56%) — odds not found; enter odds in app / grade C
+[2026-07-24 00:27:10] amateur settled: Lukasz Pietraszko vs Patryk Jendrzejewski -> Patryk Jendrzejewski won -> bet WIN
+[2026-07-24 00:27:31] czech pipeline: 1472 match(es) scanned, 97 elo update(s), 1 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-07-24 00:27:31] settled: Chan Baldwin Ho Wah vs Edward Ly -> Chan Baldwin Ho Wah won 3-1 -> bet LOSS
+[2026-07-24 00:27:31] ROI by grade C: 122W-139L-0P staked 255.96u net -3.44u roi -1.3%
+[2026-07-24 00:27:31] ROI by circuit czech: 66W-75L-0P staked 137.97u net +1.12u roi +0.8%
+[2026-07-24 00:27:31] ROI by circuit polish: 55W-63L-0P staked 115.99u net -3.84u roi -3.3%
+[2026-07-24 00:27:31] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
+[2026-07-24 00:27:31] run summary: 60 rec(s), 3 bet(s) auto-logged, 1 bet(s) auto-settled
