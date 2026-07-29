@@ -1,13 +1,3 @@
-[2026-07-20 06:24:57] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-20 06:24:57] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-20 07:10:13] engine run started (quick: amateur circuits only)
-[2026-07-20 07:10:14] amateur settled: Jakub Pruszkowski vs Oliver Vincenec -> Oliver Vincenec won -> bet LOSS
-[2026-07-20 07:10:14] amateur settled: Rafal Idaczyk vs Pawel Adamus -> Rafal Idaczyk won -> bet LOSS
-[2026-07-20 07:10:42] czech pipeline: 574 match(es) scanned, 20 elo update(s), 2 settled, 40 candidate(s) in 12h window, 13 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-07-20 07:10:42] ROI by grade C: 99W-115L-0P staked 209.37u net -3.47u roi -1.7%
-[2026-07-20 07:10:42] ROI by circuit czech: 54W-64L-0P staked 115.31u net +0.17u roi +0.1%
-[2026-07-20 07:10:42] ROI by circuit polish: 44W-51L-0P staked 93.06u net -3.92u roi -4.2%
-[2026-07-20 07:10:42] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-20 07:10:42] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-20 07:40:18] engine run started (quick: amateur circuits only)
 [2026-07-20 07:40:20] amateur settled: Maciej Nowalinski vs Szymon Sporek -> Szymon Sporek won -> bet LOSS
@@ -1008,3 +998,15 @@
 [2026-07-29 18:54:55] ROI by circuit polish: 68W-80L-0P staked 145.22u net -5.27u roi -3.6%
 [2026-07-29 18:54:55] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-07-29 18:54:55] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-29 20:18:17] engine run started
+[2026-07-29 20:18:23] rankings parsed: 1212 players across 2 lists; scanning 160
+[2026-07-29 20:24:03] upcoming WTT singles matches found: 0
+[2026-07-29 20:24:06] amateur settled: Patryk Jendrzejewski vs Jakub Zochniak -> Patryk Jendrzejewski won -> bet WIN
+[2026-07-29 20:24:06] amateur settled: Ivan Jemelka vs Lukas Krupnik Junior -> Ivan Jemelka won -> bet LOSS
+[2026-07-29 20:24:06] amateur settled: Miroslav Novotny vs Jan Framberk -> Jan Framberk won -> bet LOSS
+[2026-07-29 20:24:27] czech pipeline: 1246 match(es) scanned, 55 elo update(s), 3 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 10 BET rec(s)
+[2026-07-29 20:24:27] ROI by grade C: 157W-195L-0P staked 345.13u net -17.80u roi -5.2%
+[2026-07-29 20:24:27] ROI by circuit czech: 87W-113L-0P staked 195.91u net -11.42u roi -5.8%
+[2026-07-29 20:24:27] ROI by circuit polish: 69W-80L-0P staked 146.22u net -4.66u roi -3.2%
+[2026-07-29 20:24:27] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-07-29 20:24:27] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
