@@ -1,14 +1,3 @@
-[2026-07-20 19:47:16] ROI by circuit czech: 57W-70L-0P staked 124.31u net -2.53u roi -2.0%
-[2026-07-20 19:47:16] ROI by circuit polish: 45W-56L-0P staked 99.06u net -6.92u roi -7.0%
-[2026-07-20 19:47:16] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-20 19:47:16] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-20 20:45:20] engine run started (quick: amateur circuits only)
-[2026-07-20 20:45:23] amateur settled: Artur Kubiak vs Henryk Tkaczyk -> Artur Kubiak won -> bet LOSS
-[2026-07-20 20:45:43] czech pipeline: 1310 match(es) scanned, 30 elo update(s), 1 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-07-20 20:45:43] ROI by grade C: 103W-127L-0P staked 225.37u net -10.17u roi -4.5%
-[2026-07-20 20:45:43] ROI by circuit czech: 57W-70L-0P staked 124.31u net -2.53u roi -2.0%
-[2026-07-20 20:45:43] ROI by circuit polish: 45W-57L-0P staked 100.06u net -7.92u roi -7.9%
-[2026-07-20 20:45:43] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-20 20:45:43] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-20 21:10:33] engine run started (quick: amateur circuits only)
 [2026-07-20 21:10:36] amateur settled: Miroslav Sklensky vs Jakub Zochniak -> Jakub Zochniak won -> bet WIN
@@ -1009,3 +998,15 @@
 [2026-07-31 08:18:51] ROI by circuit polish: 70W-83L-0P staked 149.84u net -6.67u roi -4.5%
 [2026-07-31 08:18:51] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-07-31 08:18:51] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-07-31 14:16:06] engine run started
+[2026-07-31 14:16:12] rankings parsed: 1212 players across 2 lists; scanning 160
+[2026-07-31 14:23:11] upcoming WTT singles matches found: 0
+[2026-07-31 14:23:16] amateur settled: Rutkowski Mateusz vs Krzysztof Kapik -> Rutkowski Mateusz won -> bet WIN
+[2026-07-31 14:23:16] amateur settled: Milan Tlusty vs Adam Kral -> Milan Tlusty won -> bet LOSS
+[2026-07-31 14:23:16] amateur settled: Jiri Zuzanek vs Alesh Bayer -> Alesh Bayer won -> bet WIN
+[2026-07-31 14:23:36] czech pipeline: 1550 match(es) scanned, 192 elo update(s), 3 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-07-31 14:23:36] ROI by grade C: 164W-205L-0P staked 361.43u net -20.97u roi -5.8%
+[2026-07-31 14:23:36] ROI by circuit czech: 92W-120L-0P staked 207.59u net -13.24u roi -6.4%
+[2026-07-31 14:23:36] ROI by circuit polish: 71W-83L-0P staked 150.84u net -6.01u roi -4.0%
+[2026-07-31 14:23:36] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-07-31 14:23:36] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
