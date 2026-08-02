@@ -1,12 +1,3 @@
-[2026-07-21 14:42:36] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
-[2026-07-21 14:42:36] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-21 15:12:23] engine run started (quick: amateur circuits only)
-[2026-07-21 15:12:26] amateur settled: Adrian Wiecek vs Martin Olejnik -> Adrian Wiecek won -> bet LOSS
-[2026-07-21 15:12:26] amateur settled: Vaclav Hruska vs Jiri Grohsgott -> Jiri Grohsgott won -> bet WIN
-[2026-07-21 15:12:48] czech pipeline: 1215 match(es) scanned, 18 elo update(s), 2 settled, 40 candidate(s) in 12h window, 13 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-07-21 15:12:48] ROI by grade C: 115W-134L-0P staked 244.24u net -3.73u roi -1.5%
-[2026-07-21 15:12:48] ROI by circuit czech: 62W-72L-0P staked 131.18u net +0.78u roi +0.6%
-[2026-07-21 15:12:48] ROI by circuit polish: 52W-62L-0P staked 112.06u net -4.78u roi -4.3%
 [2026-07-21 15:12:48] ROI by circuit wtt: 1W-0L-0P staked 1.00u net +0.28u roi +28.0%
 [2026-07-21 15:12:48] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-21 15:42:07] engine run started (quick: amateur circuits only)
@@ -1007,3 +998,40 @@
 [2026-08-02 16:55:00] ROI by circuit polish: 73W-85L-0P staked 154.54u net -7.05u roi -4.6%
 [2026-08-02 16:55:00] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-02 16:55:00] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-02 20:15:38] engine run started
+[2026-08-02 20:15:44] rankings parsed: 1212 players across 2 lists; scanning 160
+[2026-08-02 20:21:46] upcoming WTT singles matches found: 13
+[2026-08-02 20:21:48] no odds posted yet for Sora Matsushima vs Zhou Qihao
+[2026-08-02 20:21:48] modeled Sora Matsushima vs Zhou Qihao -> 78% / MODEL PICK: Sora Matsushima (78%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:49] no odds posted yet for Flavien Coton vs Felix Lebrun
+[2026-08-02 20:21:49] modeled Flavien Coton vs Felix Lebrun -> 29% / MODEL PICK: Felix Lebrun (71%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:51] no odds posted yet for Wen Ruibo vs Joao Geraldo
+[2026-08-02 20:21:51] modeled Wen Ruibo vs Joao Geraldo -> 52% / MODEL PICK: Wen Ruibo (52%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:52] no odds posted yet for Kuo Guan-Hong vs Anders Lind
+[2026-08-02 20:21:52] modeled Kuo Guan-Hong vs Anders Lind -> 29% / MODEL PICK: Anders Lind (71%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:54] no odds posted yet for Benedikt Duda vs Shunsuke Togami
+[2026-08-02 20:21:54] modeled Benedikt Duda vs Shunsuke Togami -> 42% / MODEL PICK: Shunsuke Togami (58%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:55] no odds posted yet for Hiroto Shinozuka vs Yukiya Uda
+[2026-08-02 20:21:55] modeled Hiroto Shinozuka vs Yukiya Uda -> 50% / MODEL PICK: Yukiya Uda (50%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:56] no odds posted yet for Oh Jun-sung vs Omar Assar
+[2026-08-02 20:21:56] modeled Oh Jun-sung vs Omar Assar -> 54% / MODEL PICK: Oh Jun-sung (54%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:58] no odds posted yet for Kim Na-yeong vs Chen Xingtong
+[2026-08-02 20:21:58] modeled Kim Na-yeong vs Chen Xingtong -> 29% / MODEL PICK: Chen Xingtong (71%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:21:59] no odds posted yet for Joo Cheon-hui vs Zhu Yuling
+[2026-08-02 20:21:59] modeled Joo Cheon-hui vs Zhu Yuling -> 41% / MODEL PICK: Zhu Yuling (59%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:22:01] no odds posted yet for Amy Wang vs Shin Yu-bin
+[2026-08-02 20:22:01] modeled Amy Wang vs Shin Yu-bin -> 17% / MODEL PICK: Shin Yu-bin (83%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:22:02] no odds posted yet for Yuan Jianan vs Margaryta Pesotska
+[2026-08-02 20:22:02] modeled Yuan Jianan vs Margaryta Pesotska -> 53% / MODEL PICK: Yuan Jianan (53%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:22:04] no odds posted yet for Zeng Jian vs Prithika Pavade
+[2026-08-02 20:22:04] modeled Zeng Jian vs Prithika Pavade -> 44% / MODEL PICK: Prithika Pavade (56%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:22:05] no odds posted yet for Sreeja Akula vs Sofia Polcanova
+[2026-08-02 20:22:05] modeled Sreeja Akula vs Sofia Polcanova -> 38% / MODEL PICK: Sofia Polcanova (62%) — odds not found; enter odds in app / grade C
+[2026-08-02 20:22:09] amateur settled: Pavel Fojt vs Dmitro Parhomenko -> Pavel Fojt won -> bet LOSS
+[2026-08-02 20:22:09] amateur settled: David Jicha vs Martin Stusek -> Martin Stusek won -> bet WIN
+[2026-08-02 20:22:31] czech pipeline: 1223 match(es) scanned, 122 elo update(s), 2 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-08-02 20:22:31] ROI by grade C: 180W-220L-0P staked 390.74u net -17.48u roi -4.5%
+[2026-08-02 20:22:31] ROI by circuit czech: 106W-133L-0P staked 233.20u net -8.71u roi -3.7%
+[2026-08-02 20:22:31] ROI by circuit polish: 73W-85L-0P staked 154.54u net -7.05u roi -4.6%
+[2026-08-02 20:22:31] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-02 20:22:31] run summary: 53 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
