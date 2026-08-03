@@ -1,11 +1,3 @@
-[2026-07-24 16:37:19] ROI by circuit czech: 68W-81L-0P staked 145.97u net -3.31u roi -2.3%
-[2026-07-24 16:37:19] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
-[2026-07-24 16:37:19] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-24 16:37:19] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-24 20:06:17] engine run started
-[2026-07-24 20:06:23] rankings parsed: 946 players across 2 lists; scanning 160
-[2026-07-24 20:12:14] upcoming WTT singles matches found: 16
-[2026-07-24 20:12:16] no odds posted yet for Hugo Calderano vs Andre Bertelsmeier
 [2026-07-24 20:12:16] modeled Hugo Calderano vs Andre Bertelsmeier -> 83% / MODEL PICK: Hugo Calderano (83%) — odds not found; enter odds in app / grade C
 [2026-07-24 20:12:19] no odds posted yet for Lubomir Pistej vs Alexis Lebrun
 [2026-07-24 20:12:19] modeled Lubomir Pistej vs Alexis Lebrun -> 16% / MODEL PICK: Alexis Lebrun (84%) — odds not found; enter odds in app / grade C
@@ -1006,3 +998,12 @@
 [2026-08-03 14:27:13] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
 [2026-08-03 14:27:13] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 14:27:13] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 14:56:55] engine run started (quick: amateur circuits only)
+[2026-08-03 14:57:00] amateur settled: Miroslav Barta vs Miroslav Novotny -> Miroslav Barta won -> bet WIN
+[2026-08-03 14:57:00] amateur settled: Trefny Jan vs Tomas Dousa -> Tomas Dousa won -> bet WIN
+[2026-08-03 14:57:20] czech pipeline: 1880 match(es) scanned, 17 elo update(s), 2 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-03 14:57:20] ROI by grade C: 183W-225L-0P staked 398.60u net -18.17u roi -4.6%
+[2026-08-03 14:57:20] ROI by circuit czech: 108W-135L-0P staked 237.20u net -7.34u roi -3.1%
+[2026-08-03 14:57:20] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
+[2026-08-03 14:57:20] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 14:57:20] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
