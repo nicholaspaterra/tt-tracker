@@ -1,11 +1,3 @@
-[2026-07-24 20:12:58] modeled Nina Mittelham vs Beatriz Fiore -> 94% / MODEL PICK: Nina Mittelham (94%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:13:02] no odds posted yet for Huang Yu-Jie vs Franziska Schreiner
-[2026-07-24 20:13:02] modeled Huang Yu-Jie vs Franziska Schreiner -> 81% / MODEL PICK: Huang Yu-Jie (81%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:13:05] no odds posted yet for Laura Watanabe vs Elizabet Abraamian
-[2026-07-24 20:13:05] modeled Laura Watanabe vs Elizabet Abraamian -> 22% / MODEL PICK: Elizabet Abraamian (78%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:13:08] no odds posted yet for Sreeja Akula vs Claire Picard
-[2026-07-24 20:13:08] modeled Sreeja Akula vs Claire Picard -> 73% / MODEL PICK: Sreeja Akula (73%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:13:13] amateur settled: Marek Holub vs Zbynek Pagac -> Marek Holub won -> bet WIN
 [2026-07-24 20:13:13] amateur settled: Martin Jaksa vs Miroslav Kowolowski -> Miroslav Kowolowski won -> bet WIN
 [2026-07-24 20:13:34] czech pipeline: 1419 match(es) scanned, 121 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 8 BET rec(s)
 [2026-07-24 20:13:34] ROI by grade C: 126W-146L-0P staked 266.71u net -6.87u roi -2.6%
@@ -1006,3 +998,10 @@
 [2026-08-03 16:58:09] ROI by circuit polish: 74W-90L-0P staked 160.40u net -11.11u roi -6.9%
 [2026-08-03 16:58:09] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 16:58:09] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 17:27:54] engine run started (quick: amateur circuits only)
+[2026-08-03 17:28:31] czech pipeline: 1896 match(es) scanned, 14 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-08-03 17:28:31] ROI by grade C: 183W-227L-0P staked 400.60u net -20.17u roi -5.0%
+[2026-08-03 17:28:31] ROI by circuit czech: 108W-135L-0P staked 237.20u net -7.34u roi -3.1%
+[2026-08-03 17:28:31] ROI by circuit polish: 74W-90L-0P staked 160.40u net -11.11u roi -6.9%
+[2026-08-03 17:28:31] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 17:28:31] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
