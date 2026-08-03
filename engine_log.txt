@@ -1,46 +1,3 @@
-[2026-07-24 00:26:31] modeled Yoo Yerin vs Doo Hoi-kem -> 41% / MODEL PICK: Doo Hoi-kem (59%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:36] no odds posted yet for Kaho Akae vs Lee Hoi Man Karen
-[2026-07-24 00:26:36] modeled Kaho Akae vs Lee Hoi Man Karen -> 86% / MODEL PICK: Kaho Akae (86%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:41] no odds posted yet for Debora Vivarelli vs Lily Zhang
-[2026-07-24 00:26:41] modeled Debora Vivarelli vs Lily Zhang -> 20% / MODEL PICK: Lily Zhang (80%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:46] no odds posted yet for Nina Mittelham vs Beatriz Fiore
-[2026-07-24 00:26:46] modeled Nina Mittelham vs Beatriz Fiore -> 94% / MODEL PICK: Nina Mittelham (94%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:52] no odds posted yet for Huang Yu-Jie vs Franziska Schreiner
-[2026-07-24 00:26:52] modeled Huang Yu-Jie vs Franziska Schreiner -> 81% / MODEL PICK: Huang Yu-Jie (81%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:58] no odds posted yet for Laura Watanabe vs Elizabet Abraamian
-[2026-07-24 00:26:58] modeled Laura Watanabe vs Elizabet Abraamian -> 22% / MODEL PICK: Elizabet Abraamian (78%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:27:01] no odds posted yet for Valentina Rios-Salazar vs Zhang Mo
-[2026-07-24 00:27:01] modeled Valentina Rios-Salazar vs Zhang Mo -> 13% / MODEL PICK: Zhang Mo (87%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:27:05] no odds posted yet for Sreeja Akula vs Claire Picard
-[2026-07-24 00:27:05] modeled Sreeja Akula vs Claire Picard -> 73% / MODEL PICK: Sreeja Akula (73%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:27:07] no odds posted yet for Su Tsz Tung vs Saki Shibata
-[2026-07-24 00:27:07] modeled Su Tsz Tung vs Saki Shibata -> 44% / MODEL PICK: Saki Shibata (56%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:27:10] amateur settled: Lukasz Pietraszko vs Patryk Jendrzejewski -> Patryk Jendrzejewski won -> bet WIN
-[2026-07-24 00:27:31] czech pipeline: 1472 match(es) scanned, 97 elo update(s), 1 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 5 BET rec(s)
-[2026-07-24 00:27:31] settled: Chan Baldwin Ho Wah vs Edward Ly -> Chan Baldwin Ho Wah won 3-1 -> bet LOSS
-[2026-07-24 00:27:31] ROI by grade C: 122W-139L-0P staked 255.96u net -3.44u roi -1.3%
-[2026-07-24 00:27:31] ROI by circuit czech: 66W-75L-0P staked 137.97u net +1.12u roi +0.8%
-[2026-07-24 00:27:31] ROI by circuit polish: 55W-63L-0P staked 115.99u net -3.84u roi -3.3%
-[2026-07-24 00:27:31] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-24 00:27:31] run summary: 60 rec(s), 3 bet(s) auto-logged, 1 bet(s) auto-settled
-[2026-07-24 01:09:06] engine run started (quick: amateur circuits only)
-[2026-07-24 01:09:29] czech pipeline: 655 match(es) scanned, 13 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-07-24 01:09:29] ROI by grade C: 122W-139L-0P staked 255.96u net -3.44u roi -1.3%
-[2026-07-24 01:09:29] ROI by circuit czech: 66W-75L-0P staked 137.97u net +1.12u roi +0.8%
-[2026-07-24 01:09:29] ROI by circuit polish: 55W-63L-0P staked 115.99u net -3.84u roi -3.3%
-[2026-07-24 01:09:29] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-24 01:09:29] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-24 09:32:19] engine run started (quick: amateur circuits only)
-[2026-07-24 09:32:21] amateur settled: Oleg Vitrovyj vs Darin Kyryl -> Darin Kyryl won -> bet LOSS
-[2026-07-24 09:32:21] amateur settled: Jaromir Cernik vs Miroslav Vaclavik -> Miroslav Vaclavik won -> bet LOSS
-[2026-07-24 09:32:21] amateur settled: Marek Chlebecek vs Jiri Zuzanek -> Jiri Zuzanek won -> bet LOSS
-[2026-07-24 09:32:43] czech pipeline: 761 match(es) scanned, 189 elo update(s), 3 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 10 BET rec(s)
-[2026-07-24 09:32:43] ROI by grade C: 122W-142L-0P staked 258.96u net -6.44u roi -2.5%
-[2026-07-24 09:32:43] ROI by circuit czech: 66W-78L-0P staked 140.97u net -1.88u roi -1.3%
-[2026-07-24 09:32:43] ROI by circuit polish: 55W-63L-0P staked 115.99u net -3.84u roi -3.3%
-[2026-07-24 09:32:43] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-24 09:32:43] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-24 15:17:55] engine run started (quick: amateur circuits only)
 [2026-07-24 15:17:58] amateur settled: Oleksandr Kolisnyk vs Erik Mares -> Erik Mares won -> bet LOSS
 [2026-07-24 15:17:58] amateur settled: Grzegorz Felkel vs Marcin Jadczyk -> Marcin Jadczyk won -> bet LOSS
 [2026-07-24 15:17:58] amateur settled: Jungman, Filip vs Michal Vedmoch -> Michal Vedmoch won -> bet WIN
@@ -1041,3 +998,10 @@
 [2026-08-03 04:21:12] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
 [2026-08-03 04:21:12] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 04:21:12] run summary: 57 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 04:43:20] engine run started (quick: amateur circuits only)
+[2026-08-03 04:43:48] czech pipeline: 1254 match(es) scanned, 5 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-03 04:43:48] ROI by grade C: 180W-224L-0P staked 394.60u net -21.34u roi -5.4%
+[2026-08-03 04:43:48] ROI by circuit czech: 106W-134L-0P staked 234.20u net -9.71u roi -4.2%
+[2026-08-03 04:43:48] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
+[2026-08-03 04:43:48] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 04:43:48] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
