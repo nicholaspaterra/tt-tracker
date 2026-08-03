@@ -1,11 +1,3 @@
-[2026-07-24 15:18:20] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-24 15:18:20] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-24 16:36:52] engine run started (quick: amateur circuits only)
-[2026-07-24 16:36:56] amateur settled: Jiri Grohsgott vs Miroslav Barta -> Miroslav Barta won -> bet LOSS
-[2026-07-24 16:36:56] amateur settled: Jan Pleskot vs Vaclav Kosar -> Vaclav Kosar won -> bet WIN
-[2026-07-24 16:36:56] amateur settled: Marek Holub vs Lukas Kern -> Lukas Kern won -> bet LOSS
-[2026-07-24 16:37:19] czech pipeline: 1354 match(es) scanned, 50 elo update(s), 3 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 2 BET rec(s)
-[2026-07-24 16:37:19] ROI by grade C: 124W-146L-0P staked 264.96u net -8.87u roi -3.4%
 [2026-07-24 16:37:19] ROI by circuit czech: 68W-81L-0P staked 145.97u net -3.31u roi -2.3%
 [2026-07-24 16:37:19] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
 [2026-07-24 16:37:19] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
@@ -1006,3 +998,11 @@
 [2026-08-03 12:41:41] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
 [2026-08-03 12:41:41] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 12:41:41] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 14:26:46] engine run started (quick: amateur circuits only)
+[2026-08-03 14:26:52] amateur settled: Piotr Przewlocki vs Sebastian Szostok -> Sebastian Szostok won -> bet WIN
+[2026-08-03 14:27:12] czech pipeline: 1880 match(es) scanned, 61 elo update(s), 1 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-08-03 14:27:13] ROI by grade C: 181W-225L-0P staked 396.60u net -21.54u roi -5.4%
+[2026-08-03 14:27:13] ROI by circuit czech: 106W-135L-0P staked 235.20u net -10.71u roi -4.5%
+[2026-08-03 14:27:13] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
+[2026-08-03 14:27:13] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 14:27:13] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
