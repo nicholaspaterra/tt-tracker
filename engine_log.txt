@@ -1,10 +1,3 @@
-[2026-07-24 20:12:34] no odds posted yet for Yukiya Uda vs Yuta Tanaka
-[2026-07-24 20:12:34] modeled Yukiya Uda vs Yuta Tanaka -> 80% / MODEL PICK: Yukiya Uda (80%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:36] no odds posted yet for Oh Jun-sung vs Leo de Nodrest
-[2026-07-24 20:12:36] modeled Oh Jun-sung vs Leo de Nodrest -> 61% / MODEL PICK: Oh Jun-sung (61%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:39] no odds posted yet for Wong Chun-ting vs Felipe Doti Arado
-[2026-07-24 20:12:39] modeled Wong Chun-ting vs Felipe Doti Arado -> 87% / MODEL PICK: Wong Chun-ting (87%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:44] no odds posted yet for Hina Hayata vs Ng Wing Lam
 [2026-07-24 20:12:44] modeled Hina Hayata vs Ng Wing Lam -> 90% / MODEL PICK: Hina Hayata (90%) — odds not found; enter odds in app / grade C
 [2026-07-24 20:12:47] no odds posted yet for Daniela Ortega vs Bruna Takahashi
 [2026-07-24 20:12:47] modeled Daniela Ortega vs Bruna Takahashi -> 16% / MODEL PICK: Bruna Takahashi (84%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,11 @@
 [2026-08-03 15:27:28] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
 [2026-08-03 15:27:28] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 15:27:28] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 16:27:46] engine run started (quick: amateur circuits only)
+[2026-08-03 16:27:52] amateur settled: Lukasz Pietraszko vs Jakub Glanowski -> Jakub Glanowski won -> bet LOSS
+[2026-08-03 16:28:20] czech pipeline: 1880 match(es) scanned, 34 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-08-03 16:28:20] ROI by grade C: 183W-226L-0P staked 399.60u net -19.17u roi -4.8%
+[2026-08-03 16:28:20] ROI by circuit czech: 108W-135L-0P staked 237.20u net -7.34u roi -3.1%
+[2026-08-03 16:28:20] ROI by circuit polish: 74W-89L-0P staked 159.40u net -10.11u roi -6.3%
+[2026-08-03 16:28:20] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 16:28:20] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
