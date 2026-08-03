@@ -1,12 +1,3 @@
-[2026-07-24 20:12:16] modeled Hugo Calderano vs Andre Bertelsmeier -> 83% / MODEL PICK: Hugo Calderano (83%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:19] no odds posted yet for Lubomir Pistej vs Alexis Lebrun
-[2026-07-24 20:12:19] modeled Lubomir Pistej vs Alexis Lebrun -> 16% / MODEL PICK: Alexis Lebrun (84%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:23] no odds posted yet for Kay Stumper vs Shunsuke Togami
-[2026-07-24 20:12:23] modeled Kay Stumper vs Shunsuke Togami -> 10% / MODEL PICK: Shunsuke Togami (90%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:26] no odds posted yet for Darko Jorgic vs Guilherme Teodoro
-[2026-07-24 20:12:26] modeled Darko Jorgic vs Guilherme Teodoro -> 84% / MODEL PICK: Darko Jorgic (84%) — odds not found; enter odds in app / grade C
-[2026-07-24 20:12:31] no odds posted yet for Patrick Franziska vs Davi Fujii
-[2026-07-24 20:12:31] modeled Patrick Franziska vs Davi Fujii -> 95% / MODEL PICK: Patrick Franziska (95%) — odds not found; enter odds in app / grade C
 [2026-07-24 20:12:34] no odds posted yet for Yukiya Uda vs Yuta Tanaka
 [2026-07-24 20:12:34] modeled Yukiya Uda vs Yuta Tanaka -> 80% / MODEL PICK: Yukiya Uda (80%) — odds not found; enter odds in app / grade C
 [2026-07-24 20:12:36] no odds posted yet for Oh Jun-sung vs Leo de Nodrest
@@ -1007,3 +998,10 @@
 [2026-08-03 14:57:20] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
 [2026-08-03 14:57:20] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 14:57:20] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 15:26:59] engine run started (quick: amateur circuits only)
+[2026-08-03 15:27:28] czech pipeline: 1880 match(es) scanned, 18 elo update(s), 0 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-08-03 15:27:28] ROI by grade C: 183W-225L-0P staked 398.60u net -18.17u roi -4.6%
+[2026-08-03 15:27:28] ROI by circuit czech: 108W-135L-0P staked 237.20u net -7.34u roi -3.1%
+[2026-08-03 15:27:28] ROI by circuit polish: 74W-88L-0P staked 158.40u net -9.11u roi -5.8%
+[2026-08-03 15:27:28] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 15:27:28] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
