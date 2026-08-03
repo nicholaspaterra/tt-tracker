@@ -1,11 +1,3 @@
-[2026-07-24 00:25:50] modeled Charlotte Lutz vs Hitomi Sato -> 20% / MODEL PICK: Hitomi Sato (80%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:00] no odds posted yet for Miyu Nagasaki vs Giulia Takahashi
-[2026-07-24 00:26:00] modeled Miyu Nagasaki vs Giulia Takahashi -> 83% / MODEL PICK: Miyu Nagasaki (83%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:15] no odds posted yet for Sakura Yokoi vs Ana Codina
-[2026-07-24 00:26:15] modeled Sakura Yokoi vs Ana Codina -> 95% / MODEL PICK: Sakura Yokoi (95%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:29] no odds posted yet for Daniela Ortega vs Bruna Takahashi
-[2026-07-24 00:26:29] modeled Daniela Ortega vs Bruna Takahashi -> 16% / MODEL PICK: Bruna Takahashi (84%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:26:31] no odds posted yet for Yoo Yerin vs Doo Hoi-kem
 [2026-07-24 00:26:31] modeled Yoo Yerin vs Doo Hoi-kem -> 41% / MODEL PICK: Doo Hoi-kem (59%) — odds not found; enter odds in app / grade C
 [2026-07-24 00:26:36] no odds posted yet for Kaho Akae vs Lee Hoi Man Karen
 [2026-07-24 00:26:36] modeled Kaho Akae vs Lee Hoi Man Karen -> 86% / MODEL PICK: Kaho Akae (86%) — odds not found; enter odds in app / grade C
@@ -1006,3 +998,46 @@
 [2026-08-03 03:43:33] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
 [2026-08-03 03:43:33] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 03:43:33] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 04:13:11] engine run started
+[2026-08-03 04:13:17] rankings parsed: 1212 players across 2 lists; scanning 160
+[2026-08-03 04:20:27] upcoming WTT singles matches found: 17
+[2026-08-03 04:20:28] no odds posted yet for Sora Matsushima vs Zhou Qihao
+[2026-08-03 04:20:28] modeled Sora Matsushima vs Zhou Qihao -> 78% / MODEL PICK: Sora Matsushima (78%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:30] no odds posted yet for Flavien Coton vs Felix Lebrun
+[2026-08-03 04:20:30] modeled Flavien Coton vs Felix Lebrun -> 29% / MODEL PICK: Felix Lebrun (71%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:31] no odds posted yet for Lim Jong-hoon vs Lin Yun-ju
+[2026-08-03 04:20:31] modeled Lim Jong-hoon vs Lin Yun-ju -> 29% / MODEL PICK: Lin Yun-ju (71%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:32] no odds posted yet for Wen Ruibo vs Joao Geraldo
+[2026-08-03 04:20:32] modeled Wen Ruibo vs Joao Geraldo -> 55% / MODEL PICK: Wen Ruibo (55%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:34] no odds posted yet for Kuo Guan-Hong vs Anders Lind
+[2026-08-03 04:20:34] modeled Kuo Guan-Hong vs Anders Lind -> 29% / MODEL PICK: Anders Lind (71%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:35] no odds posted yet for Benedikt Duda vs Shunsuke Togami
+[2026-08-03 04:20:35] modeled Benedikt Duda vs Shunsuke Togami -> 42% / MODEL PICK: Shunsuke Togami (58%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:36] no odds posted yet for Manav Vikash Thakkar vs Darko Jorgic
+[2026-08-03 04:20:36] modeled Manav Vikash Thakkar vs Darko Jorgic -> 27% / MODEL PICK: Darko Jorgic (73%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:38] no odds posted yet for Hiroto Shinozuka vs Yukiya Uda
+[2026-08-03 04:20:38] modeled Hiroto Shinozuka vs Yukiya Uda -> 50% / MODEL PICK: Yukiya Uda (50%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:39] no odds posted yet for Oh Jun-sung vs Omar Assar
+[2026-08-03 04:20:39] modeled Oh Jun-sung vs Omar Assar -> 54% / MODEL PICK: Oh Jun-sung (54%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:40] no odds posted yet for Manika Batra vs Kuai Man
+[2026-08-03 04:20:40] modeled Manika Batra vs Kuai Man -> 19% / MODEL PICK: Kuai Man (81%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:42] no odds posted yet for Kim Na-yeong vs Chen Xingtong
+[2026-08-03 04:20:42] modeled Kim Na-yeong vs Chen Xingtong -> 25% / MODEL PICK: Chen Xingtong (75%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:43] no odds posted yet for Joo Cheon-hui vs Zhu Yuling
+[2026-08-03 04:20:43] modeled Joo Cheon-hui vs Zhu Yuling -> 41% / MODEL PICK: Zhu Yuling (59%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:44] no odds posted yet for Amy Wang vs Shin Yu-bin
+[2026-08-03 04:20:44] modeled Amy Wang vs Shin Yu-bin -> 17% / MODEL PICK: Shin Yu-bin (83%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:46] no odds posted yet for Lee Eun-hye vs Chen Yi
+[2026-08-03 04:20:46] modeled Lee Eun-hye vs Chen Yi -> 22% / MODEL PICK: Chen Yi (78%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:47] no odds posted yet for Yuan Jianan vs Margaryta Pesotska
+[2026-08-03 04:20:47] modeled Yuan Jianan vs Margaryta Pesotska -> 53% / MODEL PICK: Yuan Jianan (53%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:48] no odds posted yet for Zeng Jian vs Prithika Pavade
+[2026-08-03 04:20:48] modeled Zeng Jian vs Prithika Pavade -> 44% / MODEL PICK: Prithika Pavade (56%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:20:50] no odds posted yet for Sreeja Akula vs Sofia Polcanova
+[2026-08-03 04:20:50] modeled Sreeja Akula vs Sofia Polcanova -> 38% / MODEL PICK: Sofia Polcanova (62%) — odds not found; enter odds in app / grade C
+[2026-08-03 04:21:12] czech pipeline: 1254 match(es) scanned, 12 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-03 04:21:12] ROI by grade C: 180W-224L-0P staked 394.60u net -21.34u roi -5.4%
+[2026-08-03 04:21:12] ROI by circuit czech: 106W-134L-0P staked 234.20u net -9.71u roi -4.2%
+[2026-08-03 04:21:12] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
+[2026-08-03 04:21:12] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 04:21:12] run summary: 57 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
