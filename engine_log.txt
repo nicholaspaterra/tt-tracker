@@ -1,12 +1,3 @@
-[2026-07-24 22:34:12] engine run started (quick: amateur circuits only)
-[2026-07-24 22:34:15] amateur settled: Milan Kolar vs Radim Pavelka -> Radim Pavelka won -> bet LOSS
-[2026-07-24 22:34:15] amateur settled: Radek Muller vs Jaroslav Dohnal -> Radek Muller won -> bet LOSS
-[2026-07-24 22:34:15] amateur settled: Daniel Tuma vs Zmuda Petr -> Daniel Tuma won -> bet LOSS
-[2026-07-24 22:34:35] czech pipeline: 1440 match(es) scanned, 77 elo update(s), 3 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 5 BET rec(s)
-[2026-07-24 22:34:35] ROI by grade C: 126W-149L-0P staked 269.71u net -9.87u roi -3.7%
-[2026-07-24 22:34:35] ROI by circuit czech: 70W-84L-0P staked 150.72u net -4.31u roi -2.9%
-[2026-07-24 22:34:35] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
-[2026-07-24 22:34:35] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
 [2026-07-24 22:34:35] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-25 00:14:49] engine run started
 [2026-07-25 00:14:54] rankings parsed: 946 players across 2 lists; scanning 160
@@ -1007,3 +998,53 @@
 [2026-08-03 19:07:03] ROI by circuit polish: 74W-90L-0P staked 160.40u net -11.11u roi -6.9%
 [2026-08-03 19:07:03] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 19:07:03] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 20:13:18] engine run started
+[2026-08-03 20:13:25] rankings parsed: 948 players across 2 lists; scanning 160
+[2026-08-03 20:19:53] upcoming WTT singles matches found: 26
+[2026-08-03 20:19:55] modeled Sora Matsushima vs Zhou Qihao -> 78% / NO BET (edge 0.7% @ bet365 -500/+333) / grade C
+[2026-08-03 20:19:57] modeled Flavien Coton vs Felix Lebrun -> 29% / BET 1.00u on Flavien Coton @ +500 (bet365) / grade C
+[2026-08-03 20:19:58] modeled Tomokazu Harimoto vs Nicholas Lum -> 88% / NO BET (edge 4.5% @ bet365 -10000/+1100) / grade C
+[2026-08-03 20:19:59] no odds posted yet for Lim Jong-hoon vs Lin Yun-ju
+[2026-08-03 20:19:59] modeled Lim Jong-hoon vs Lin Yun-ju -> 29% / MODEL PICK: Lin Yun-ju (71%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:01] no odds posted yet for Manush Utpalbhai Shah vs Alexis Lebrun
+[2026-08-03 20:20:01] modeled Manush Utpalbhai Shah vs Alexis Lebrun -> 22% / MODEL PICK: Alexis Lebrun (78%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:04] modeled Qiu Dang vs An Jae-hyun -> 64% / NO BET (edge 1.5% @ bet365 -200/+150) / grade C
+[2026-08-03 20:20:06] no odds posted yet for Wen Ruibo vs Joao Geraldo
+[2026-08-03 20:20:06] modeled Wen Ruibo vs Joao Geraldo -> 55% / MODEL PICK: Wen Ruibo (55%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:08] no odds posted yet for Kuo Guan-Hong vs Anders Lind
+[2026-08-03 20:20:08] modeled Kuo Guan-Hong vs Anders Lind -> 29% / MODEL PICK: Anders Lind (71%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:10] modeled Benedikt Duda vs Shunsuke Togami -> 39% / BET 1.00u on Benedikt Duda @ +300 (bet365) / grade C
+[2026-08-03 20:20:14] modeled Manav Vikash Thakkar vs Darko Jorgic -> 27% / NO BET (edge 3.5% @ bet365 +300/-455) / grade C
+[2026-08-03 20:20:16] no odds posted yet for Kanak Jha vs Tomislav Pucar
+[2026-08-03 20:20:16] modeled Kanak Jha vs Tomislav Pucar -> 66% / MODEL PICK: Kanak Jha (66%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:17] no odds posted yet for Hiroto Shinozuka vs Yukiya Uda
+[2026-08-03 20:20:17] modeled Hiroto Shinozuka vs Yukiya Uda -> 50% / MODEL PICK: Yukiya Uda (50%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:19] modeled Oh Jun-sung vs Omar Assar -> 52% / BET 1.00u on Omar Assar @ +300 (bet365) / grade C
+[2026-08-03 20:20:20] modeled Miwa Harimoto vs Honoka Hashimoto -> 64% / BET 1.00u on Honoka Hashimoto @ +400 (bet365) / grade C
+[2026-08-03 20:20:22] modeled Manika Batra vs Kuai Man -> 17% / NO BET (edge 3.3% @ bet365 +350/-625) / grade C
+[2026-08-03 20:20:23] no odds posted yet for Kim Na-yeong vs Chen Xingtong
+[2026-08-03 20:20:23] modeled Kim Na-yeong vs Chen Xingtong -> 25% / MODEL PICK: Chen Xingtong (75%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:28] no odds posted yet for Wang Yidi vs Mima Ito
+[2026-08-03 20:20:28] modeled Wang Yidi vs Mima Ito -> 68% / MODEL PICK: Wang Yidi (68%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:29] no odds posted yet for Hina Hayata vs Doo Hoi-kem
+[2026-08-03 20:20:29] modeled Hina Hayata vs Doo Hoi-kem -> 84% / MODEL PICK: Hina Hayata (84%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:42] modeled Joo Cheon-hui vs Zhu Yuling -> 41% / BET 1.00u on Joo Cheon-hui @ +250 (bet365) / grade C
+[2026-08-03 20:20:45] no odds posted yet for Amy Wang vs Shin Yu-bin
+[2026-08-03 20:20:45] modeled Amy Wang vs Shin Yu-bin -> 17% / MODEL PICK: Shin Yu-bin (83%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:47] no odds posted yet for Lee Eun-hye vs Chen Yi
+[2026-08-03 20:20:47] modeled Lee Eun-hye vs Chen Yi -> 21% / MODEL PICK: Chen Yi (79%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:49] modeled Hana Goda vs Bernadette Szocs -> 56% / BET 1.00u on Hana Goda @ +100 (bet365) / grade C
+[2026-08-03 20:20:51] modeled Cheng I-ching vs Elizabeta Samara -> 55% / BET 1.00u on Elizabeta Samara @ +350 (bet365) / grade C
+[2026-08-03 20:20:52] no odds posted yet for Yuan Jianan vs Margaryta Pesotska
+[2026-08-03 20:20:52] modeled Yuan Jianan vs Margaryta Pesotska -> 53% / MODEL PICK: Yuan Jianan (53%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:54] no odds posted yet for Zeng Jian vs Prithika Pavade
+[2026-08-03 20:20:54] modeled Zeng Jian vs Prithika Pavade -> 44% / MODEL PICK: Prithika Pavade (56%) — odds not found; enter odds in app / grade C
+[2026-08-03 20:20:55] modeled Sreeja Akula vs Sofia Polcanova -> 38% / BET 1.00u on Sreeja Akula @ +225 (bet365) / grade C
+[2026-08-03 20:21:01] amateur settled: Tibor Spanik vs Jakub Glanowski -> Tibor Spanik won -> bet LOSS
+[2026-08-03 20:21:01] amateur settled: Daniel Vitasek vs Jakub Travnicek -> Daniel Vitasek won -> bet WIN
+[2026-08-03 20:21:25] czech pipeline: 1966 match(es) scanned, 46 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-03 20:21:25] ROI by grade C: 185W-229L-0P staked 404.60u net -20.62u roi -5.1%
+[2026-08-03 20:21:25] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
+[2026-08-03 20:21:25] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
+[2026-08-03 20:21:25] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 20:21:25] run summary: 66 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
