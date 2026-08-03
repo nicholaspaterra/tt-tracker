@@ -1,10 +1,3 @@
-[2026-07-24 00:25:42] no odds posted yet for Hina Hayata vs Ng Wing Lam
-[2026-07-24 00:25:42] modeled Hina Hayata vs Ng Wing Lam -> 90% / MODEL PICK: Hina Hayata (90%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:25:47] no odds posted yet for Victoria Strassburger vs Satsuki Odo
-[2026-07-24 00:25:47] modeled Victoria Strassburger vs Satsuki Odo -> 5% / MODEL PICK: Satsuki Odo (95%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:25:49] no odds posted yet for Honoka Hashimoto vs Sachi Aoki
-[2026-07-24 00:25:49] modeled Honoka Hashimoto vs Sachi Aoki -> 80% / MODEL PICK: Honoka Hashimoto (80%) — odds not found; enter odds in app / grade C
-[2026-07-24 00:25:50] no odds posted yet for Charlotte Lutz vs Hitomi Sato
 [2026-07-24 00:25:50] modeled Charlotte Lutz vs Hitomi Sato -> 20% / MODEL PICK: Hitomi Sato (80%) — odds not found; enter odds in app / grade C
 [2026-07-24 00:26:00] no odds posted yet for Miyu Nagasaki vs Giulia Takahashi
 [2026-07-24 00:26:00] modeled Miyu Nagasaki vs Giulia Takahashi -> 83% / MODEL PICK: Miyu Nagasaki (83%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,11 @@
 [2026-08-03 03:13:34] ROI by circuit polish: 73W-87L-0P staked 156.40u net -8.91u roi -5.7%
 [2026-08-03 03:13:34] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 03:13:34] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 03:43:09] engine run started (quick: amateur circuits only)
+[2026-08-03 03:43:12] amateur settled: Witold Buczynski vs Sebastian Szostok -> Witold Buczynski won -> bet LOSS
+[2026-08-03 03:43:33] czech pipeline: 1254 match(es) scanned, 12 elo update(s), 1 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-03 03:43:33] ROI by grade C: 180W-224L-0P staked 394.60u net -21.34u roi -5.4%
+[2026-08-03 03:43:33] ROI by circuit czech: 106W-134L-0P staked 234.20u net -9.71u roi -4.2%
+[2026-08-03 03:43:33] ROI by circuit polish: 73W-88L-0P staked 157.40u net -9.91u roi -6.3%
+[2026-08-03 03:43:33] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 03:43:33] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
