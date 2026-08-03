@@ -1,53 +1,3 @@
-[2026-07-24 22:34:35] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-25 00:14:49] engine run started
-[2026-07-25 00:14:54] rankings parsed: 946 players across 2 lists; scanning 160
-[2026-07-25 00:21:14] upcoming WTT singles matches found: 16
-[2026-07-25 00:21:16] no odds posted yet for Hugo Calderano vs Tomislav Pucar
-[2026-07-25 00:21:16] modeled Hugo Calderano vs Tomislav Pucar -> 76% / MODEL PICK: Hugo Calderano (76%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:17] no odds posted yet for Feng Yi-hsin vs Alexis Lebrun
-[2026-07-25 00:21:17] modeled Feng Yi-hsin vs Alexis Lebrun -> 25% / MODEL PICK: Alexis Lebrun (75%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:18] no odds posted yet for Wong Chun-ting vs Shunsuke Togami
-[2026-07-25 00:21:18] modeled Wong Chun-ting vs Shunsuke Togami -> 28% / MODEL PICK: Shunsuke Togami (72%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:20] no odds posted yet for Darko Jorgic vs Tom Jarvis
-[2026-07-25 00:21:20] modeled Darko Jorgic vs Tom Jarvis -> 73% / MODEL PICK: Darko Jorgic (73%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:21] no odds posted yet for Oh Jun-sung vs Benedikt Duda
-[2026-07-25 00:21:21] modeled Oh Jun-sung vs Benedikt Duda -> 40% / MODEL PICK: Benedikt Duda (60%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:22] no odds posted yet for Patrick Franziska vs Thibault Poret
-[2026-07-25 00:21:22] modeled Patrick Franziska vs Thibault Poret -> 57% / MODEL PICK: Patrick Franziska (57%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:24] no odds posted yet for Kanak Jha vs An Jae-hyun
-[2026-07-25 00:21:24] modeled Kanak Jha vs An Jae-hyun -> 57% / MODEL PICK: Kanak Jha (57%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:25] no odds posted yet for Yukiya Uda vs Hiroto Shinozuka
-[2026-07-25 00:21:25] modeled Yukiya Uda vs Hiroto Shinozuka -> 48% / MODEL PICK: Hiroto Shinozuka (52%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:26] no odds posted yet for Hina Hayata vs Elizabet Abraamian
-[2026-07-25 00:21:26] modeled Hina Hayata vs Elizabet Abraamian -> 81% / MODEL PICK: Hina Hayata (81%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:28] no odds posted yet for Huang Yu-Jie vs Satsuki Odo
-[2026-07-25 00:21:28] modeled Huang Yu-Jie vs Satsuki Odo -> 26% / MODEL PICK: Satsuki Odo (74%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:29] no odds posted yet for Honoka Hashimoto vs Zhang Mo
-[2026-07-25 00:21:29] modeled Honoka Hashimoto vs Zhang Mo -> 78% / MODEL PICK: Honoka Hashimoto (78%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:30] no odds posted yet for Sreeja Akula vs Hitomi Sato
-[2026-07-25 00:21:30] modeled Sreeja Akula vs Hitomi Sato -> 24% / MODEL PICK: Hitomi Sato (76%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:32] no odds posted yet for Miyu Nagasaki vs Lily Zhang
-[2026-07-25 00:21:32] modeled Miyu Nagasaki vs Lily Zhang -> 62% / MODEL PICK: Miyu Nagasaki (62%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:33] no odds posted yet for Sakura Yokoi vs Doo Hoi-kem
-[2026-07-25 00:21:33] modeled Sakura Yokoi vs Doo Hoi-kem -> 61% / MODEL PICK: Sakura Yokoi (61%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:35] no odds posted yet for Nina Mittelham vs Bruna Takahashi
-[2026-07-25 00:21:35] modeled Nina Mittelham vs Bruna Takahashi -> 32% / MODEL PICK: Bruna Takahashi (68%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:36] no odds posted yet for Kaho Akae vs Saki Shibata
-[2026-07-25 00:21:36] modeled Kaho Akae vs Saki Shibata -> 50% / MODEL PICK: Saki Shibata (50%) — odds not found; enter odds in app / grade C
-[2026-07-25 00:21:39] amateur settled: Radek Bartunek vs Petr Picek -> Petr Picek won -> bet LOSS
-[2026-07-25 00:22:00] czech pipeline: 1457 match(es) scanned, 34 elo update(s), 1 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 10 BET rec(s)
-[2026-07-25 00:22:00] ROI by grade C: 126W-150L-0P staked 270.71u net -10.87u roi -4.0%
-[2026-07-25 00:22:00] ROI by circuit czech: 70W-85L-0P staked 151.72u net -5.31u roi -3.5%
-[2026-07-25 00:22:00] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
-[2026-07-25 00:22:00] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-25 00:22:00] run summary: 56 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-25 07:44:58] engine run started (quick: amateur circuits only)
-[2026-07-25 07:44:59] amateur settled: Pavel Kulhanek vs Ulrych, Martin -> Ulrych, Martin won -> bet LOSS
-[2026-07-25 07:44:59] amateur settled: Tomas Regner vs Petr Picek -> Tomas Regner won -> bet WIN
-[2026-07-25 07:44:59] amateur settled: Roman Urban vs Radek Bartunek -> Radek Bartunek won -> bet LOSS
-[2026-07-25 07:45:53] czech pipeline: 667 match(es) scanned, 143 elo update(s), 3 settled, 40 candidate(s) in 12h window, 7 gated NO BET (thin Elo), 14 BET rec(s)
-[2026-07-25 07:45:53] ROI by grade C: 127W-152L-0P staked 273.71u net -11.50u roi -4.2%
-[2026-07-25 07:45:53] ROI by circuit czech: 71W-87L-0P staked 154.72u net -5.94u roi -3.8%
 [2026-07-25 07:45:53] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
 [2026-07-25 07:45:53] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
 [2026-07-25 07:45:53] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
@@ -1048,3 +998,10 @@
 [2026-08-03 20:21:25] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
 [2026-08-03 20:21:25] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 20:21:25] run summary: 66 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-03 22:44:09] engine run started (quick: amateur circuits only)
+[2026-08-03 22:44:35] czech pipeline: 1994 match(es) scanned, 65 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-08-03 22:44:35] ROI by grade C: 185W-229L-0P staked 404.60u net -20.62u roi -5.1%
+[2026-08-03 22:44:35] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
+[2026-08-03 22:44:35] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
+[2026-08-03 22:44:35] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-03 22:44:35] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
