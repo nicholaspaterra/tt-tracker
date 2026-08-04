@@ -1,10 +1,3 @@
-[2026-07-25 07:45:53] ROI by circuit polish: 55W-64L-0P staked 116.99u net -4.84u roi -4.1%
-[2026-07-25 07:45:53] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-25 07:45:53] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-25 11:18:01] engine run started (quick: amateur circuits only)
-[2026-07-25 11:18:03] amateur settled: Piotr Cyrnek vs Karol Strowski -> Piotr Cyrnek won -> bet LOSS
-[2026-07-25 11:18:03] amateur settled: Josef Braun vs Maciej Domin -> Maciej Domin won -> bet WIN
-[2026-07-25 11:18:03] amateur settled: Lukas Krupnik Junior vs Richard Jancak -> Richard Jancak won -> bet LOSS
 [2026-07-25 11:18:25] czech pipeline: 748 match(es) scanned, 104 elo update(s), 3 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 8 BET rec(s)
 [2026-07-25 11:18:25] ROI by grade C: 128W-154L-0P staked 276.71u net -11.50u roi -4.2%
 [2026-07-25 11:18:25] ROI by circuit czech: 71W-88L-0P staked 155.72u net -6.94u roi -4.5%
@@ -1005,3 +998,10 @@
 [2026-08-03 22:44:35] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
 [2026-08-03 22:44:35] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-03 22:44:35] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-04 01:57:02] engine run started (quick: amateur circuits only)
+[2026-08-04 01:57:26] czech pipeline: 1289 match(es) scanned, 28 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-08-04 01:57:26] ROI by grade C: 185W-229L-0P staked 404.60u net -20.62u roi -5.1%
+[2026-08-04 01:57:26] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
+[2026-08-04 01:57:26] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
+[2026-08-04 01:57:26] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
+[2026-08-04 01:57:26] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
