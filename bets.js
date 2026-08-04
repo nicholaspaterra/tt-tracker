@@ -138273,15 +138273,15 @@ window.BETS_FILE = {
       "matchId": "34kges4rzgdseqo",
       "playerA": "Kaczynski Piotr",
       "playerB": "Jakub Kaczmarek",
-      "myProbA": 0.631,
+      "myProbA": 0.655,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Kaczynski Piotr (63%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Kaczynski Piotr (66%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1542 (n=29) vs 1449 (n=149)"
+      "reasoning": "Elo 1561 (n=30) vs 1449 (n=149)"
     },
     {
       "id": "rec-cz-jek35sp2mg0f97o",
@@ -138425,15 +138425,15 @@ window.BETS_FILE = {
       "matchId": "l6keds4jwmdsv75",
       "playerA": "Wojciech Pytlas",
       "playerB": "Pawel Polok",
-      "myProbA": 0.486,
+      "myProbA": 0.459,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Pawel Polok (51%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Pawel Polok (54%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1592 (n=79) vs 1602 (n=20)"
+      "reasoning": "Elo 1574 (n=80) vs 1602 (n=20)"
     },
     {
       "id": "rec-pl-9gkl1sjz443fmqx",
@@ -138691,15 +138691,15 @@ window.BETS_FILE = {
       "matchId": "34kges4rzzdaeqo",
       "playerA": "Tomasz Wrzalik",
       "playerB": "Wojciech Pytlas",
-      "myProbA": 0.281,
+      "myProbA": 0.303,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Wojciech Pytlas (72%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Wojciech Pytlas (70%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1429 (n=56) vs 1592 (n=79)"
+      "reasoning": "Elo 1429 (n=56) vs 1574 (n=80)"
     },
     {
       "id": "rec-cz-jr7o1so5p3jbgk0",
