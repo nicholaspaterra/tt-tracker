@@ -1,10 +1,3 @@
-[2026-07-26 23:46:44] ROI by grade C: 139W-173L-0P staked 305.89u net -18.15u roi -5.9%
-[2026-07-26 23:46:44] ROI by circuit czech: 78W-102L-0P staked 176.11u net -12.14u roi -6.9%
-[2026-07-26 23:46:44] ROI by circuit polish: 60W-70L-0P staked 127.78u net -5.29u roi -4.1%
-[2026-07-26 23:46:44] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-26 23:46:44] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-27 12:10:42] engine run started
-[2026-07-27 12:10:47] rankings parsed: 946 players across 2 lists; scanning 160
 [2026-07-27 12:17:24] upcoming WTT singles matches found: 4
 [2026-07-27 12:17:28] no odds posted yet for Kirill Gerassimenko vs Evgeny Tikhonov
 [2026-07-27 12:17:28] modeled Kirill Gerassimenko vs Evgeny Tikhonov -> 68% / MODEL PICK: Kirill Gerassimenko (68%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,10 @@
 [2026-08-05 12:40:34] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
 [2026-08-05 12:40:34] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
 [2026-08-05 12:40:34] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-05 13:04:51] engine run started (quick: amateur circuits only)
+[2026-08-05 13:05:15] czech pipeline: 1911 match(es) scanned, 16 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-05 13:05:15] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
+[2026-08-05 13:05:15] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
+[2026-08-05 13:05:15] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
+[2026-08-05 13:05:15] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
+[2026-08-05 13:05:15] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
