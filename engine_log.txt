@@ -1,10 +1,3 @@
-[2026-07-29 10:20:47] ROI by grade C: 153W-190L-0P staked 336.13u net -16.63u roi -5.0%
-[2026-07-29 10:20:47] ROI by circuit czech: 85W-110L-0P staked 190.91u net -11.14u roi -5.8%
-[2026-07-29 10:20:47] ROI by circuit polish: 67W-78L-0P staked 142.22u net -3.77u roi -2.6%
-[2026-07-29 10:20:47] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-07-29 10:20:47] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-29 16:06:08] engine run started
-[2026-07-29 16:06:16] rankings parsed: 1212 players across 2 lists; scanning 160
 [2026-07-29 16:12:53] upcoming WTT singles matches found: 0
 [2026-07-29 16:12:56] amateur settled: Witold Buczynski vs Lukasz Oracz -> Witold Buczynski won -> bet LOSS
 [2026-07-29 16:12:56] amateur settled: Kacper Petas vs Adamiak Grzegorz -> Kacper Petas won -> bet LOSS
@@ -1005,3 +998,13 @@
 [2026-08-07 14:56:35] ROI by circuit polish: 76W-93L-0P staked 165.40u net -12.78u roi -7.7%
 [2026-08-07 14:56:35] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-07 14:56:35] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-07 15:59:45] engine run started (quick: amateur circuits only)
+[2026-08-07 16:00:33] amateur settled: Tibor Spanik vs Marcin Jadczyk -> Tibor Spanik won -> bet LOSS
+[2026-08-07 16:00:33] amateur settled: Marek Kulisek vs David Vesecky -> David Vesecky won -> bet WIN
+[2026-08-07 16:01:03] warn: czech odds fetch failed for wv78lsy04v4aokr: HTTP Error 502: Bad Gateway
+[2026-08-07 16:01:55] czech pipeline: 1924 match(es) scanned, 37 elo update(s), 2 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-08-07 16:01:55] ROI by grade C: 188W-242L-0P staked 420.10u net -31.46u roi -7.5%
+[2026-08-07 16:01:55] ROI by circuit czech: 111W-139L-0P staked 244.20u net -9.46u roi -3.9%
+[2026-08-07 16:01:55] ROI by circuit polish: 76W-94L-0P staked 166.12u net -13.50u roi -8.1%
+[2026-08-07 16:01:55] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-07 16:01:55] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
