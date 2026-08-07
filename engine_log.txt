@@ -1,11 +1,3 @@
-[2026-07-28 02:29:08] czech pipeline: 545 match(es) scanned, 21 elo update(s), 2 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-07-28 02:29:08] ROI by grade C: 141W-177L-0P staked 311.13u net -17.79u roi -5.7%
-[2026-07-28 02:29:08] ROI by circuit czech: 80W-105L-0P staked 180.91u net -11.34u roi -6.3%
-[2026-07-28 02:29:08] ROI by circuit polish: 60W-71L-0P staked 128.22u net -5.73u roi -4.5%
-[2026-07-28 02:29:08] ROI by circuit wtt: 1W-1L-0P staked 2.00u net -0.72u roi -36.0%
-[2026-07-28 02:29:08] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-28 02:58:50] engine run started (quick: amateur circuits only)
-[2026-07-28 02:58:51] amateur settled: Marcel Pikous vs Petr Sebera -> Petr Sebera won -> bet WIN
 [2026-07-28 02:59:12] czech pipeline: 545 match(es) scanned, 5 elo update(s), 1 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 1 BET rec(s)
 [2026-07-28 02:59:12] ROI by grade C: 142W-177L-0P staked 312.13u net -16.04u roi -5.1%
 [2026-07-28 02:59:12] ROI by circuit czech: 81W-105L-0P staked 181.91u net -9.59u roi -5.3%
@@ -1006,3 +998,10 @@
 [2026-08-07 04:28:35] ROI by circuit polish: 75W-92L-0P staked 163.40u net -12.61u roi -7.7%
 [2026-08-07 04:28:35] ROI by circuit wtt: 1W-6L-0P staked 7.00u net -5.72u roi -81.7%
 [2026-08-07 04:28:35] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-07 05:56:35] engine run started (quick: amateur circuits only)
+[2026-08-07 05:56:59] czech pipeline: 1300 match(es) scanned, 26 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-07 05:56:59] ROI by grade C: 186W-237L-0P staked 413.60u net -28.12u roi -6.8%
+[2026-08-07 05:56:59] ROI by circuit czech: 110W-139L-0P staked 243.20u net -9.79u roi -4.0%
+[2026-08-07 05:56:59] ROI by circuit polish: 75W-92L-0P staked 163.40u net -12.61u roi -7.7%
+[2026-08-07 05:56:59] ROI by circuit wtt: 1W-6L-0P staked 7.00u net -5.72u roi -81.7%
+[2026-08-07 05:56:59] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
