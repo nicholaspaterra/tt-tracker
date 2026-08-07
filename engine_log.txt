@@ -1,13 +1,3 @@
-[2026-07-29 16:12:53] upcoming WTT singles matches found: 0
-[2026-07-29 16:12:56] amateur settled: Witold Buczynski vs Lukasz Oracz -> Witold Buczynski won -> bet LOSS
-[2026-07-29 16:12:56] amateur settled: Kacper Petas vs Adamiak Grzegorz -> Kacper Petas won -> bet LOSS
-[2026-07-29 16:12:56] amateur settled: Pavel Benes vs Prochazka, Michal -> Pavel Benes won -> bet WIN
-[2026-07-29 16:13:18] czech pipeline: 895 match(es) scanned, 194 elo update(s), 3 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-07-29 16:13:18] ROI by grade C: 154W-192L-0P staked 339.13u net -16.63u roi -4.9%
-[2026-07-29 16:13:18] ROI by circuit czech: 86W-110L-0P staked 191.91u net -9.14u roi -4.8%
-[2026-07-29 16:13:18] ROI by circuit polish: 67W-80L-0P staked 144.22u net -5.77u roi -4.0%
-[2026-07-29 16:13:18] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-07-29 16:13:18] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-07-29 18:54:28] engine run started (quick: amateur circuits only)
 [2026-07-29 18:54:33] amateur settled: Michal Brozek vs David Bochnak -> David Bochnak won -> bet WIN
 [2026-07-29 18:54:33] amateur settled: Marek Kulisek vs David Vesecky -> Marek Kulisek won -> bet LOSS
@@ -1008,3 +998,14 @@
 [2026-08-07 16:01:55] ROI by circuit polish: 76W-94L-0P staked 166.12u net -13.50u roi -8.1%
 [2026-08-07 16:01:55] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-07 16:01:55] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-07 16:58:34] engine run started (quick: amateur circuits only)
+[2026-08-07 16:58:53] warn: czech matches fetch failed for 20260802: HTTP Error 502: Bad Gateway
+[2026-08-07 16:58:53] amateur settled: Marek Kulisek vs Michal Brozek -> Marek Kulisek won -> bet LOSS
+[2026-08-07 16:58:53] amateur settled: Miroslav Sochor vs Jan Hendrych -> Miroslav Sochor won -> bet LOSS
+[2026-08-07 17:00:10] warn: czech odds fetch failed for wv78lsy09xehokr: HTTP Error 502: Bad Gateway
+[2026-08-07 17:00:33] czech pipeline: 1244 match(es) scanned, 37 elo update(s), 2 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-07 17:00:33] ROI by grade C: 188W-244L-0P staked 421.80u net -33.16u roi -7.9%
+[2026-08-07 17:00:33] ROI by circuit czech: 111W-141L-0P staked 245.90u net -11.16u roi -4.5%
+[2026-08-07 17:00:33] ROI by circuit polish: 76W-94L-0P staked 166.12u net -13.50u roi -8.1%
+[2026-08-07 17:00:33] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-07 17:00:33] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
