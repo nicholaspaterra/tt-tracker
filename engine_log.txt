@@ -1,10 +1,3 @@
-[2026-07-29 03:28:19] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-07-29 03:28:19] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-29 10:20:10] engine run started (quick: amateur circuits only)
-[2026-07-29 10:20:12] amateur settled: Grzegorz Felkel vs Kacper Petas -> Kacper Petas won -> bet LOSS
-[2026-07-29 10:20:12] amateur settled: Wojciech Wojtaszczyk vs Lukasz Oracz -> Lukasz Oracz won -> bet LOSS
-[2026-07-29 10:20:12] amateur settled: Marcin Jadczyk vs Kacper Glazowski -> Kacper Glazowski won -> bet LOSS
-[2026-07-29 10:20:47] czech pipeline: 673 match(es) scanned, 172 elo update(s), 3 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 7 BET rec(s)
 [2026-07-29 10:20:47] ROI by grade C: 153W-190L-0P staked 336.13u net -16.63u roi -5.0%
 [2026-07-29 10:20:47] ROI by circuit czech: 85W-110L-0P staked 190.91u net -11.14u roi -5.8%
 [2026-07-29 10:20:47] ROI by circuit polish: 67W-78L-0P staked 142.22u net -3.77u roi -2.6%
@@ -1005,3 +998,10 @@
 [2026-08-07 13:51:04] ROI by circuit polish: 76W-93L-0P staked 165.40u net -12.78u roi -7.7%
 [2026-08-07 13:51:04] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-07 13:51:04] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-07 14:56:05] engine run started (quick: amateur circuits only)
+[2026-08-07 14:56:35] czech pipeline: 1917 match(es) scanned, 39 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-08-07 14:56:35] ROI by grade C: 187W-241L-0P staked 418.38u net -31.07u roi -7.4%
+[2026-08-07 14:56:35] ROI by circuit czech: 110W-139L-0P staked 243.20u net -9.79u roi -4.0%
+[2026-08-07 14:56:35] ROI by circuit polish: 76W-93L-0P staked 165.40u net -12.78u roi -7.7%
+[2026-08-07 14:56:35] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-07 14:56:35] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
