@@ -1,11 +1,3 @@
-[2026-07-30 16:06:47] engine run started
-[2026-07-30 16:06:52] rankings parsed: 1212 players across 2 lists; scanning 160
-[2026-07-30 16:12:58] upcoming WTT singles matches found: 0
-[2026-07-30 16:13:02] amateur settled: Zdenek Zahradka vs Adam Kral -> Zdenek Zahradka won -> bet LOSS
-[2026-07-30 16:13:02] amateur settled: Jan Muska vs Radek Vosyka -> Radek Vosyka won -> bet WIN
-[2026-07-30 16:13:02] amateur settled: Kurek, Pawel vs Nowak Jakub -> Kurek, Pawel won -> bet WIN
-[2026-07-30 16:13:24] czech pipeline: 1167 match(es) scanned, 213 elo update(s), 3 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-07-30 16:13:24] ROI by grade C: 162W-202L-0P staked 356.81u net -20.38u roi -5.7%
 [2026-07-30 16:13:24] ROI by circuit czech: 91W-118L-0P staked 204.59u net -12.61u roi -6.2%
 [2026-07-30 16:13:24] ROI by circuit polish: 70W-82L-0P staked 149.22u net -6.05u roi -4.0%
 [2026-07-30 16:13:24] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
@@ -1006,3 +998,10 @@
 [2026-08-07 21:42:48] ROI by circuit polish: 76W-95L-0P staked 167.09u net -14.47u roi -8.7%
 [2026-08-07 21:42:48] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-07 21:42:48] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-07 22:40:06] engine run started (quick: amateur circuits only)
+[2026-08-07 22:40:32] czech pipeline: 2029 match(es) scanned, 24 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-08-07 22:40:32] ROI by grade C: 192W-247L-0P staked 426.78u net -31.36u roi -7.3%
+[2026-08-07 22:40:32] ROI by circuit czech: 115W-143L-0P staked 249.91u net -8.39u roi -3.4%
+[2026-08-07 22:40:32] ROI by circuit polish: 76W-95L-0P staked 167.09u net -14.47u roi -8.7%
+[2026-08-07 22:40:32] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-07 22:40:32] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
