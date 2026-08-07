@@ -147646,15 +147646,15 @@ window.BETS_FILE = {
       "matchId": "o17p1sl2m38uy7j",
       "playerA": "Jan Framberk",
       "playerB": "Jiri Grohsgott",
-      "myProbA": 0.52,
+      "myProbA": 0.496,
       "marketProbA": 0.663,
       "bestOdds": 2.75,
-      "edge": 0.143,
+      "edge": 0.167,
       "rec": "BET 1.00u on Jiri Grohsgott @ +175 (aiscore line)",
       "units": 1.0,
       "pickName": "Jiri Grohsgott",
       "grade": "C",
-      "reasoning": "Elo 1454 (n=32) vs 1440 (n=101)"
+      "reasoning": "Elo 1437 (n=33) vs 1440 (n=101)"
     },
     {
       "id": "rec-pl-8lk2xsdjw2dfzq3",
@@ -148187,6 +148187,25 @@ window.BETS_FILE = {
       "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1427 (n=168) vs 1417 (n=208)"
+    },
+    {
+      "id": "rec-pl-ndkzlsde4r8ixq3",
+      "date": "2026-08-07",
+      "startTime": 1786077000,
+      "event": "TT Elite Series",
+      "circuit": "polish",
+      "matchId": "ndkzlsde4r8ixq3",
+      "playerA": "Blazej Warpas",
+      "playerB": "Igor Dabrowski",
+      "myProbA": 0.265,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Igor Dabrowski (73%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1339 (n=113) vs 1515 (n=125)"
     }
   ],
   "bets": [
