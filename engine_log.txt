@@ -1,12 +1,3 @@
-[2026-08-01 20:22:15] ROI by circuit polish: 72W-84L-0P staked 152.84u net -6.51u roi -4.3%
-[2026-08-01 20:22:15] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-08-01 20:22:15] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-01 23:48:10] engine run started (quick: amateur circuits only)
-[2026-08-01 23:48:13] amateur settled: Tomasz Filbrand vs Dawid Kosmal -> Tomasz Filbrand won -> bet LOSS
-[2026-08-01 23:48:13] amateur settled: Jakub Kycelt vs Erik Mares -> Erik Mares won -> bet LOSS
-[2026-08-01 23:48:35] czech pipeline: 1228 match(es) scanned, 97 elo update(s), 2 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-01 23:48:35] ROI by grade C: 172W-218L-0P staked 381.55u net -24.74u roi -6.5%
-[2026-08-01 23:48:35] ROI by circuit czech: 99W-131L-0P staked 224.71u net -15.51u roi -6.9%
 [2026-08-01 23:48:35] ROI by circuit polish: 72W-85L-0P staked 153.84u net -7.51u roi -4.9%
 [2026-08-01 23:48:35] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-01 23:48:35] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
@@ -1007,3 +998,10 @@
 [2026-08-08 15:33:29] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
 [2026-08-08 15:33:29] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 15:33:29] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 15:59:17] engine run started (quick: amateur circuits only)
+[2026-08-08 15:59:43] czech pipeline: 1878 match(es) scanned, 15 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-08-08 15:59:44] ROI by grade C: 201W-256L-0P staked 444.63u net -24.57u roi -5.5%
+[2026-08-08 15:59:44] ROI by circuit czech: 120W-148L-0P staked 259.76u net -6.18u roi -2.4%
+[2026-08-08 15:59:44] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
+[2026-08-08 15:59:44] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 15:59:44] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
