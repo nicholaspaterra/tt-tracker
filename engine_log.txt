@@ -1,12 +1,3 @@
-[2026-08-01 00:15:02] rankings parsed: 1212 players across 2 lists; scanning 160
-[2026-08-01 00:21:11] upcoming WTT singles matches found: 0
-[2026-08-01 00:21:14] amateur settled: Martin Vizek vs Zmuda Petr -> Zmuda Petr won -> bet LOSS
-[2026-08-01 00:21:14] amateur settled: Christian Kratochvil vs Lukas Vich -> Christian Kratochvil won -> bet LOSS
-[2026-08-01 00:21:34] czech pipeline: 1200 match(es) scanned, 83 elo update(s), 2 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-01 00:21:34] ROI by grade C: 167W-210L-0P staked 369.16u net -21.58u roi -5.9%
-[2026-08-01 00:21:34] ROI by circuit czech: 95W-124L-0P staked 214.32u net -12.85u roi -6.0%
-[2026-08-01 00:21:34] ROI by circuit polish: 71W-84L-0P staked 151.84u net -7.01u roi -4.6%
-[2026-08-01 00:21:34] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-01 00:21:34] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-01 01:17:56] engine run started (quick: amateur circuits only)
 [2026-08-01 01:17:57] amateur settled: Tomas Dousa vs Marek Placek -> Tomas Dousa won -> bet WIN
@@ -1007,3 +998,11 @@
 [2026-08-08 08:46:45] ROI by circuit polish: 78W-97L-0P staked 171.09u net -13.89u roi -8.1%
 [2026-08-08 08:46:45] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 08:46:45] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 09:41:22] engine run started (quick: amateur circuits only)
+[2026-08-08 09:41:41] amateur settled: Kacper Petas vs Konrad Kulpa -> Kacper Petas won -> bet WIN
+[2026-08-08 09:42:21] czech pipeline: 1371 match(es) scanned, 29 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 15 BET rec(s)
+[2026-08-08 09:42:21] ROI by grade C: 198W-252L-0P staked 437.63u net -27.27u roi -6.2%
+[2026-08-08 09:42:21] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
+[2026-08-08 09:42:21] ROI by circuit polish: 79W-97L-0P staked 172.09u net -11.89u roi -6.9%
+[2026-08-08 09:42:21] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 09:42:21] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
