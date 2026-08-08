@@ -1,11 +1,3 @@
-[2026-08-01 00:21:34] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-01 01:17:56] engine run started (quick: amateur circuits only)
-[2026-08-01 01:17:57] amateur settled: Tomas Dousa vs Marek Placek -> Tomas Dousa won -> bet WIN
-[2026-08-01 01:18:17] czech pipeline: 544 match(es) scanned, 17 elo update(s), 1 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-08-01 01:18:17] ROI by grade C: 168W-210L-0P staked 369.77u net -21.03u roi -5.7%
-[2026-08-01 01:18:17] ROI by circuit czech: 96W-124L-0P staked 214.93u net -12.30u roi -5.7%
-[2026-08-01 01:18:17] ROI by circuit polish: 71W-84L-0P staked 151.84u net -7.01u roi -4.6%
-[2026-08-01 01:18:17] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
 [2026-08-01 01:18:17] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-01 08:56:55] engine run started (quick: amateur circuits only)
 [2026-08-01 08:56:57] amateur settled: Daniel Tuma vs Patrik Pycha  -> Patrik Pycha  won -> bet LOSS
@@ -1006,3 +998,55 @@
 [2026-08-08 09:42:21] ROI by circuit polish: 79W-97L-0P staked 172.09u net -11.89u roi -6.9%
 [2026-08-08 09:42:21] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 09:42:21] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 10:17:48] engine run started
+[2026-08-08 10:17:58] rankings parsed: 948 players across 2 lists; scanning 160
+[2026-08-08 10:34:13] upcoming WTT singles matches found: 26
+[2026-08-08 10:34:14] modeled Tomokazu Harimoto vs Alexis Lebrun -> 59% / NO BET (edge 3.2% @ bet365 -200/+150) / grade C
+[2026-08-08 10:34:15] no odds posted yet for Oh Jun-sung vs Hiroto Shinozuka
+[2026-08-08 10:34:15] modeled Oh Jun-sung vs Hiroto Shinozuka -> 43% / MODEL PICK: Hiroto Shinozuka (57%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:19] modeled Ylane Batix vs Milosz Redzimski -> 32% / BET 1.00u on Ylane Batix @ +700 (bet365) / grade C
+[2026-08-08 10:34:23] modeled Chang Yu-An vs Park Gyuhyeon -> 37% / NO BET (edge 5.9% @ bet365 +200/-278) / grade C
+[2026-08-08 10:34:27] modeled Andrej Gacina vs Elias Sjogren -> 94% / NO BET (edge 4.7% @ bet365 -2000/+750) / grade C
+[2026-08-08 10:34:32] no odds posted yet for Ovidiu Ionescu vs Youssef Abdel Aziz
+[2026-08-08 10:34:32] modeled Ovidiu Ionescu vs Youssef Abdel Aziz -> 42% / MODEL PICK: Youssef Abdel Aziz (58%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:38] no odds posted yet for Wim Verdonschot vs Juan Perez
+[2026-08-08 10:34:38] modeled Wim Verdonschot vs Juan Perez -> 76% / MODEL PICK: Wim Verdonschot (76%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:41] no odds posted yet for Jo Yokotani vs Ryoichi Yoshiyama
+[2026-08-08 10:34:41] modeled Jo Yokotani vs Ryoichi Yoshiyama -> 18% / MODEL PICK: Ryoichi Yoshiyama (82%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:45] no odds posted yet for Aditya Sareen vs Csaba Andras
+[2026-08-08 10:34:45] modeled Aditya Sareen vs Csaba Andras -> 30% / MODEL PICK: Csaba Andras (70%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:49] no odds posted yet for Luka Mladenovic vs Alvaro Robles
+[2026-08-08 10:34:49] modeled Luka Mladenovic vs Alvaro Robles -> 45% / MODEL PICK: Alvaro Robles (55%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:53] no odds posted yet for Mehdi Bouloussa vs Payas Jain
+[2026-08-08 10:34:53] modeled Mehdi Bouloussa vs Payas Jain -> 54% / MODEL PICK: Mehdi Bouloussa (54%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:34:53] skip Chan Baldwin Ho Wah vs Bosman Botha: player not in rankings table
+[2026-08-08 10:34:58] no odds posted yet for Tiago Apolonia vs Deni Kozul
+[2026-08-08 10:34:58] modeled Tiago Apolonia vs Deni Kozul -> 57% / MODEL PICK: Tiago Apolonia (57%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:35:04] no odds posted yet for John Oyebode vs Edward Ly
+[2026-08-08 10:35:04] modeled John Oyebode vs Edward Ly -> 68% / MODEL PICK: John Oyebode (68%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:35:05] modeled Hina Hayata vs Kuai Man -> 54% / BET 1.00u on Hina Hayata @ +125 (bet365) / grade C
+[2026-08-08 10:35:12] no odds posted yet for Kaho Akae vs Lee Da-eun
+[2026-08-08 10:35:12] modeled Kaho Akae vs Lee Da-eun -> 80% / MODEL PICK: Kaho Akae (80%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:35:18] modeled Izabela Lupulesku vs Yang Ha-eun -> 34% / BET 0.57u on Izabela Lupulesku @ +240 (bet365) / grade C
+[2026-08-08 10:35:23] modeled Chien Tung-chuan vs Sarvinoz Mirkadirova -> 81% / BET 1.00u on Chien Tung-chuan @ +137 (bet365) / grade C
+[2026-08-08 10:35:34] modeled Tatiana Kukulkova vs Yoo Yerin -> 31% / BET 0.76u on Tatiana Kukulkova @ +300 (bet365) / grade C
+[2026-08-08 10:35:39] modeled Ivana Malobabic vs Shan Xiaona -> 28% / BET 1.00u on Ivana Malobabic @ +700 (bet365) / grade C
+[2026-08-08 10:35:43] modeled Sally Moyland vs Chang Li Sian Alice -> 81% / NO BET (edge 2.4% @ bet365 -833/+450) / grade C
+[2026-08-08 10:35:50] modeled Yashaswini Ghorpade vs Orawan Paranang -> 52% / BET 1.00u on Yashaswini Ghorpade @ +137 (bet365) / grade C
+[2026-08-08 10:36:00] no odds posted yet for Alice Nilsson vs Yang Xiaoxin
+[2026-08-08 10:36:00] modeled Alice Nilsson vs Yang Xiaoxin -> 7% / MODEL PICK: Yang Xiaoxin (93%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:36:07] no odds posted yet for Giorgia Piccolin vs Ser Lin Qian
+[2026-08-08 10:36:07] modeled Giorgia Piccolin vs Ser Lin Qian -> 45% / MODEL PICK: Ser Lin Qian (55%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:36:12] no odds posted yet for Ho Tin-Tin vs Sabina Surjan
+[2026-08-08 10:36:12] modeled Ho Tin-Tin vs Sabina Surjan -> 51% / MODEL PICK: Ho Tin-Tin (51%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:36:15] no odds posted yet for Diya Parag Chitale vs Wan Yuan
+[2026-08-08 10:36:15] modeled Diya Parag Chitale vs Wan Yuan -> 65% / MODEL PICK: Diya Parag Chitale (65%) — odds not found; enter odds in app / grade C
+[2026-08-08 10:37:11] warn: czech odds fetch failed for 6975ysxom5rbgq2: HTTP Error 502: Bad Gateway
+[2026-08-08 10:37:45] warn: czech odds fetch failed for wv78lsy0lngtokr: HTTP Error 502: Bad Gateway
+[2026-08-08 10:38:47] warn: czech odds fetch failed for 63kv1s51y0yuxke: HTTP Error 502: Bad Gateway
+[2026-08-08 10:38:49] czech pipeline: 1376 match(es) scanned, 31 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 11 BET rec(s)
+[2026-08-08 10:38:49] ROI by grade C: 198W-252L-0P staked 437.63u net -27.27u roi -6.2%
+[2026-08-08 10:38:49] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
+[2026-08-08 10:38:49] ROI by circuit polish: 79W-97L-0P staked 172.09u net -11.89u roi -6.9%
+[2026-08-08 10:38:49] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 10:38:49] run summary: 65 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
