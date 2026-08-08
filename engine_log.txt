@@ -1,11 +1,3 @@
-[2026-08-02 07:56:21] ROI by grade C: 174W-218L-0P staked 382.74u net -23.87u roi -6.2%
-[2026-08-02 07:56:21] ROI by circuit czech: 100W-131L-0P staked 225.20u net -15.10u roi -6.7%
-[2026-08-02 07:56:21] ROI by circuit polish: 73W-85L-0P staked 154.54u net -7.05u roi -4.6%
-[2026-08-02 07:56:21] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-08-02 07:56:21] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-02 11:46:05] engine run started (quick: amateur circuits only)
-[2026-08-02 11:46:07] amateur settled: Ivan Kolenciak vs Jiri Foltynek -> Jiri Foltynek won -> bet WIN
-[2026-08-02 11:46:07] amateur settled: Vaclav Jr Hejda vs Miroslav Sochor -> Vaclav Jr Hejda won -> bet WIN
 [2026-08-02 11:46:28] czech pipeline: 622 match(es) scanned, 126 elo update(s), 2 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 4 BET rec(s)
 [2026-08-02 11:46:28] ROI by grade C: 176W-218L-0P staked 384.74u net -21.67u roi -5.6%
 [2026-08-02 11:46:28] ROI by circuit czech: 102W-131L-0P staked 227.20u net -12.90u roi -5.7%
@@ -1006,3 +998,11 @@
 [2026-08-08 16:40:25] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
 [2026-08-08 16:40:25] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 16:40:25] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 17:33:58] engine run started (quick: amateur circuits only)
+[2026-08-08 17:34:02] amateur settled: Paril Ondrej vs Tomas Dousek -> Tomas Dousek won -> bet LOSS
+[2026-08-08 17:34:23] czech pipeline: 1896 match(es) scanned, 30 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 10 BET rec(s)
+[2026-08-08 17:34:23] ROI by grade C: 201W-258L-0P staked 446.63u net -26.57u roi -5.9%
+[2026-08-08 17:34:23] ROI by circuit czech: 120W-150L-0P staked 261.76u net -8.18u roi -3.1%
+[2026-08-08 17:34:23] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
+[2026-08-08 17:34:23] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 17:34:23] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
