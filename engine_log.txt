@@ -1,12 +1,3 @@
-[2026-08-01 08:57:19] ROI by circuit czech: 96W-127L-0P staked 217.71u net -15.08u roi -6.9%
-[2026-08-01 08:57:19] ROI by circuit polish: 71W-84L-0P staked 151.84u net -7.01u roi -4.6%
-[2026-08-01 08:57:19] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-08-01 08:57:19] run summary: 40 rec(s), 3 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-01 12:17:34] engine run started
-[2026-08-01 12:17:41] rankings parsed: 1212 players across 2 lists; scanning 160
-[2026-08-01 12:25:27] upcoming WTT singles matches found: 0
-[2026-08-01 12:25:30] amateur settled: David Horak vs Mihail Trinta -> David Horak won -> bet LOSS
-[2026-08-01 12:25:30] amateur settled: Roman Guliak vs Vitezslav Bosak -> Vitezslav Bosak won -> bet LOSS
 [2026-08-01 12:25:30] amateur settled: Filip Zurek vs David Mikula -> David Mikula won -> bet WIN
 [2026-08-01 12:25:53] czech pipeline: 1110 match(es) scanned, 102 elo update(s), 3 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 2 BET rec(s)
 [2026-08-01 12:25:53] ROI by grade C: 169W-215L-0P staked 375.55u net -25.09u roi -6.7%
@@ -1007,3 +998,10 @@
 [2026-08-08 11:32:15] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
 [2026-08-08 11:32:15] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 11:32:15] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 11:57:16] engine run started (quick: amateur circuits only)
+[2026-08-08 11:57:41] czech pipeline: 1376 match(es) scanned, 15 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 13 BET rec(s)
+[2026-08-08 11:57:42] ROI by grade C: 198W-254L-0P staked 439.63u net -29.27u roi -6.7%
+[2026-08-08 11:57:42] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
+[2026-08-08 11:57:42] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
+[2026-08-08 11:57:42] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 11:57:42] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
