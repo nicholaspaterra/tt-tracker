@@ -163357,15 +163357,15 @@ window.BETS_FILE = {
       "matchId": "ndqm1syrrozsrqv",
       "playerA": "Bruno Mrowetz",
       "playerB": "Erik Precek",
-      "myProbA": 0.685,
+      "myProbA": 0.699,
       "marketProbA": 0.538,
       "bestOdds": 1.72,
-      "edge": 0.147,
+      "edge": 0.161,
       "rec": "BET 1.00u on Bruno Mrowetz @ -139 (aiscore line)",
       "units": 1.0,
       "pickName": "Bruno Mrowetz",
       "grade": "C",
-      "reasoning": "Elo 1581 (n=76) vs 1447 (n=64)"
+      "reasoning": "Elo 1581 (n=76) vs 1435 (n=65)"
     },
     {
       "id": "rec-pl-jr7o1so50vrcgk0",
@@ -163661,15 +163661,15 @@ window.BETS_FILE = {
       "matchId": "vrqwys2xxnoi4kn",
       "playerA": "Tomas Fojtik",
       "playerB": "Michal Moravec",
-      "myProbA": 0.462,
+      "myProbA": 0.445,
       "marketProbA": 0.423,
       "bestOdds": 2.2,
-      "edge": 0.039,
-      "rec": "NO BET (edge 3.9% @ aiscore line +120/-164)",
+      "edge": 0.022,
+      "rec": "NO BET (edge 2.2% @ aiscore line +120/-164)",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1515 (n=43) vs 1541 (n=48)"
+      "reasoning": "Elo 1515 (n=43) vs 1553 (n=49)"
     },
     {
       "id": "rec-pl-wv78lsy0lngtokr",
@@ -163984,15 +163984,15 @@ window.BETS_FILE = {
       "matchId": "zrkn1spzz93tw7l",
       "playerA": "Bruno Mrowetz",
       "playerB": "Michal Moravec",
-      "myProbA": 0.557,
+      "myProbA": 0.54,
       "marketProbA": 0.538,
       "bestOdds": 1.72,
-      "edge": 0.019,
-      "rec": "NO BET (edge 1.9% @ aiscore line -139/+100)",
+      "edge": 0.002,
+      "rec": "NO BET (edge 0.2% @ aiscore line -139/+100)",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1581 (n=76) vs 1541 (n=48)"
+      "reasoning": "Elo 1581 (n=76) vs 1553 (n=49)"
     },
     {
       "id": "rec-pl-jek35sp2zoru97o",
@@ -164050,6 +164050,25 @@ window.BETS_FILE = {
       "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1496 (n=47) vs 1299 (n=144)"
+    },
+    {
+      "id": "rec-cz-xvkjds1eeogi8k9",
+      "date": "2026-08-08",
+      "startTime": 1786190100,
+      "event": "TT Cup",
+      "circuit": "czech",
+      "matchId": "xvkjds1eeogi8k9",
+      "playerA": "Pavel Rissky",
+      "playerB": "Varecka Ondrej",
+      "myProbA": 0.569,
+      "marketProbA": 0.375,
+      "bestOdds": 2.5,
+      "edge": 0.194,
+      "rec": "BET 1.00u on Pavel Rissky @ +150 (aiscore line)",
+      "units": 1.0,
+      "pickName": "Pavel Rissky",
+      "grade": "C",
+      "reasoning": "Elo 1506 (n=15) vs 1458 (n=90)"
     }
   ],
   "bets": [
