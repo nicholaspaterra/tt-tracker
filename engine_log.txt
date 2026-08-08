@@ -1,11 +1,3 @@
-[2026-08-02 20:22:02] no odds posted yet for Yuan Jianan vs Margaryta Pesotska
-[2026-08-02 20:22:02] modeled Yuan Jianan vs Margaryta Pesotska -> 53% / MODEL PICK: Yuan Jianan (53%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:22:04] no odds posted yet for Zeng Jian vs Prithika Pavade
-[2026-08-02 20:22:04] modeled Zeng Jian vs Prithika Pavade -> 44% / MODEL PICK: Prithika Pavade (56%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:22:05] no odds posted yet for Sreeja Akula vs Sofia Polcanova
-[2026-08-02 20:22:05] modeled Sreeja Akula vs Sofia Polcanova -> 38% / MODEL PICK: Sofia Polcanova (62%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:22:09] amateur settled: Pavel Fojt vs Dmitro Parhomenko -> Pavel Fojt won -> bet LOSS
-[2026-08-02 20:22:09] amateur settled: David Jicha vs Martin Stusek -> Martin Stusek won -> bet WIN
 [2026-08-02 20:22:31] czech pipeline: 1223 match(es) scanned, 122 elo update(s), 2 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 2 BET rec(s)
 [2026-08-02 20:22:31] ROI by grade C: 180W-220L-0P staked 390.74u net -17.48u roi -4.5%
 [2026-08-02 20:22:31] ROI by circuit czech: 106W-133L-0P staked 233.20u net -8.71u roi -3.7%
@@ -1006,3 +998,10 @@
 [2026-08-08 21:04:41] ROI by circuit polish: 81W-99L-0P staked 176.09u net -9.45u roi -5.4%
 [2026-08-08 21:04:41] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 21:04:41] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 21:33:48] engine run started (quick: amateur circuits only)
+[2026-08-08 21:34:12] czech pipeline: 1985 match(es) scanned, 11 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 10 BET rec(s)
+[2026-08-08 21:34:13] ROI by grade C: 202W-262L-0P staked 451.63u net -30.13u roi -6.7%
+[2026-08-08 21:34:13] ROI by circuit czech: 120W-154L-0P staked 265.76u net -12.18u roi -4.6%
+[2026-08-08 21:34:13] ROI by circuit polish: 81W-99L-0P staked 176.09u net -9.45u roi -5.4%
+[2026-08-08 21:34:13] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 21:34:13] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
