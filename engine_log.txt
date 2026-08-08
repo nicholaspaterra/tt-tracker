@@ -1,11 +1,3 @@
-[2026-07-31 08:18:51] czech pipeline: 590 match(es) scanned, 162 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-07-31 08:18:51] ROI by grade C: 162W-204L-0P staked 358.43u net -22.00u roi -6.1%
-[2026-07-31 08:18:51] ROI by circuit czech: 91W-119L-0P staked 205.59u net -13.61u roi -6.6%
-[2026-07-31 08:18:51] ROI by circuit polish: 70W-83L-0P staked 149.84u net -6.67u roi -4.5%
-[2026-07-31 08:18:51] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-07-31 08:18:51] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-07-31 14:16:06] engine run started
-[2026-07-31 14:16:12] rankings parsed: 1212 players across 2 lists; scanning 160
 [2026-07-31 14:23:11] upcoming WTT singles matches found: 0
 [2026-07-31 14:23:16] amateur settled: Rutkowski Mateusz vs Krzysztof Kapik -> Rutkowski Mateusz won -> bet WIN
 [2026-07-31 14:23:16] amateur settled: Milan Tlusty vs Adam Kral -> Milan Tlusty won -> bet LOSS
@@ -1006,3 +998,11 @@
 [2026-08-08 03:36:54] ROI by circuit polish: 77W-95L-0P staked 168.09u net -13.64u roi -8.1%
 [2026-08-08 03:36:54] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 03:36:54] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 05:00:34] engine run started (quick: amateur circuits only)
+[2026-08-08 05:00:38] amateur settled: Jakub Folwarski vs Konrad Kulpa -> Konrad Kulpa won -> bet LOSS
+[2026-08-08 05:00:58] czech pipeline: 1303 match(es) scanned, 25 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-08-08 05:00:58] ROI by grade C: 194W-249L-0P staked 430.63u net -29.63u roi -6.9%
+[2026-08-08 05:00:58] ROI by circuit czech: 116W-144L-0P staked 251.76u net -6.49u roi -2.6%
+[2026-08-08 05:00:58] ROI by circuit polish: 77W-96L-0P staked 169.09u net -14.64u roi -8.7%
+[2026-08-08 05:00:58] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 05:00:58] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
