@@ -1,10 +1,3 @@
-[2026-08-01 12:25:30] amateur settled: Filip Zurek vs David Mikula -> David Mikula won -> bet WIN
-[2026-08-01 12:25:53] czech pipeline: 1110 match(es) scanned, 102 elo update(s), 3 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 2 BET rec(s)
-[2026-08-01 12:25:53] ROI by grade C: 169W-215L-0P staked 375.55u net -25.09u roi -6.7%
-[2026-08-01 12:25:53] ROI by circuit czech: 97W-129L-0P staked 220.71u net -16.36u roi -7.4%
-[2026-08-01 12:25:53] ROI by circuit polish: 71W-84L-0P staked 151.84u net -7.01u roi -4.6%
-[2026-08-01 12:25:53] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
-[2026-08-01 12:25:53] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-01 15:48:13] engine run started (quick: amateur circuits only)
 [2026-08-01 15:48:16] amateur settled: Michal Syroha vs Jiri Svec -> Jiri Svec won -> bet WIN
 [2026-08-01 15:48:16] amateur settled: Vaclav Hruska vs Miloslav Lubas -> Miloslav Lubas won -> bet WIN
@@ -1005,3 +998,12 @@
 [2026-08-08 11:57:42] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
 [2026-08-08 11:57:42] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 11:57:42] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 12:54:37] engine run started (quick: amateur circuits only)
+[2026-08-08 12:54:41] amateur settled: David Hons vs Petr Pesout -> David Hons won -> bet LOSS
+[2026-08-08 12:54:41] amateur settled: Zdenek Bilek vs Lukas Zeman -> Lukas Zeman won -> bet WIN
+[2026-08-08 12:55:01] czech pipeline: 1574 match(es) scanned, 31 elo update(s), 2 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-08-08 12:55:01] ROI by grade C: 199W-255L-0P staked 441.63u net -28.77u roi -6.5%
+[2026-08-08 12:55:01] ROI by circuit czech: 119W-147L-0P staked 257.76u net -6.38u roi -2.5%
+[2026-08-08 12:55:01] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
+[2026-08-08 12:55:01] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 12:55:01] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
