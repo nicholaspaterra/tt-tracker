@@ -1,11 +1,3 @@
-[2026-08-02 20:21:51] no odds posted yet for Wen Ruibo vs Joao Geraldo
-[2026-08-02 20:21:51] modeled Wen Ruibo vs Joao Geraldo -> 52% / MODEL PICK: Wen Ruibo (52%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:21:52] no odds posted yet for Kuo Guan-Hong vs Anders Lind
-[2026-08-02 20:21:52] modeled Kuo Guan-Hong vs Anders Lind -> 29% / MODEL PICK: Anders Lind (71%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:21:54] no odds posted yet for Benedikt Duda vs Shunsuke Togami
-[2026-08-02 20:21:54] modeled Benedikt Duda vs Shunsuke Togami -> 42% / MODEL PICK: Shunsuke Togami (58%) — odds not found; enter odds in app / grade C
-[2026-08-02 20:21:55] no odds posted yet for Hiroto Shinozuka vs Yukiya Uda
-[2026-08-02 20:21:55] modeled Hiroto Shinozuka vs Yukiya Uda -> 50% / MODEL PICK: Yukiya Uda (50%) — odds not found; enter odds in app / grade C
 [2026-08-02 20:21:56] no odds posted yet for Oh Jun-sung vs Omar Assar
 [2026-08-02 20:21:56] modeled Oh Jun-sung vs Omar Assar -> 54% / MODEL PICK: Oh Jun-sung (54%) — odds not found; enter odds in app / grade C
 [2026-08-02 20:21:58] no odds posted yet for Kim Na-yeong vs Chen Xingtong
@@ -1006,3 +998,11 @@
 [2026-08-08 19:58:40] ROI by circuit polish: 81W-99L-0P staked 176.09u net -9.45u roi -5.4%
 [2026-08-08 19:58:40] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 19:58:40] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-08 20:34:02] engine run started (quick: amateur circuits only)
+[2026-08-08 20:34:07] amateur settled: Martin Stefek vs Milan Fisera -> Milan Fisera won -> bet LOSS
+[2026-08-08 20:34:29] czech pipeline: 1943 match(es) scanned, 20 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 6 BET rec(s)
+[2026-08-08 20:34:29] ROI by grade C: 202W-261L-0P staked 450.63u net -29.13u roi -6.5%
+[2026-08-08 20:34:29] ROI by circuit czech: 120W-153L-0P staked 264.76u net -11.18u roi -4.2%
+[2026-08-08 20:34:29] ROI by circuit polish: 81W-99L-0P staked 176.09u net -9.45u roi -5.4%
+[2026-08-08 20:34:29] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
+[2026-08-08 20:34:29] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
