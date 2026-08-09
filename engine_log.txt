@@ -1,10 +1,3 @@
-[2026-08-03 20:20:54] no odds posted yet for Zeng Jian vs Prithika Pavade
-[2026-08-03 20:20:54] modeled Zeng Jian vs Prithika Pavade -> 44% / MODEL PICK: Prithika Pavade (56%) — odds not found; enter odds in app / grade C
-[2026-08-03 20:20:55] modeled Sreeja Akula vs Sofia Polcanova -> 38% / BET 1.00u on Sreeja Akula @ +225 (bet365) / grade C
-[2026-08-03 20:21:01] amateur settled: Tibor Spanik vs Jakub Glanowski -> Tibor Spanik won -> bet LOSS
-[2026-08-03 20:21:01] amateur settled: Daniel Vitasek vs Jakub Travnicek -> Daniel Vitasek won -> bet WIN
-[2026-08-03 20:21:25] czech pipeline: 1966 match(es) scanned, 46 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-03 20:21:25] ROI by grade C: 185W-229L-0P staked 404.60u net -20.62u roi -5.1%
 [2026-08-03 20:21:25] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
 [2026-08-03 20:21:25] ROI by circuit polish: 74W-91L-0P staked 161.40u net -12.11u roi -7.5%
 [2026-08-03 20:21:25] ROI by circuit wtt: 1W-2L-0P staked 3.00u net -1.72u roi -57.3%
@@ -1005,3 +998,10 @@
 [2026-08-09 18:39:07] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
 [2026-08-09 18:39:07] ROI by circuit wtt: 1W-10L-0P staked 10.78u net -9.50u roi -88.1%
 [2026-08-09 18:39:07] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-09 18:46:05] engine run started (quick: amateur circuits only)
+[2026-08-09 18:46:32] czech pipeline: 1905 match(es) scanned, 3 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-09 18:46:32] ROI by grade C: 206W-273L-0P staked 466.63u net -33.57u roi -7.2%
+[2026-08-09 18:46:32] ROI by circuit czech: 120W-160L-0P staked 271.76u net -18.18u roi -6.7%
+[2026-08-09 18:46:32] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
+[2026-08-09 18:46:32] ROI by circuit wtt: 1W-10L-0P staked 10.78u net -9.50u roi -88.1%
+[2026-08-09 18:46:32] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
