@@ -1,10 +1,3 @@
-[2026-08-03 20:20:16] modeled Kanak Jha vs Tomislav Pucar -> 66% / MODEL PICK: Kanak Jha (66%) — odds not found; enter odds in app / grade C
-[2026-08-03 20:20:17] no odds posted yet for Hiroto Shinozuka vs Yukiya Uda
-[2026-08-03 20:20:17] modeled Hiroto Shinozuka vs Yukiya Uda -> 50% / MODEL PICK: Yukiya Uda (50%) — odds not found; enter odds in app / grade C
-[2026-08-03 20:20:19] modeled Oh Jun-sung vs Omar Assar -> 52% / BET 1.00u on Omar Assar @ +300 (bet365) / grade C
-[2026-08-03 20:20:20] modeled Miwa Harimoto vs Honoka Hashimoto -> 64% / BET 1.00u on Honoka Hashimoto @ +400 (bet365) / grade C
-[2026-08-03 20:20:22] modeled Manika Batra vs Kuai Man -> 17% / NO BET (edge 3.3% @ bet365 +350/-625) / grade C
-[2026-08-03 20:20:23] no odds posted yet for Kim Na-yeong vs Chen Xingtong
 [2026-08-03 20:20:23] modeled Kim Na-yeong vs Chen Xingtong -> 25% / MODEL PICK: Chen Xingtong (75%) — odds not found; enter odds in app / grade C
 [2026-08-03 20:20:28] no odds posted yet for Wang Yidi vs Mima Ito
 [2026-08-03 20:20:28] modeled Wang Yidi vs Mima Ito -> 68% / MODEL PICK: Wang Yidi (68%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,10 @@
 [2026-08-09 15:35:38] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
 [2026-08-09 15:35:38] ROI by circuit wtt: 1W-10L-0P staked 10.78u net -9.50u roi -88.1%
 [2026-08-09 15:35:38] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-09 16:39:08] engine run started (quick: amateur circuits only)
+[2026-08-09 16:39:33] czech pipeline: 1893 match(es) scanned, 37 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-09 16:39:33] ROI by grade C: 206W-273L-0P staked 466.63u net -33.57u roi -7.2%
+[2026-08-09 16:39:33] ROI by circuit czech: 120W-160L-0P staked 271.76u net -18.18u roi -6.7%
+[2026-08-09 16:39:33] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
+[2026-08-09 16:39:33] ROI by circuit wtt: 1W-10L-0P staked 10.78u net -9.50u roi -88.1%
+[2026-08-09 16:39:33] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
