@@ -1,100 +1,3 @@
-[2026-08-04 16:25:18] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-04 16:25:18] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-04 16:25:18] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-04 16:25:18] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-04 20:58:36] engine run started (quick: amateur circuits only)
-[2026-08-04 20:59:02] czech pipeline: 1978 match(es) scanned, 151 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-08-04 20:59:02] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-04 20:59:02] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-04 20:59:02] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-04 20:59:02] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-04 20:59:02] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-04 23:58:55] engine run started (quick: amateur circuits only)
-[2026-08-04 23:59:20] czech pipeline: 1993 match(es) scanned, 71 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 10 BET rec(s)
-[2026-08-04 23:59:20] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-04 23:59:20] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-04 23:59:20] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-04 23:59:20] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-04 23:59:20] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 06:14:51] engine run started
-[2026-08-05 06:14:56] rankings parsed: 948 players across 2 lists; scanning 160
-[2026-08-05 06:21:16] upcoming WTT singles matches found: 18
-[2026-08-05 06:21:17] no odds posted yet for Sora Matsushima vs Anders Lind
-[2026-08-05 06:21:17] modeled Sora Matsushima vs Anders Lind -> 70% / MODEL PICK: Sora Matsushima (70%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:19] no odds posted yet for Benedikt Duda vs Felix Lebrun
-[2026-08-05 06:21:19] modeled Benedikt Duda vs Felix Lebrun -> 27% / MODEL PICK: Felix Lebrun (73%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:20] modeled Tomokazu Harimoto vs Lum Nicholas -> 88% / NO BET (edge 4.5% @ bet365 -10000/+1100) / grade C
-[2026-08-05 06:21:22] no odds posted yet for Anton Kallberg vs Jang Woo-jin
-[2026-08-05 06:21:22] modeled Anton Kallberg vs Jang Woo-jin -> 23% / MODEL PICK: Jang Woo-jin (77%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:23] modeled Manush Utpalbhai Shah vs Alexis Lebrun -> 22% / BET 0.85u on Manush Utpalbhai Shah @ +600 (bet365) / grade C
-[2026-08-05 06:21:24] modeled Qiu Dang vs An Jae-hyun -> 64% / NO BET (edge 1.5% @ bet365 -200/+150) / grade C
-[2026-08-05 06:21:26] modeled Xiang Peng vs Vladimir Sidorenko -> 45% / NO BET (edge 0.5% @ bet365 +110/-152) / grade C
-[2026-08-05 06:21:27] no odds posted yet for Simon Gauzy vs Chen Yuanyu
-[2026-08-05 06:21:27] modeled Simon Gauzy vs Chen Yuanyu -> 57% / MODEL PICK: Simon Gauzy (57%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:29] modeled Kanak Jha vs Tomislav Pucar -> 66% / BET 1.00u on Tomislav Pucar @ +350 (bet365) / grade C
-[2026-08-05 06:21:30] no odds posted yet for Joao Geraldo vs Hiroto Shinozuka
-[2026-08-05 06:21:30] modeled Joao Geraldo vs Hiroto Shinozuka -> 42% / MODEL PICK: Hiroto Shinozuka (58%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:31] modeled Miwa Harimoto vs Honoka Hashimoto -> 64% / BET 1.00u on Honoka Hashimoto @ +350 (bet365) / grade C
-[2026-08-05 06:21:33] no odds posted yet for Prithika Pavade vs Chen Xingtong
-[2026-08-05 06:21:33] modeled Prithika Pavade vs Chen Xingtong -> 19% / MODEL PICK: Chen Xingtong (81%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:34] no odds posted yet for Wang Yidi vs Mima Ito
-[2026-08-05 06:21:34] modeled Wang Yidi vs Mima Ito -> 72% / MODEL PICK: Wang Yidi (72%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:36] no odds posted yet for Hina Hayata vs Doo Hoi-kem
-[2026-08-05 06:21:36] modeled Hina Hayata vs Doo Hoi-kem -> 84% / MODEL PICK: Hina Hayata (84%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:37] modeled Satsuki Odo vs Anna Hursey -> 69% / BET 1.00u on Anna Hursey @ +600 (bet365) / grade C
-[2026-08-05 06:21:39] modeled Cheng I-ching vs Elizabeta Samara -> 55% / BET 1.00u on Elizabeta Samara @ +333 (bet365) / grade C
-[2026-08-05 06:21:40] no odds posted yet for Liu Yangzi vs Yeh Yi-Tian
-[2026-08-05 06:21:40] modeled Liu Yangzi vs Yeh Yi-Tian -> 57% / MODEL PICK: Liu Yangzi (57%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:21:41] no odds posted yet for Lily Zhang vs Natalia Bajor
-[2026-08-05 06:21:41] modeled Lily Zhang vs Natalia Bajor -> 53% / MODEL PICK: Lily Zhang (53%) — odds not found; enter odds in app / grade C
-[2026-08-05 06:22:06] czech pipeline: 1270 match(es) scanned, 104 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-05 06:22:06] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 06:22:06] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 06:22:06] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 06:22:06] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 06:22:06] run summary: 58 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 12:40:07] engine run started (quick: amateur circuits only)
-[2026-08-05 12:40:34] czech pipeline: 1899 match(es) scanned, 204 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-05 12:40:34] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 12:40:34] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 12:40:34] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 12:40:34] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 12:40:34] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 13:04:51] engine run started (quick: amateur circuits only)
-[2026-08-05 13:05:15] czech pipeline: 1911 match(es) scanned, 16 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-05 13:05:15] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 13:05:15] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 13:05:15] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 13:05:15] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 13:05:15] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 18:46:26] engine run started (quick: amateur circuits only)
-[2026-08-05 18:46:53] czech pipeline: 1939 match(es) scanned, 195 elo update(s), 0 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 2 BET rec(s)
-[2026-08-05 18:46:53] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 18:46:53] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 18:46:53] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 18:46:53] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 18:46:53] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 19:04:29] engine run started (quick: amateur circuits only)
-[2026-08-05 19:04:56] czech pipeline: 1963 match(es) scanned, 10 elo update(s), 0 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-05 19:04:56] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 19:04:56] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 19:04:56] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 19:04:56] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 19:04:56] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-05 22:55:01] engine run started (quick: amateur circuits only)
-[2026-08-05 22:55:27] czech pipeline: 2039 match(es) scanned, 123 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 4 BET rec(s)
-[2026-08-05 22:55:27] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-05 22:55:27] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-05 22:55:27] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-05 22:55:27] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-05 22:55:27] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-06 03:30:59] engine run started (quick: amateur circuits only)
-[2026-08-06 03:31:22] czech pipeline: 1318 match(es) scanned, 52 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 5 BET rec(s)
-[2026-08-06 03:31:22] ROI by grade C: 186W-230L-0P staked 406.60u net -21.12u roi -5.2%
-[2026-08-06 03:31:22] ROI by circuit czech: 110W-136L-0P staked 240.20u net -6.79u roi -2.8%
-[2026-08-06 03:31:22] ROI by circuit polish: 75W-91L-0P staked 162.40u net -11.61u roi -7.1%
-[2026-08-06 03:31:22] ROI by circuit wtt: 1W-3L-0P staked 4.00u net -2.72u roi -68.0%
-[2026-08-06 03:31:22] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-06 08:07:05] engine run started
 [2026-08-06 08:07:09] rankings parsed: 948 players across 2 lists; scanning 160
 [2026-08-06 08:13:56] upcoming WTT singles matches found: 17
@@ -1095,3 +998,10 @@
 [2026-08-10 02:12:31] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
 [2026-08-10 02:12:31] ROI by circuit wtt: 1W-12L-0P staked 12.78u net -11.50u roi -90.0%
 [2026-08-10 02:12:31] run summary: 86 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-10 02:56:41] engine run started (quick: amateur circuits only)
+[2026-08-10 02:57:06] czech pipeline: 1254 match(es) scanned, 11 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 9 BET rec(s)
+[2026-08-10 02:57:06] ROI by grade C: 206W-280L-0P staked 473.45u net -40.39u roi -8.5%
+[2026-08-10 02:57:06] ROI by circuit czech: 120W-165L-0P staked 276.58u net -23.00u roi -8.3%
+[2026-08-10 02:57:06] ROI by circuit polish: 85W-103L-0P staked 184.09u net -5.89u roi -3.2%
+[2026-08-10 02:57:06] ROI by circuit wtt: 1W-12L-0P staked 12.78u net -11.50u roi -90.0%
+[2026-08-10 02:57:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
