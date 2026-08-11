@@ -1,10 +1,3 @@
-[2026-08-08 01:51:59] ROI by circuit czech: 115W-144L-0P staked 250.76u net -9.24u roi -3.7%
-[2026-08-08 01:51:59] ROI by circuit polish: 77W-95L-0P staked 168.09u net -13.64u roi -8.1%
-[2026-08-08 01:51:59] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 01:51:59] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 03:36:29] engine run started (quick: amateur circuits only)
-[2026-08-08 03:36:33] amateur settled: Vaclav Kosar vs Havel Ladislav  -> Havel Ladislav  won -> bet WIN
-[2026-08-08 03:36:54] czech pipeline: 1302 match(es) scanned, 27 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 5 BET rec(s)
 [2026-08-08 03:36:54] ROI by grade C: 194W-248L-0P staked 429.63u net -28.63u roi -6.7%
 [2026-08-08 03:36:54] ROI by circuit czech: 116W-144L-0P staked 251.76u net -6.49u roi -2.6%
 [2026-08-08 03:36:54] ROI by circuit polish: 77W-95L-0P staked 168.09u net -13.64u roi -8.1%
@@ -1005,3 +998,10 @@
 [2026-08-11 03:14:26] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
 [2026-08-11 03:14:26] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
 [2026-08-11 03:14:26] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-11 03:48:16] engine run started (quick: amateur circuits only)
+[2026-08-11 03:48:40] czech pipeline: 1275 match(es) scanned, 9 elo update(s), 0 settled, 40 candidate(s) in 12h window, 8 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-11 03:48:40] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
+[2026-08-11 03:48:40] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
+[2026-08-11 03:48:40] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
+[2026-08-11 03:48:40] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
+[2026-08-11 03:48:40] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
