@@ -1,10 +1,3 @@
-[2026-08-09 07:34:04] engine run started (quick: amateur circuits only)
-[2026-08-09 07:34:07] amateur settled: Sebastian Juzek vs Witold Buczynski -> Sebastian Juzek won -> bet WIN
-[2026-08-09 07:34:28] czech pipeline: 1335 match(es) scanned, 42 elo update(s), 1 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-09 07:34:28] ROI by grade C: 206W-267L-0P staked 460.63u net -27.57u roi -6.0%
-[2026-08-09 07:34:28] ROI by circuit czech: 120W-159L-0P staked 270.76u net -17.18u roi -6.3%
-[2026-08-09 07:34:28] ROI by circuit polish: 85W-99L-0P staked 180.09u net -1.89u roi -1.1%
-[2026-08-09 07:34:28] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-09 07:34:28] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-09 08:47:38] engine run started (quick: amateur circuits only)
 [2026-08-09 08:47:41] amateur settled: Jan Muska vs Jakub Joksch -> Jan Muska won -> bet LOSS
@@ -1005,3 +998,38 @@
 [2026-08-11 21:52:55] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
 [2026-08-11 21:52:55] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
 [2026-08-11 21:52:55] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-11 22:16:50] engine run started
+[2026-08-11 22:16:55] rankings parsed: 950 players across 2 lists; scanning 160
+[2026-08-11 22:22:52] upcoming WTT singles matches found: 12
+[2026-08-11 22:22:54] no odds posted yet for Sathiyan Gnanasekaran vs Sora Matsushima
+[2026-08-11 22:22:54] modeled Sathiyan Gnanasekaran vs Sora Matsushima -> 11% / MODEL PICK: Sora Matsushima (89%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:22:55] no odds posted yet for Manav Vikash Thakkar vs Tomokazu Harimoto
+[2026-08-11 22:22:55] modeled Manav Vikash Thakkar vs Tomokazu Harimoto -> 16% / MODEL PICK: Tomokazu Harimoto (84%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:22:56] no odds posted yet for Felix Lebrun vs Eduard Ionescu
+[2026-08-11 22:22:56] modeled Felix Lebrun vs Eduard Ionescu -> 88% / MODEL PICK: Felix Lebrun (88%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:22:58] no odds posted yet for Kristian Karlsson vs Hiroto Shinozuka
+[2026-08-11 22:22:58] modeled Kristian Karlsson vs Hiroto Shinozuka -> 29% / MODEL PICK: Hiroto Shinozuka (71%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:22:59] no odds posted yet for Milosz Redzimski vs Oh Jun-sung
+[2026-08-11 22:22:59] modeled Milosz Redzimski vs Oh Jun-sung -> 28% / MODEL PICK: Oh Jun-sung (72%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:02] no odds posted yet for Kanak Jha vs Fang Bo
+[2026-08-11 22:23:02] modeled Kanak Jha vs Fang Bo -> 94% / MODEL PICK: Kanak Jha (94%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:04] no odds posted yet for Anna Hursey vs Miwa Harimoto
+[2026-08-11 22:23:04] modeled Anna Hursey vs Miwa Harimoto -> 19% / MODEL PICK: Miwa Harimoto (81%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:07] no odds posted yet for Kuai Man vs Elena Zaharia
+[2026-08-11 22:23:07] modeled Kuai Man vs Elena Zaharia -> 90% / MODEL PICK: Kuai Man (90%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:08] no odds posted yet for Hana Goda vs Chen Xingtong
+[2026-08-11 22:23:08] modeled Hana Goda vs Chen Xingtong -> 29% / MODEL PICK: Chen Xingtong (71%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:13] no odds posted yet for Wang Yidi vs Siri Benjegard
+[2026-08-11 22:23:13] modeled Wang Yidi vs Siri Benjegard -> 95% / MODEL PICK: Wang Yidi (95%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:14] no odds posted yet for Zhu Yuling vs Annett Kaufmann
+[2026-08-11 22:23:14] modeled Zhu Yuling vs Annett Kaufmann -> 85% / MODEL PICK: Zhu Yuling (85%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:16] no odds posted yet for Lily Zhang vs Manika Batra
+[2026-08-11 22:23:16] modeled Lily Zhang vs Manika Batra -> 65% / MODEL PICK: Lily Zhang (65%) — odds not found; enter odds in app / grade C
+[2026-08-11 22:23:40] czech pipeline: 1973 match(es) scanned, 13 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-11 22:23:40] settled: Cheng I-ching vs Liu Yangzi -> Cheng I-ching won 3-2 -> bet LOSS
+[2026-08-11 22:23:40] settled: Elizabet Abraamian vs Miyu Nagasaki -> Miyu Nagasaki won 1-3 -> bet LOSS
+[2026-08-11 22:23:40] ROI by grade C: 208W-289L-0P staked 484.45u net -47.17u roi -9.7%
+[2026-08-11 22:23:40] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
+[2026-08-11 22:23:40] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
+[2026-08-11 22:23:40] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
+[2026-08-11 22:23:40] run summary: 52 rec(s), 0 bet(s) auto-logged, 2 bet(s) auto-settled
