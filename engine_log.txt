@@ -1,10 +1,3 @@
-[2026-08-07 21:42:02] amateur settled: Krzysztof Juszczyk vs Kurek, Pawel -> Kurek, Pawel won -> bet LOSS
-[2026-08-07 21:42:48] czech pipeline: 2023 match(es) scanned, 30 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 2 BET rec(s)
-[2026-08-07 21:42:48] ROI by grade C: 192W-247L-0P staked 426.78u net -31.36u roi -7.3%
-[2026-08-07 21:42:48] ROI by circuit czech: 115W-143L-0P staked 249.91u net -8.39u roi -3.4%
-[2026-08-07 21:42:48] ROI by circuit polish: 76W-95L-0P staked 167.09u net -14.47u roi -8.7%
-[2026-08-07 21:42:48] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-07 21:42:48] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-07 22:40:06] engine run started (quick: amateur circuits only)
 [2026-08-07 22:40:32] czech pipeline: 2029 match(es) scanned, 24 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 2 BET rec(s)
 [2026-08-07 22:40:32] ROI by grade C: 192W-247L-0P staked 426.78u net -31.36u roi -7.3%
@@ -1005,3 +998,10 @@
 [2026-08-11 01:00:05] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
 [2026-08-11 01:00:05] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
 [2026-08-11 01:00:05] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-11 01:29:34] engine run started (quick: amateur circuits only)
+[2026-08-11 01:30:01] czech pipeline: 1270 match(es) scanned, 5 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 5 BET rec(s)
+[2026-08-11 01:30:01] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
+[2026-08-11 01:30:01] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
+[2026-08-11 01:30:01] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
+[2026-08-11 01:30:01] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
+[2026-08-11 01:30:01] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
