@@ -1,85 +1,3 @@
-[2026-08-08 07:52:37] ROI by circuit polish: 78W-97L-0P staked 171.09u net -13.89u roi -8.1%
-[2026-08-08 07:52:37] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 07:52:37] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 08:46:22] engine run started (quick: amateur circuits only)
-[2026-08-08 08:46:25] amateur settled: Marek Kulisek vs Jan Kocab -> Marek Kulisek won -> bet LOSS
-[2026-08-08 08:46:25] amateur settled: David Hons vs Petr Pesout -> David Hons won -> bet LOSS
-[2026-08-08 08:46:45] czech pipeline: 1355 match(es) scanned, 31 elo update(s), 2 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 12 BET rec(s)
-[2026-08-08 08:46:45] ROI by grade C: 197W-252L-0P staked 436.63u net -29.27u roi -6.7%
-[2026-08-08 08:46:45] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
-[2026-08-08 08:46:45] ROI by circuit polish: 78W-97L-0P staked 171.09u net -13.89u roi -8.1%
-[2026-08-08 08:46:45] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 08:46:45] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 09:41:22] engine run started (quick: amateur circuits only)
-[2026-08-08 09:41:41] amateur settled: Kacper Petas vs Konrad Kulpa -> Kacper Petas won -> bet WIN
-[2026-08-08 09:42:21] czech pipeline: 1371 match(es) scanned, 29 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 15 BET rec(s)
-[2026-08-08 09:42:21] ROI by grade C: 198W-252L-0P staked 437.63u net -27.27u roi -6.2%
-[2026-08-08 09:42:21] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
-[2026-08-08 09:42:21] ROI by circuit polish: 79W-97L-0P staked 172.09u net -11.89u roi -6.9%
-[2026-08-08 09:42:21] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 09:42:21] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 10:39:25] engine run started (quick: amateur circuits only)
-[2026-08-08 10:39:50] czech pipeline: 1376 match(es) scanned, 32 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 12 BET rec(s)
-[2026-08-08 10:39:50] ROI by grade C: 198W-252L-0P staked 437.63u net -27.27u roi -6.2%
-[2026-08-08 10:39:50] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
-[2026-08-08 10:39:50] ROI by circuit polish: 79W-97L-0P staked 172.09u net -11.89u roi -6.9%
-[2026-08-08 10:39:50] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 10:39:50] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 11:31:50] engine run started (quick: amateur circuits only)
-[2026-08-08 11:31:53] amateur settled: Maciej Domin vs Konrad Kulpa -> Konrad Kulpa won -> bet LOSS
-[2026-08-08 11:31:53] amateur settled: Grzegorz Poliniewicz vs Maksymilian Miastowski -> Maksymilian Miastowski won -> bet LOSS
-[2026-08-08 11:32:15] czech pipeline: 1376 match(es) scanned, 30 elo update(s), 2 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 11 BET rec(s)
-[2026-08-08 11:32:15] ROI by grade C: 198W-254L-0P staked 439.63u net -29.27u roi -6.7%
-[2026-08-08 11:32:15] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
-[2026-08-08 11:32:15] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
-[2026-08-08 11:32:15] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 11:32:15] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 11:57:16] engine run started (quick: amateur circuits only)
-[2026-08-08 11:57:41] czech pipeline: 1376 match(es) scanned, 15 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 13 BET rec(s)
-[2026-08-08 11:57:42] ROI by grade C: 198W-254L-0P staked 439.63u net -29.27u roi -6.7%
-[2026-08-08 11:57:42] ROI by circuit czech: 118W-146L-0P staked 255.76u net -6.88u roi -2.7%
-[2026-08-08 11:57:42] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
-[2026-08-08 11:57:42] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 11:57:42] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 12:54:37] engine run started (quick: amateur circuits only)
-[2026-08-08 12:54:41] amateur settled: David Hons vs Petr Pesout -> David Hons won -> bet LOSS
-[2026-08-08 12:54:41] amateur settled: Zdenek Bilek vs Lukas Zeman -> Lukas Zeman won -> bet WIN
-[2026-08-08 12:55:01] czech pipeline: 1574 match(es) scanned, 31 elo update(s), 2 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 8 BET rec(s)
-[2026-08-08 12:55:01] ROI by grade C: 199W-255L-0P staked 441.63u net -28.77u roi -6.5%
-[2026-08-08 12:55:01] ROI by circuit czech: 119W-147L-0P staked 257.76u net -6.38u roi -2.5%
-[2026-08-08 12:55:01] ROI by circuit polish: 79W-99L-0P staked 174.09u net -13.89u roi -8.0%
-[2026-08-08 12:55:01] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 12:55:01] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 13:49:02] engine run started (quick: amateur circuits only)
-[2026-08-08 13:49:08] amateur settled: Maksymilian Miastowski vs Konrad Kulpa -> Maksymilian Miastowski won -> bet WIN
-[2026-08-08 13:49:30] czech pipeline: 1754 match(es) scanned, 22 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 10 BET rec(s)
-[2026-08-08 13:49:30] ROI by grade C: 200W-255L-0P staked 442.63u net -24.77u roi -5.6%
-[2026-08-08 13:49:30] ROI by circuit czech: 119W-147L-0P staked 257.76u net -6.38u roi -2.5%
-[2026-08-08 13:49:30] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
-[2026-08-08 13:49:30] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 13:49:30] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 14:34:38] engine run started (quick: amateur circuits only)
-[2026-08-08 14:35:07] czech pipeline: 1879 match(es) scanned, 23 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 7 BET rec(s)
-[2026-08-08 14:35:07] ROI by grade C: 200W-255L-0P staked 442.63u net -24.77u roi -5.6%
-[2026-08-08 14:35:07] ROI by circuit czech: 119W-147L-0P staked 257.76u net -6.38u roi -2.5%
-[2026-08-08 14:35:07] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
-[2026-08-08 14:35:07] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 14:35:07] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 15:33:04] engine run started (quick: amateur circuits only)
-[2026-08-08 15:33:09] amateur settled: Pavel Wawrosz vs Tomas Dousek -> Pavel Wawrosz won -> bet WIN
-[2026-08-08 15:33:09] amateur settled: Jiri Pozarsky vs Stolfa Jakub -> Jiri Pozarsky won -> bet LOSS
-[2026-08-08 15:33:29] czech pipeline: 1881 match(es) scanned, 32 elo update(s), 2 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-08-08 15:33:29] ROI by grade C: 201W-256L-0P staked 444.63u net -24.57u roi -5.5%
-[2026-08-08 15:33:29] ROI by circuit czech: 120W-148L-0P staked 259.76u net -6.18u roi -2.4%
-[2026-08-08 15:33:29] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
-[2026-08-08 15:33:29] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
-[2026-08-08 15:33:29] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-08 15:59:17] engine run started (quick: amateur circuits only)
-[2026-08-08 15:59:43] czech pipeline: 1878 match(es) scanned, 15 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 6 BET rec(s)
-[2026-08-08 15:59:44] ROI by grade C: 201W-256L-0P staked 444.63u net -24.57u roi -5.5%
-[2026-08-08 15:59:44] ROI by circuit czech: 120W-148L-0P staked 259.76u net -6.18u roi -2.4%
-[2026-08-08 15:59:44] ROI by circuit polish: 80W-99L-0P staked 175.09u net -9.89u roi -5.7%
-[2026-08-08 15:59:44] ROI by circuit wtt: 1W-9L-0P staked 9.78u net -8.50u roi -86.9%
 [2026-08-08 15:59:44] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-08 16:39:59] engine run started (quick: amateur circuits only)
 [2026-08-08 16:40:04] amateur settled: Miroslav Tuma vs Miroslav Barta -> Miroslav Tuma won -> bet LOSS
@@ -1080,3 +998,10 @@
 [2026-08-11 10:15:25] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
 [2026-08-11 10:15:25] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
 [2026-08-11 10:15:25] run summary: 80 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-11 11:21:31] engine run started (quick: amateur circuits only)
+[2026-08-11 11:21:56] czech pipeline: 1346 match(es) scanned, 38 elo update(s), 0 settled, 40 candidate(s) in 12h window, 9 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-11 11:21:56] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
+[2026-08-11 11:21:56] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
+[2026-08-11 11:21:56] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
+[2026-08-11 11:21:56] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
+[2026-08-11 11:21:56] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
