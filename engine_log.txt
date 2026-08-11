@@ -998,10 +998,10 @@
 [2026-08-11 06:29:33] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
 [2026-08-11 06:29:33] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
 [2026-08-11 06:29:33] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-11 07:46:56] engine run started (quick: amateur circuits only)
-[2026-08-11 07:47:20] czech pipeline: 1332 match(es) scanned, 40 elo update(s), 0 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-08-11 07:47:21] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
-[2026-08-11 07:47:21] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
-[2026-08-11 07:47:21] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
-[2026-08-11 07:47:21] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
-[2026-08-11 07:47:21] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-11 07:47:59] engine run started (quick: amateur circuits only)
+[2026-08-11 07:48:23] czech pipeline: 1332 match(es) scanned, 40 elo update(s), 0 settled, 40 candidate(s) in 12h window, 12 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-11 07:48:23] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
+[2026-08-11 07:48:23] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
+[2026-08-11 07:48:23] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
+[2026-08-11 07:48:23] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
+[2026-08-11 07:48:23] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
