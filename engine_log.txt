@@ -1,10 +1,3 @@
-[2026-08-10 02:11:38] modeled Elizabet Abraamian vs Miyu Nagasaki -> 44% / MODEL PICK: Miyu Nagasaki (56%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:11:40] no odds posted yet for Nina Mittelham vs Bernadette Szocs
-[2026-08-10 02:11:40] modeled Nina Mittelham vs Bernadette Szocs -> 49% / MODEL PICK: Bernadette Szocs (51%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:11:41] no odds posted yet for Cheng I-ching vs Liu Yangzi
-[2026-08-10 02:11:41] modeled Cheng I-ching vs Liu Yangzi -> 44% / MODEL PICK: Liu Yangzi (56%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:11:43] modeled Kim Na-yeong vs Amy Wang -> 63% / BET 1.00u on Amy Wang @ +333 (bet365) / grade C
-[2026-08-10 02:11:44] no odds posted yet for Doo Hoi-kem vs Miyuu Kihara
 [2026-08-10 02:11:44] modeled Doo Hoi-kem vs Miyuu Kihara -> 41% / MODEL PICK: Miyuu Kihara (59%) — odds not found; enter odds in app / grade C
 [2026-08-10 02:11:45] no odds posted yet for Prithika Pavade vs Peng Yu-Han
 [2026-08-10 02:11:45] modeled Prithika Pavade vs Peng Yu-Han -> 64% / MODEL PICK: Prithika Pavade (64%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,10 @@
 [2026-08-12 22:55:05] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
 [2026-08-12 22:55:05] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
 [2026-08-12 22:55:05] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-12 23:45:58] engine run started (quick: amateur circuits only)
+[2026-08-12 23:46:23] czech pipeline: 2004 match(es) scanned, 16 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-12 23:46:23] ROI by grade C: 216W-293L-0P staked 494.02u net -43.84u roi -8.9%
+[2026-08-12 23:46:23] ROI by circuit czech: 127W-171L-0P staked 287.35u net -22.00u roi -7.7%
+[2026-08-12 23:46:23] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
+[2026-08-12 23:46:23] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
+[2026-08-12 23:46:23] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
