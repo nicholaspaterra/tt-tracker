@@ -1,11 +1,3 @@
-[2026-08-10 02:10:34] no odds posted yet for Lubomir Jancarik vs Lin Yun-ju
-[2026-08-10 02:10:34] modeled Lubomir Jancarik vs Lin Yun-ju -> 15% / MODEL PICK: Lin Yun-ju (85%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:10:38] no odds posted yet for William Bergenblock vs Hugo Calderano
-[2026-08-10 02:10:38] modeled William Bergenblock vs Hugo Calderano -> 5% / MODEL PICK: Hugo Calderano (95%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:10:40] no odds posted yet for Jang Woo-jin vs Adrien Rassenfosse
-[2026-08-10 02:10:40] modeled Jang Woo-jin vs Adrien Rassenfosse -> 74% / MODEL PICK: Jang Woo-jin (74%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:10:44] no odds posted yet for Izaac Quek vs Alexis Lebrun
-[2026-08-10 02:10:44] modeled Izaac Quek vs Alexis Lebrun -> 11% / MODEL PICK: Alexis Lebrun (89%) — odds not found; enter odds in app / grade C
 [2026-08-10 02:10:45] no odds posted yet for Qiu Dang vs Csaba Andras
 [2026-08-10 02:10:45] modeled Qiu Dang vs Csaba Andras -> 82% / MODEL PICK: Qiu Dang (82%) — odds not found; enter odds in app / grade C
 [2026-08-10 02:10:49] no odds posted yet for Lilian Bardet vs Wen Ruibo
@@ -1006,3 +998,11 @@
 [2026-08-12 18:27:56] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
 [2026-08-12 18:27:56] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
 [2026-08-12 18:27:56] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-12 19:38:58] engine run started (quick: amateur circuits only)
+[2026-08-12 19:39:03] amateur settled: Radek Zeman vs Lukas Vich -> Lukas Vich won -> bet WIN
+[2026-08-12 19:39:26] czech pipeline: 1949 match(es) scanned, 39 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-08-12 19:39:26] ROI by grade C: 214W-292L-0P staked 491.52u net -44.10u roi -9.0%
+[2026-08-12 19:39:26] ROI by circuit czech: 125W-170L-0P staked 284.85u net -22.27u roi -7.8%
+[2026-08-12 19:39:26] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
+[2026-08-12 19:39:26] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
+[2026-08-12 19:39:26] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
