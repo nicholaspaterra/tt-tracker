@@ -1,12 +1,3 @@
-[2026-08-09 14:36:05] no odds posted yet for Shi Xunyao vs Zhang Mo
-[2026-08-09 14:36:05] modeled Shi Xunyao vs Zhang Mo -> 79% / MODEL PICK: Shi Xunyao (79%) — odds not found; enter odds in app / grade C
-[2026-08-09 14:36:06] no odds posted yet for Qin Yuxuan vs Mima Ito
-[2026-08-09 14:36:06] modeled Qin Yuxuan vs Mima Ito -> 39% / MODEL PICK: Mima Ito (61%) — odds not found; enter odds in app / grade C
-[2026-08-09 14:36:08] no odds posted yet for Han Ying vs Natalia Bajor
-[2026-08-09 14:36:08] modeled Han Ying vs Natalia Bajor -> 74% / MODEL PICK: Han Ying (74%) — odds not found; enter odds in app / grade C
-[2026-08-09 14:36:09] no odds posted yet for Kim Na-yeong vs Amy Wang
-[2026-08-09 14:36:09] modeled Kim Na-yeong vs Amy Wang -> 63% / MODEL PICK: Kim Na-yeong (63%) — odds not found; enter odds in app / grade C
-[2026-08-09 14:36:11] no odds posted yet for Doo Hoi-kem vs Miyuu Kihara
 [2026-08-09 14:36:11] modeled Doo Hoi-kem vs Miyuu Kihara -> 41% / MODEL PICK: Miyuu Kihara (59%) — odds not found; enter odds in app / grade C
 [2026-08-09 14:36:12] no odds posted yet for Huang Yu-Jie vs Su Tsz Tung
 [2026-08-09 14:36:12] modeled Huang Yu-Jie vs Su Tsz Tung -> 65% / MODEL PICK: Huang Yu-Jie (65%) — odds not found; enter odds in app / grade C
@@ -1007,3 +998,75 @@
 [2026-08-12 11:50:29] ROI by circuit polish: 87W-106L-0P staked 189.09u net -7.34u roi -3.9%
 [2026-08-12 11:50:29] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
 [2026-08-12 11:50:29] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-12 12:02:49] engine run started
+[2026-08-12 12:02:56] rankings parsed: 950 players across 2 lists; scanning 160
+[2026-08-12 12:10:01] upcoming WTT singles matches found: 32
+[2026-08-12 12:10:03] modeled Sathiyan Gnanasekaran vs Sora Matsushima -> 11% / NO BET (edge 1.0% @ bet365 +800/-2500) / grade C
+[2026-08-12 12:10:04] no odds posted yet for Manav Vikash Thakkar vs Tomokazu Harimoto
+[2026-08-12 12:10:04] modeled Manav Vikash Thakkar vs Tomokazu Harimoto -> 14% / MODEL PICK: Tomokazu Harimoto (86%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:06] no odds posted yet for Felix Lebrun vs Park Ganghyeon
+[2026-08-12 12:10:06] modeled Felix Lebrun vs Park Ganghyeon -> 86% / MODEL PICK: Felix Lebrun (86%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:07] no odds posted yet for Jonathan Groth vs Lin Yun-ju
+[2026-08-12 12:10:07] modeled Jonathan Groth vs Lin Yun-ju -> 18% / MODEL PICK: Lin Yun-ju (82%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:08] no odds posted yet for Maharu Yoshimura vs Hugo Calderano
+[2026-08-12 12:10:08] modeled Maharu Yoshimura vs Hugo Calderano -> 16% / MODEL PICK: Hugo Calderano (84%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:10] no odds posted yet for Jang Woo-jin vs Tomislav Pucar
+[2026-08-12 12:10:10] modeled Jang Woo-jin vs Tomislav Pucar -> 77% / MODEL PICK: Jang Woo-jin (77%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:11] no odds posted yet for Xiang Peng vs Alexis Lebrun
+[2026-08-12 12:10:11] modeled Xiang Peng vs Alexis Lebrun -> 38% / MODEL PICK: Alexis Lebrun (62%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:12] no odds posted yet for Elias Ranefur vs Wen Ruibo
+[2026-08-12 12:10:12] modeled Elias Ranefur vs Wen Ruibo -> 23% / MODEL PICK: Wen Ruibo (77%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:14] no odds posted yet for Anders Lind vs Kuo Guan-Hong
+[2026-08-12 12:10:14] modeled Anders Lind vs Kuo Guan-Hong -> 71% / MODEL PICK: Anders Lind (71%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:15] no odds posted yet for Cedric Nuytinck vs Darko Jorgic
+[2026-08-12 12:10:15] modeled Cedric Nuytinck vs Darko Jorgic -> 20% / MODEL PICK: Darko Jorgic (80%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:17] modeled Kristian Karlsson vs Hiroto Shinozuka -> 27% / BET 0.41u on Kristian Karlsson @ +350 (bet365) / grade C
+[2026-08-12 12:10:18] no odds posted yet for Milosz Redzimski vs Oh Jun-sung
+[2026-08-12 12:10:18] modeled Milosz Redzimski vs Oh Jun-sung -> 30% / MODEL PICK: Oh Jun-sung (70%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:21] no odds posted yet for Kanak Jha vs Fang Bo
+[2026-08-12 12:10:21] modeled Kanak Jha vs Fang Bo -> 95% / MODEL PICK: Kanak Jha (95%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:23] no odds posted yet for Anton Kallberg vs Zhou Qihao
+[2026-08-12 12:10:23] modeled Anton Kallberg vs Zhou Qihao -> 31% / MODEL PICK: Zhou Qihao (69%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:24] no odds posted yet for Joao Geraldo vs Thibault Poret
+[2026-08-12 12:10:24] modeled Joao Geraldo vs Thibault Poret -> 48% / MODEL PICK: Thibault Poret (52%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:26] no odds posted yet for Csaba Andras vs Omar Assar
+[2026-08-12 12:10:26] modeled Csaba Andras vs Omar Assar -> 38% / MODEL PICK: Omar Assar (62%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:27] no odds posted yet for Wang Manyu vs Chien Tung-chuan
+[2026-08-12 12:10:27] modeled Wang Manyu vs Chien Tung-chuan -> 90% / MODEL PICK: Wang Manyu (90%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:28] no odds posted yet for Anna Hursey vs Miwa Harimoto
+[2026-08-12 12:10:28] modeled Anna Hursey vs Miwa Harimoto -> 16% / MODEL PICK: Miwa Harimoto (84%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:33] no odds posted yet for Kuai Man vs Elena Zaharia
+[2026-08-12 12:10:33] modeled Kuai Man vs Elena Zaharia -> 91% / MODEL PICK: Kuai Man (91%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:35] no odds posted yet for Hana Goda vs Chen Xingtong
+[2026-08-12 12:10:35] modeled Hana Goda vs Chen Xingtong -> 25% / MODEL PICK: Chen Xingtong (75%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:36] no odds posted yet for Wang Yidi vs Diya Parag Chitale
+[2026-08-12 12:10:36] modeled Wang Yidi vs Diya Parag Chitale -> 90% / MODEL PICK: Wang Yidi (90%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:37] no odds posted yet for Su Tsz Tung vs Hina Hayata
+[2026-08-12 12:10:37] modeled Su Tsz Tung vs Hina Hayata -> 11% / MODEL PICK: Hina Hayata (89%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:39] no odds posted yet for Miyu Nagasaki vs Sabine Winter
+[2026-08-12 12:10:39] modeled Miyu Nagasaki vs Sabine Winter -> 36% / MODEL PICK: Sabine Winter (64%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:40] no odds posted yet for Zhu Yuling vs Annett Kaufmann
+[2026-08-12 12:10:40] modeled Zhu Yuling vs Annett Kaufmann -> 85% / MODEL PICK: Zhu Yuling (85%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:43] no odds posted yet for Shin Yu-bin vs Giorgia Piccolin
+[2026-08-12 12:10:43] modeled Shin Yu-bin vs Giorgia Piccolin -> 89% / MODEL PICK: Shin Yu-bin (89%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:47] no odds posted yet for Christina Kallberg vs Chen Yi
+[2026-08-12 12:10:47] modeled Christina Kallberg vs Chen Yi -> 14% / MODEL PICK: Chen Yi (86%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:48] no odds posted yet for Hashimoto Honoka vs Peng Yu-Han
+[2026-08-12 12:10:48] modeled Hashimoto Honoka vs Peng Yu-Han -> 81% / MODEL PICK: Hashimoto Honoka (81%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:50] no odds posted yet for Shi Xunyao vs Cheng I-ching
+[2026-08-12 12:10:50] modeled Shi Xunyao vs Cheng I-ching -> 74% / MODEL PICK: Shi Xunyao (74%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:51] no odds posted yet for Nina Mittelham vs Joo Cheon-hui
+[2026-08-12 12:10:51] modeled Nina Mittelham vs Joo Cheon-hui -> 33% / MODEL PICK: Joo Cheon-hui (67%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:52] no odds posted yet for Han Ying vs Zeng Jian
+[2026-08-12 12:10:52] modeled Han Ying vs Zeng Jian -> 77% / MODEL PICK: Han Ying (77%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:54] no odds posted yet for Li Yu-jhun vs Qin Yuxuan
+[2026-08-12 12:10:54] modeled Li Yu-jhun vs Qin Yuxuan -> 35% / MODEL PICK: Qin Yuxuan (65%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:10:55] no odds posted yet for Lily Zhang vs Manika Batra
+[2026-08-12 12:10:55] modeled Lily Zhang vs Manika Batra -> 65% / MODEL PICK: Lily Zhang (65%) — odds not found; enter odds in app / grade C
+[2026-08-12 12:11:00] amateur settled: Kurek Pawel vs Wojciech Wojtaszczyk -> Kurek Pawel won -> bet WIN
+[2026-08-12 12:11:20] czech pipeline: 1560 match(es) scanned, 9 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-12 12:11:21] ROI by grade C: 211W-291L-0P staked 488.46u net -46.06u roi -9.4%
+[2026-08-12 12:11:21] ROI by circuit czech: 122W-170L-0P staked 282.79u net -25.23u roi -8.9%
+[2026-08-12 12:11:21] ROI by circuit polish: 88W-106L-0P staked 189.89u net -6.34u roi -3.3%
+[2026-08-12 12:11:21] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
+[2026-08-12 12:11:21] run summary: 72 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
