@@ -1,11 +1,3 @@
-[2026-08-10 02:11:03] modeled Yukiya Uda vs Simon Gauzy -> 49% / BET 1.00u on Simon Gauzy @ +137 (bet365) / grade C
-[2026-08-10 02:11:04] modeled Flavien Coton vs Park Ganghyeon -> 72% / BET 0.54u on Flavien Coton @ -227 (bet365) / grade C
-[2026-08-10 02:11:06] no odds posted yet for Kuo Guan-Hong vs Benedikt Duda
-[2026-08-10 02:11:06] modeled Kuo Guan-Hong vs Benedikt Duda -> 39% / MODEL PICK: Benedikt Duda (61%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:11:07] no odds posted yet for An Jae-hyun vs Zhou Qihao
-[2026-08-10 02:11:07] modeled An Jae-hyun vs Zhou Qihao -> 45% / MODEL PICK: Zhou Qihao (55%) — odds not found; enter odds in app / grade C
-[2026-08-10 02:11:08] no odds posted yet for Finn Luu vs Joao Geraldo
-[2026-08-10 02:11:08] modeled Finn Luu vs Joao Geraldo -> 33% / MODEL PICK: Joao Geraldo (67%) — odds not found; enter odds in app / grade C
 [2026-08-10 02:11:10] no odds posted yet for Omar Assar vs Chen Junsong
 [2026-08-10 02:11:10] modeled Omar Assar vs Chen Junsong -> 50% / MODEL PICK: Chen Junsong (50%) — odds not found; enter odds in app / grade C
 [2026-08-10 02:11:11] no odds posted yet for Manush Utpalbhai Shah vs Feng Yi-hsin
@@ -1006,3 +998,10 @@
 [2026-08-12 20:50:48] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
 [2026-08-12 20:50:48] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
 [2026-08-12 20:50:48] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-12 21:00:13] engine run started (quick: amateur circuits only)
+[2026-08-12 21:00:37] czech pipeline: 1988 match(es) scanned, 7 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-12 21:00:37] ROI by grade C: 216W-292L-0P staked 493.02u net -42.84u roi -8.7%
+[2026-08-12 21:00:37] ROI by circuit czech: 127W-170L-0P staked 286.35u net -21.00u roi -7.3%
+[2026-08-12 21:00:37] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
+[2026-08-12 21:00:37] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
+[2026-08-12 21:00:37] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
