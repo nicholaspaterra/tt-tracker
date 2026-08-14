@@ -1,10 +1,3 @@
-[2026-08-11 12:17:10] no odds posted yet for Felix Lebrun vs Eduard Ionescu
-[2026-08-11 12:17:10] modeled Felix Lebrun vs Eduard Ionescu -> 88% / MODEL PICK: Felix Lebrun (88%) — odds not found; enter odds in app / grade C
-[2026-08-11 12:17:13] no odds posted yet for William Bergenblock vs Hugo Calderano
-[2026-08-11 12:17:13] modeled William Bergenblock vs Hugo Calderano -> 5% / MODEL PICK: Hugo Calderano (95%) — odds not found; enter odds in app / grade C
-[2026-08-11 12:17:14] no odds posted yet for Jang Woo-jin vs Adrien Rassenfosse
-[2026-08-11 12:17:14] modeled Jang Woo-jin vs Adrien Rassenfosse -> 76% / MODEL PICK: Jang Woo-jin (76%) — odds not found; enter odds in app / grade C
-[2026-08-11 12:17:18] no odds posted yet for Izaac Quek vs Alexis Lebrun
 [2026-08-11 12:17:18] modeled Izaac Quek vs Alexis Lebrun -> 10% / MODEL PICK: Alexis Lebrun (90%) — odds not found; enter odds in app / grade C
 [2026-08-11 12:17:19] no odds posted yet for Qiu Dang vs Csaba Andras
 [2026-08-11 12:17:19] modeled Qiu Dang vs Csaba Andras -> 84% / MODEL PICK: Qiu Dang (84%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,10 @@
 [2026-08-14 21:28:59] ROI by circuit polish: 89W-111L-0P staked 195.89u net -10.09u roi -5.1%
 [2026-08-14 21:28:59] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-14 21:28:59] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-14 21:51:12] engine run started (quick: amateur circuits only)
+[2026-08-14 21:51:39] czech pipeline: 2630 match(es) scanned, 12 elo update(s), 0 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 2 BET rec(s)
+[2026-08-14 21:51:39] ROI by grade C: 223W-309L-0P staked 516.31u net -49.19u roi -9.5%
+[2026-08-14 21:51:39] ROI by circuit czech: 133W-181L-0P staked 302.64u net -22.60u roi -7.5%
+[2026-08-14 21:51:39] ROI by circuit polish: 89W-111L-0P staked 195.89u net -10.09u roi -5.1%
+[2026-08-14 21:51:39] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-14 21:51:39] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
