@@ -1,12 +1,3 @@
-[2026-08-11 09:02:11] czech pipeline: 1337 match(es) scanned, 41 elo update(s), 0 settled, 40 candidate(s) in 12h window, 9 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-08-11 09:02:12] ROI by grade C: 208W-287L-0P staked 482.45u net -45.17u roi -9.4%
-[2026-08-11 09:02:12] ROI by circuit czech: 121W-169L-0P staked 281.58u net -25.50u roi -9.1%
-[2026-08-11 09:02:12] ROI by circuit polish: 86W-105L-0P staked 187.09u net -7.17u roi -3.8%
-[2026-08-11 09:02:12] ROI by circuit wtt: 1W-13L-0P staked 13.78u net -12.50u roi -90.7%
-[2026-08-11 09:02:12] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-11 10:07:13] engine run started
-[2026-08-11 10:07:17] rankings parsed: 950 players across 2 lists; scanning 160
-[2026-08-11 10:13:40] upcoming WTT singles matches found: 40
 [2026-08-11 10:13:41] no odds posted yet for Truls Moregard vs Dimitrij Ovtcharov
 [2026-08-11 10:13:41] modeled Truls Moregard vs Dimitrij Ovtcharov -> 82% / MODEL PICK: Truls Moregard (82%) — odds not found; enter odds in app / grade C
 [2026-08-11 10:13:43] modeled Sathiyan Gnanasekaran vs Sora Matsushima -> 11% / NO BET (edge 0.3% @ bet365 +700/-1667) / grade C
@@ -1007,3 +998,11 @@
 [2026-08-14 13:15:06] ROI by circuit polish: 89W-110L-0P staked 194.89u net -9.09u roi -4.7%
 [2026-08-14 13:15:06] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-14 13:15:06] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-14 14:31:31] engine run started (quick: amateur circuits only)
+[2026-08-14 14:31:38] amateur settled: Jiri Hyrsl vs Milan Vrabec -> Milan Vrabec won -> bet WIN
+[2026-08-14 14:31:58] czech pipeline: 2548 match(es) scanned, 40 elo update(s), 1 settled, 40 candidate(s) in 12h window, 5 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-08-14 14:31:58] ROI by grade C: 221W-305L-0P staked 510.45u net -49.33u roi -9.7%
+[2026-08-14 14:31:58] ROI by circuit czech: 131W-178L-0P staked 297.78u net -23.74u roi -8.0%
+[2026-08-14 14:31:58] ROI by circuit polish: 89W-110L-0P staked 194.89u net -9.09u roi -4.7%
+[2026-08-14 14:31:58] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-14 14:31:58] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
