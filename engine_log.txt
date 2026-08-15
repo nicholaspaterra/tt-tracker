@@ -1,10 +1,3 @@
-[2026-08-11 16:14:17] modeled Kuai Man vs Elena Zaharia -> 90% / MODEL PICK: Kuai Man (90%) — odds not found; enter odds in app / grade C
-[2026-08-11 16:14:19] modeled Hana Goda vs Chen Xingtong -> 29% / BET 1.00u on Hana Goda @ +800 (bet365) / grade C
-[2026-08-11 16:14:23] no odds posted yet for Wang Yidi vs Siri Benjegard
-[2026-08-11 16:14:23] modeled Wang Yidi vs Siri Benjegard -> 95% / MODEL PICK: Wang Yidi (95%) — odds not found; enter odds in app / grade C
-[2026-08-11 16:14:24] modeled Yuan Jianan vs Hina Hayata -> 20% / BET 0.49u on Yuan Jianan @ +600 (bet365) / grade C
-[2026-08-11 16:14:26] no odds posted yet for Zhu Yuling vs Annett Kaufmann
-[2026-08-11 16:14:26] modeled Zhu Yuling vs Annett Kaufmann -> 85% / MODEL PICK: Zhu Yuling (85%) — odds not found; enter odds in app / grade C
 [2026-08-11 16:14:27] no odds posted yet for Adriana Diaz vs Joo Cheon-hui
 [2026-08-11 16:14:27] modeled Adriana Diaz vs Joo Cheon-hui -> 46% / MODEL PICK: Joo Cheon-hui (54%) — odds not found; enter odds in app / grade C
 [2026-08-11 16:14:28] modeled Elizabet Abraamian vs Miyu Nagasaki -> 44% / BET 1.00u on Elizabet Abraamian @ +250 (bet365) / grade C
@@ -1005,3 +998,10 @@
 [2026-08-15 08:59:11] ROI by circuit polish: 90W-113L-0P staked 198.16u net -11.74u roi -5.9%
 [2026-08-15 08:59:11] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-15 08:59:11] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-15 09:29:19] engine run started (quick: amateur circuits only)
+[2026-08-15 09:29:44] czech pipeline: 2028 match(es) scanned, 7 elo update(s), 0 settled, 40 candidate(s) in 12h window, 11 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-15 09:29:45] ROI by grade C: 228W-312L-0P staked 523.05u net -48.88u roi -9.3%
+[2026-08-15 09:29:45] ROI by circuit czech: 137W-182L-0P staked 307.11u net -20.64u roi -6.7%
+[2026-08-15 09:29:45] ROI by circuit polish: 90W-113L-0P staked 198.16u net -11.74u roi -5.9%
+[2026-08-15 09:29:45] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-15 09:29:45] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
