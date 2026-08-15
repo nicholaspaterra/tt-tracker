@@ -1,11 +1,3 @@
-[2026-08-12 12:10:21] modeled Kanak Jha vs Fang Bo -> 95% / MODEL PICK: Kanak Jha (95%) — odds not found; enter odds in app / grade C
-[2026-08-12 12:10:23] no odds posted yet for Anton Kallberg vs Zhou Qihao
-[2026-08-12 12:10:23] modeled Anton Kallberg vs Zhou Qihao -> 31% / MODEL PICK: Zhou Qihao (69%) — odds not found; enter odds in app / grade C
-[2026-08-12 12:10:24] no odds posted yet for Joao Geraldo vs Thibault Poret
-[2026-08-12 12:10:24] modeled Joao Geraldo vs Thibault Poret -> 48% / MODEL PICK: Thibault Poret (52%) — odds not found; enter odds in app / grade C
-[2026-08-12 12:10:26] no odds posted yet for Csaba Andras vs Omar Assar
-[2026-08-12 12:10:26] modeled Csaba Andras vs Omar Assar -> 38% / MODEL PICK: Omar Assar (62%) — odds not found; enter odds in app / grade C
-[2026-08-12 12:10:27] no odds posted yet for Wang Manyu vs Chien Tung-chuan
 [2026-08-12 12:10:27] modeled Wang Manyu vs Chien Tung-chuan -> 90% / MODEL PICK: Wang Manyu (90%) — odds not found; enter odds in app / grade C
 [2026-08-12 12:10:28] no odds posted yet for Anna Hursey vs Miwa Harimoto
 [2026-08-12 12:10:28] modeled Anna Hursey vs Miwa Harimoto -> 16% / MODEL PICK: Miwa Harimoto (84%) — odds not found; enter odds in app / grade C
@@ -1006,3 +998,11 @@
 [2026-08-15 21:48:02] ROI by circuit polish: 93W-115L-0P staked 202.34u net -10.78u roi -5.3%
 [2026-08-15 21:48:02] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-15 21:48:02] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-15 22:25:47] engine run started (quick: amateur circuits only)
+[2026-08-15 22:25:54] amateur settled: Martin Huk vs Jakub Tazler -> Martin Huk won -> bet LOSS
+[2026-08-15 22:26:16] czech pipeline: 2593 match(es) scanned, 13 elo update(s), 1 settled, 40 candidate(s) in 12h window, 0 gated NO BET (thin Elo), 4 BET rec(s)
+[2026-08-15 22:26:16] ROI by grade C: 232W-319L-0P staked 532.69u net -51.77u roi -9.7%
+[2026-08-15 22:26:16] ROI by circuit czech: 138W-187L-0P staked 312.57u net -24.49u roi -7.8%
+[2026-08-15 22:26:16] ROI by circuit polish: 93W-115L-0P staked 202.34u net -10.78u roi -5.3%
+[2026-08-15 22:26:16] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-15 22:26:16] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
