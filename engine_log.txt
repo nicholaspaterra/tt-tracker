@@ -1,10 +1,3 @@
-[2026-08-12 11:50:29] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
-[2026-08-12 11:50:29] run summary: 40 rec(s), 2 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-12 12:02:49] engine run started
-[2026-08-12 12:02:56] rankings parsed: 950 players across 2 lists; scanning 160
-[2026-08-12 12:10:01] upcoming WTT singles matches found: 32
-[2026-08-12 12:10:03] modeled Sathiyan Gnanasekaran vs Sora Matsushima -> 11% / NO BET (edge 1.0% @ bet365 +800/-2500) / grade C
-[2026-08-12 12:10:04] no odds posted yet for Manav Vikash Thakkar vs Tomokazu Harimoto
 [2026-08-12 12:10:04] modeled Manav Vikash Thakkar vs Tomokazu Harimoto -> 14% / MODEL PICK: Tomokazu Harimoto (86%) — odds not found; enter odds in app / grade C
 [2026-08-12 12:10:06] no odds posted yet for Felix Lebrun vs Park Ganghyeon
 [2026-08-12 12:10:06] modeled Felix Lebrun vs Park Ganghyeon -> 86% / MODEL PICK: Felix Lebrun (86%) — odds not found; enter odds in app / grade C
@@ -1005,3 +998,10 @@
 [2026-08-15 20:26:28] ROI by circuit polish: 93W-114L-0P staked 201.34u net -9.78u roi -4.9%
 [2026-08-15 20:26:28] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-15 20:26:28] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-15 20:50:29] engine run started (quick: amateur circuits only)
+[2026-08-15 20:50:57] czech pipeline: 2583 match(es) scanned, 14 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 7 BET rec(s)
+[2026-08-15 20:50:57] ROI by grade C: 232W-317L-0P staked 530.69u net -49.77u roi -9.4%
+[2026-08-15 20:50:57] ROI by circuit czech: 138W-186L-0P staked 311.57u net -23.49u roi -7.5%
+[2026-08-15 20:50:57] ROI by circuit polish: 93W-114L-0P staked 201.34u net -9.78u roi -4.9%
+[2026-08-15 20:50:57] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-15 20:50:57] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
