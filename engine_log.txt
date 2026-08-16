@@ -1,10 +1,3 @@
-[2026-08-12 16:09:02] modeled Shi Xunyao vs Cheng I-ching -> 74% / MODEL PICK: Shi Xunyao (74%) — odds not found; enter odds in app / grade C
-[2026-08-12 16:09:03] no odds posted yet for Nina Mittelham vs Joo Cheon-hui
-[2026-08-12 16:09:03] modeled Nina Mittelham vs Joo Cheon-hui -> 33% / MODEL PICK: Joo Cheon-hui (67%) — odds not found; enter odds in app / grade C
-[2026-08-12 16:09:05] no odds posted yet for Han Ying vs Zeng Jian
-[2026-08-12 16:09:05] modeled Han Ying vs Zeng Jian -> 77% / MODEL PICK: Han Ying (77%) — odds not found; enter odds in app / grade C
-[2026-08-12 16:09:06] no odds posted yet for Li Yu-jhun vs Qin Yuxuan
-[2026-08-12 16:09:06] modeled Li Yu-jhun vs Qin Yuxuan -> 35% / MODEL PICK: Qin Yuxuan (65%) — odds not found; enter odds in app / grade C
 [2026-08-12 16:09:34] czech pipeline: 1865 match(es) scanned, 53 elo update(s), 0 settled, 40 candidate(s) in 12h window, 6 gated NO BET (thin Elo), 0 BET rec(s)
 [2026-08-12 16:09:34] ROI by grade C: 212W-292L-0P staked 490.02u net -46.16u roi -9.4%
 [2026-08-12 16:09:34] ROI by circuit czech: 123W-170L-0P staked 283.35u net -24.32u roi -8.6%
@@ -1005,3 +998,11 @@
 [2026-08-16 09:33:50] ROI by circuit polish: 93W-116L-0P staked 203.34u net -11.78u roi -5.8%
 [2026-08-16 09:33:50] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-16 09:33:50] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-16 09:54:22] engine run started (quick: amateur circuits only)
+[2026-08-16 09:54:26] amateur settled: Amirreza Abbasi vs Krystian Kolodziej -> Amirreza Abbasi won -> bet LOSS
+[2026-08-16 09:54:47] czech pipeline: 2053 match(es) scanned, 7 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-16 09:54:47] ROI by grade C: 235W-322L-0P staked 538.69u net -52.39u roi -9.7%
+[2026-08-16 09:54:47] ROI by circuit czech: 141W-188L-0P staked 316.57u net -23.11u roi -7.3%
+[2026-08-16 09:54:47] ROI by circuit polish: 93W-117L-0P staked 204.34u net -12.78u roi -6.2%
+[2026-08-16 09:54:47] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-16 09:54:47] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
