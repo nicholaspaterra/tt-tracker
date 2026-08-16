@@ -1,10 +1,3 @@
-[2026-08-12 19:39:26] czech pipeline: 1949 match(es) scanned, 39 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-12 19:39:26] ROI by grade C: 214W-292L-0P staked 491.52u net -44.10u roi -9.0%
-[2026-08-12 19:39:26] ROI by circuit czech: 125W-170L-0P staked 284.85u net -22.27u roi -7.8%
-[2026-08-12 19:39:26] ROI by circuit polish: 88W-107L-0P staked 190.89u net -7.34u roi -3.9%
-[2026-08-12 19:39:26] ROI by circuit wtt: 1W-15L-0P staked 15.78u net -14.50u roi -91.9%
-[2026-08-12 19:39:26] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-12 20:30:09] engine run started (quick: amateur circuits only)
 [2026-08-12 20:30:14] amateur settled: Rostislav Niezgoda vs Filip Sikora -> Rostislav Niezgoda won -> bet WIN
 [2026-08-12 20:30:37] czech pipeline: 1978 match(es) scanned, 33 elo update(s), 1 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 1 BET rec(s)
 [2026-08-12 20:30:37] ROI by grade C: 215W-292L-0P staked 492.52u net -43.10u roi -8.8%
@@ -1005,3 +998,10 @@
 [2026-08-16 11:47:23] ROI by circuit polish: 93W-118L-0P staked 204.89u net -13.33u roi -6.5%
 [2026-08-16 11:47:23] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-16 11:47:23] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-16 12:45:02] engine run started (quick: amateur circuits only)
+[2026-08-16 12:45:31] czech pipeline: 2251 match(es) scanned, 30 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 1 BET rec(s)
+[2026-08-16 12:45:31] ROI by grade C: 235W-323L-0P staked 539.24u net -52.94u roi -9.8%
+[2026-08-16 12:45:31] ROI by circuit czech: 141W-188L-0P staked 316.57u net -23.11u roi -7.3%
+[2026-08-16 12:45:31] ROI by circuit polish: 93W-118L-0P staked 204.89u net -13.33u roi -6.5%
+[2026-08-16 12:45:31] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-16 12:45:31] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
