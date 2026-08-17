@@ -1,10 +1,3 @@
-[2026-08-14 11:47:26] ROI by circuit polish: 89W-110L-0P staked 194.89u net -9.09u roi -4.7%
-[2026-08-14 11:47:26] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
-[2026-08-14 11:47:26] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-14 13:09:34] engine run started (quick: amateur circuits only)
-[2026-08-14 13:09:40] amateur settled: Matyas Navedla vs Radomir Revay -> Radomir Revay won -> bet WIN
-[2026-08-14 13:10:02] czech pipeline: 2150 match(es) scanned, 44 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
-[2026-08-14 13:10:02] ROI by grade C: 220W-305L-0P staked 509.45u net -52.08u roi -10.2%
 [2026-08-14 13:10:02] ROI by circuit czech: 130W-178L-0P staked 296.78u net -26.49u roi -8.9%
 [2026-08-14 13:10:02] ROI by circuit polish: 89W-110L-0P staked 194.89u net -9.09u roi -4.7%
 [2026-08-14 13:10:02] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
@@ -1005,3 +998,10 @@
 [2026-08-17 20:56:57] ROI by circuit polish: 94W-118L-0P staked 205.89u net -12.13u roi -5.9%
 [2026-08-17 20:56:57] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-17 20:56:57] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-17 21:58:59] engine run started (quick: amateur circuits only)
+[2026-08-17 21:59:27] czech pipeline: 2669 match(es) scanned, 718 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-08-17 21:59:27] ROI by grade C: 241W-333L-0P staked 554.34u net -56.16u roi -10.1%
+[2026-08-17 21:59:27] ROI by circuit czech: 146W-198L-0P staked 330.67u net -27.53u roi -8.3%
+[2026-08-17 21:59:27] ROI by circuit polish: 94W-118L-0P staked 205.89u net -12.13u roi -5.9%
+[2026-08-17 21:59:27] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-17 21:59:27] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
