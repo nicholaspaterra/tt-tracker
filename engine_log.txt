@@ -1,10 +1,3 @@
-[2026-08-14 20:11:27] modeled Felix Lebrun vs Hugo Calderano -> 54% / MODEL PICK: Felix Lebrun (54%) — odds not found; enter odds in app / grade C
-[2026-08-14 20:11:28] no odds posted yet for Darko Jorgic vs Omar Assar
-[2026-08-14 20:11:28] modeled Darko Jorgic vs Omar Assar -> 65% / MODEL PICK: Darko Jorgic (65%) — odds not found; enter odds in app / grade C
-[2026-08-14 20:11:30] no odds posted yet for Wang Manyu vs Peng Yu-Han
-[2026-08-14 20:11:30] modeled Wang Manyu vs Peng Yu-Han -> 90% / MODEL PICK: Wang Manyu (90%) — odds not found; enter odds in app / grade C
-[2026-08-14 20:11:31] no odds posted yet for Chen Yi vs Miwa Harimoto
-[2026-08-14 20:11:31] modeled Chen Yi vs Miwa Harimoto -> 35% / MODEL PICK: Miwa Harimoto (65%) — odds not found; enter odds in app / grade C
 [2026-08-14 20:11:32] no odds posted yet for Kuai Man vs Hina Hayata
 [2026-08-14 20:11:32] modeled Kuai Man vs Hina Hayata -> 50% / MODEL PICK: Hina Hayata (50%) — odds not found; enter odds in app / grade C
 [2026-08-14 20:11:34] no odds posted yet for Wang Yidi vs Shi Xunyao
@@ -1005,3 +998,11 @@
 [2026-08-18 06:49:28] ROI by circuit polish: 95W-119L-0P staked 207.75u net -12.38u roi -6.0%
 [2026-08-18 06:49:28] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-18 06:49:28] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-18 07:40:39] engine run started (quick: amateur circuits only)
+[2026-08-18 07:40:44] amateur settled: Radomir Revay vs Michal Vavrecka -> Michal Vavrecka won -> bet WIN
+[2026-08-18 07:41:03] czech pipeline: 2065 match(es) scanned, 730 elo update(s), 1 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 3 BET rec(s)
+[2026-08-18 07:41:04] ROI by grade C: 244W-336L-0P staked 560.20u net -56.08u roi -10.0%
+[2026-08-18 07:41:04] ROI by circuit czech: 148W-200L-0P staked 334.67u net -27.20u roi -8.1%
+[2026-08-18 07:41:04] ROI by circuit polish: 95W-119L-0P staked 207.75u net -12.38u roi -6.0%
+[2026-08-18 07:41:04] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-18 07:41:04] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
