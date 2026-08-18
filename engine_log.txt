@@ -1,10 +1,3 @@
-[2026-08-15 09:29:45] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-15 09:51:36] engine run started (quick: amateur circuits only)
-[2026-08-15 09:51:41] amateur settled: Kacper Slawinski vs Pawel Polok -> Pawel Polok won -> bet WIN
-[2026-08-15 09:52:01] czech pipeline: 2033 match(es) scanned, 12 elo update(s), 1 settled, 40 candidate(s) in 12h window, 14 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-15 09:52:01] ROI by grade C: 229W-312L-0P staked 524.05u net -47.63u roi -9.1%
-[2026-08-15 09:52:01] ROI by circuit czech: 137W-182L-0P staked 307.11u net -20.64u roi -6.7%
-[2026-08-15 09:52:01] ROI by circuit polish: 91W-113L-0P staked 199.16u net -10.49u roi -5.3%
 [2026-08-15 09:52:01] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-15 09:52:01] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-15 10:26:11] engine run started (quick: amateur circuits only)
@@ -1005,3 +998,11 @@
 [2026-08-18 21:49:35] ROI by circuit polish: 95W-120L-0P staked 208.75u net -13.38u roi -6.4%
 [2026-08-18 21:49:35] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-18 21:49:35] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-18 22:27:12] engine run started (quick: amateur circuits only)
+[2026-08-18 22:27:19] amateur settled: Martin Stefek vs Adam Svoboda -> Martin Stefek won -> bet WIN
+[2026-08-18 22:27:42] czech pipeline: 2720 match(es) scanned, 699 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-18 22:27:43] ROI by grade C: 248W-339L-0P staked 567.19u net -55.52u roi -9.8%
+[2026-08-18 22:27:43] ROI by circuit czech: 152W-202L-0P staked 340.66u net -25.64u roi -7.5%
+[2026-08-18 22:27:43] ROI by circuit polish: 95W-120L-0P staked 208.75u net -13.38u roi -6.4%
+[2026-08-18 22:27:43] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-18 22:27:43] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
