@@ -1,10 +1,3 @@
-[2026-08-15 12:43:07] ROI by circuit polish: 91W-114L-0P staked 200.16u net -11.49u roi -5.7%
-[2026-08-15 12:43:07] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
-[2026-08-15 12:43:07] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-15 13:32:55] engine run started (quick: amateur circuits only)
-[2026-08-15 13:33:22] czech pipeline: 2222 match(es) scanned, 21 elo update(s), 0 settled, 40 candidate(s) in 12h window, 15 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-15 13:33:22] ROI by grade C: 230W-314L-0P staked 527.05u net -49.02u roi -9.3%
-[2026-08-15 13:33:22] ROI by circuit czech: 138W-183L-0P staked 309.11u net -21.03u roi -6.8%
 [2026-08-15 13:33:22] ROI by circuit polish: 91W-114L-0P staked 200.16u net -11.49u roi -5.7%
 [2026-08-15 13:33:22] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-15 13:33:22] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
@@ -1005,3 +998,11 @@
 [2026-08-19 02:44:47] ROI by circuit polish: 95W-120L-0P staked 208.75u net -13.38u roi -6.4%
 [2026-08-19 02:44:47] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-19 02:44:47] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-19 03:49:39] engine run started (quick: amateur circuits only)
+[2026-08-19 03:49:45] amateur settled: Petr Picek vs Martin Stefek -> Petr Picek won -> bet LOSS
+[2026-08-19 03:50:07] czech pipeline: 2036 match(es) scanned, 702 elo update(s), 1 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 0 BET rec(s)
+[2026-08-19 03:50:07] ROI by grade C: 249W-340L-0P staked 569.19u net -55.91u roi -9.8%
+[2026-08-19 03:50:07] ROI by circuit czech: 153W-203L-0P staked 342.66u net -26.03u roi -7.6%
+[2026-08-19 03:50:07] ROI by circuit polish: 95W-120L-0P staked 208.75u net -13.38u roi -6.4%
+[2026-08-19 03:50:07] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-19 03:50:07] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
