@@ -301030,12 +301030,12 @@ window.BETS_FILE = {
       "playerA": "Tomas Rein",
       "playerB": "Ales Brandtl Jr",
       "myProbA": 0.592,
-      "marketProbA": null,
-      "bestOdds": null,
-      "edge": null,
-      "rec": "MODEL PICK: Tomas Rein (59%) — odds not found; enter odds in app",
-      "units": 0,
-      "pickName": null,
+      "marketProbA": 0.5,
+      "bestOdds": 1.83,
+      "edge": 0.092,
+      "rec": "BET 0.56u on Tomas Rein @ -120 (aiscore line)",
+      "units": 0.56,
+      "pickName": "Tomas Rein",
       "grade": "C",
       "reasoning": "Elo 1440 (n=103) vs 1376 (n=76)"
     },
@@ -301048,15 +301048,15 @@ window.BETS_FILE = {
       "matchId": "o17p1s86j1mby7j",
       "playerA": "Jan Szotkowski",
       "playerB": "Michal Cabis",
-      "myProbA": 0.109,
+      "myProbA": 0.106,
       "marketProbA": 0.514,
       "bestOdds": 1.9,
-      "edge": 0.405,
+      "edge": 0.408,
       "rec": "BET 1.00u on Michal Cabis @ -111 (aiscore line)",
       "units": 1.0,
       "pickName": "Michal Cabis",
       "grade": "C",
-      "reasoning": "Elo 1527 (n=117) vs 1893 (n=551)"
+      "reasoning": "Elo 1527 (n=117) vs 1897 (n=555)"
     },
     {
       "id": "rec-cz-j3742sr8ovnsgko",
@@ -301086,15 +301086,15 @@ window.BETS_FILE = {
       "matchId": "vmqyosoelrobgk9",
       "playerA": "Erik Mares",
       "playerB": "Tomas Kos",
-      "myProbA": 0.741,
+      "myProbA": 0.738,
       "marketProbA": 0.5,
       "bestOdds": 1.83,
-      "edge": 0.241,
+      "edge": 0.238,
       "rec": "BET 1.00u on Erik Mares @ -120 (aiscore line)",
       "units": 1.0,
       "pickName": "Erik Mares",
       "grade": "C",
-      "reasoning": "Elo 1738 (n=586) vs 1556 (n=36)"
+      "reasoning": "Elo 1735 (n=590) vs 1556 (n=36)"
     },
     {
       "id": "rec-cz-m2q10sd0p13tek6",
@@ -301124,15 +301124,15 @@ window.BETS_FILE = {
       "matchId": "63kv1swzxrvsxke",
       "playerA": "Lukas Martinak",
       "playerB": "Richard Skacelik",
-      "myProbA": 0.366,
+      "myProbA": 0.368,
       "marketProbA": 0.486,
       "bestOdds": 1.8,
-      "edge": 0.12,
-      "rec": "BET 0.99u on Richard Skacelik @ -125 (aiscore line)",
-      "units": 0.99,
+      "edge": 0.118,
+      "rec": "BET 0.96u on Richard Skacelik @ -125 (aiscore line)",
+      "units": 0.96,
       "pickName": "Richard Skacelik",
       "grade": "C",
-      "reasoning": "Elo 1511 (n=42) vs 1606 (n=503)"
+      "reasoning": "Elo 1511 (n=42) vs 1605 (n=507)"
     },
     {
       "id": "rec-cz-o17p1s864v1sy7j",
@@ -301143,7 +301143,7 @@ window.BETS_FILE = {
       "matchId": "o17p1s864v1sy7j",
       "playerA": "Sylwester Wloszek",
       "playerB": "Mateusz Galus",
-      "myProbA": 0.271,
+      "myProbA": 0.268,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301151,7 +301151,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1378 (n=140) vs 1551 (n=735)"
+      "reasoning": "Elo 1378 (n=140) vs 1553 (n=741)"
     },
     {
       "id": "rec-pl-jr7o1swxr8mcgk0",
@@ -301162,15 +301162,15 @@ window.BETS_FILE = {
       "matchId": "jr7o1swxr8mcgk0",
       "playerA": "Marcin Jadczyk",
       "playerB": "Artur Grela",
-      "myProbA": 0.929,
+      "myProbA": 0.931,
       "marketProbA": 0.5,
       "bestOdds": 1.83,
-      "edge": 0.429,
+      "edge": 0.431,
       "rec": "BET 1.00u on Marcin Jadczyk @ -120 (aiscore line)",
       "units": 1.0,
       "pickName": "Marcin Jadczyk",
       "grade": "C",
-      "reasoning": "Elo 2085 (n=692) vs 1640 (n=133)"
+      "reasoning": "Elo 2092 (n=696) vs 1640 (n=133)"
     },
     {
       "id": "rec-cz-jek35snxm3na97o",
@@ -301181,15 +301181,15 @@ window.BETS_FILE = {
       "matchId": "jek35snxm3na97o",
       "playerA": "Stepan Vyskocil",
       "playerB": "Matej Holub",
-      "myProbA": 0.666,
+      "myProbA": 0.681,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Stepan Vyskocil (67%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Stepan Vyskocil (68%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1586 (n=18) vs 1466 (n=407)"
+      "reasoning": "Elo 1586 (n=18) vs 1454 (n=411)"
     },
     {
       "id": "rec-pl-o17p1s86jxoay7j",
@@ -301227,7 +301227,7 @@ window.BETS_FILE = {
       "units": 1.0,
       "pickName": "Filip Mandrysz",
       "grade": "C",
-      "reasoning": "Elo 2008 (n=498) vs 1429 (n=133)"
+      "reasoning": "Elo 2012 (n=502) vs 1429 (n=133)"
     },
     {
       "id": "rec-pl-vrqwysm1gmma4kn",
@@ -301238,7 +301238,7 @@ window.BETS_FILE = {
       "matchId": "vrqwysm1gmma4kn",
       "playerA": "Jakub Glanowski",
       "playerB": "Bartek Sulkowski",
-      "myProbA": 0.879,
+      "myProbA": 0.881,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301246,7 +301246,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1838 (n=855) vs 1493 (n=176)"
+      "reasoning": "Elo 1840 (n=861) vs 1493 (n=176)"
     },
     {
       "id": "rec-pl-oj7xps21njyu4kg",
@@ -301257,15 +301257,15 @@ window.BETS_FILE = {
       "matchId": "oj7xps21njyu4kg",
       "playerA": "Rafal Gajda",
       "playerB": "Lukasz Oracz",
-      "myProbA": 0.122,
+      "myProbA": 0.12,
       "marketProbA": 0.441,
       "bestOdds": 1.66,
-      "edge": 0.319,
+      "edge": 0.321,
       "rec": "BET 1.00u on Lukasz Oracz @ -152 (aiscore line)",
       "units": 1.0,
       "pickName": "Lukasz Oracz",
       "grade": "C",
-      "reasoning": "Elo 1564 (n=207) vs 1907 (n=924)"
+      "reasoning": "Elo 1564 (n=207) vs 1909 (n=930)"
     },
     {
       "id": "rec-cz-vmqyosoeyd8ugk9",
@@ -301295,15 +301295,15 @@ window.BETS_FILE = {
       "matchId": "34kges5vz5eaeqo",
       "playerA": "Oskar Jadach",
       "playerB": "Sebastian Szostok",
-      "myProbA": 0.42,
+      "myProbA": 0.413,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Sebastian Szostok (58%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Sebastian Szostok (59%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1623 (n=177) vs 1679 (n=1296)"
+      "reasoning": "Elo 1623 (n=177) vs 1684 (n=1306)"
     },
     {
       "id": "rec-cz-wv78lsg21nwtokr",
@@ -301314,15 +301314,15 @@ window.BETS_FILE = {
       "matchId": "wv78lsg21nwtokr",
       "playerA": "Jan Benak",
       "playerB": "Michal Brozek",
-      "myProbA": 0.225,
+      "myProbA": 0.224,
       "marketProbA": 0.589,
       "bestOdds": 2.25,
-      "edge": 0.364,
+      "edge": 0.365,
       "rec": "BET 1.00u on Michal Brozek @ +125 (aiscore line)",
       "units": 1.0,
       "pickName": "Michal Brozek",
       "grade": "C",
-      "reasoning": "Elo 1549 (n=29) vs 1764 (n=554)"
+      "reasoning": "Elo 1549 (n=29) vs 1765 (n=558)"
     },
     {
       "id": "rec-cz-edq08sex299uekx",
@@ -301352,15 +301352,15 @@ window.BETS_FILE = {
       "matchId": "oj7xps21nyvu4kg",
       "playerA": "Paril Ondrej",
       "playerB": "Tadeas Zika",
-      "myProbA": 0.911,
+      "myProbA": 0.914,
       "marketProbA": 0.538,
       "bestOdds": 1.72,
-      "edge": 0.373,
+      "edge": 0.376,
       "rec": "BET 1.00u on Paril Ondrej @ -139 (aiscore line)",
       "units": 1.0,
       "pickName": "Paril Ondrej",
       "grade": "C",
-      "reasoning": "Elo 1390 (n=595) vs 985 (n=697)"
+      "reasoning": "Elo 1390 (n=599) vs 980 (n=701)"
     },
     {
       "id": "rec-cz-edq08sex496bekx",
@@ -301398,7 +301398,7 @@ window.BETS_FILE = {
       "units": 0.43,
       "pickName": "Rotislav Hasmanda",
       "grade": "C",
-      "reasoning": "Elo 1370 (n=997) vs 1433 (n=81)"
+      "reasoning": "Elo 1370 (n=1005) vs 1433 (n=81)"
     },
     {
       "id": "rec-cz-edq08sex4n0fekx",
@@ -301409,15 +301409,15 @@ window.BETS_FILE = {
       "matchId": "edq08sex4n0fekx",
       "playerA": "Tomas Postelt",
       "playerB": "Michal Zahradka",
-      "myProbA": 0.06,
+      "myProbA": 0.058,
       "marketProbA": 0.538,
       "bestOdds": 2.0,
-      "edge": 0.478,
+      "edge": 0.48,
       "rec": "BET 1.00u on Michal Zahradka @ +100 (aiscore line)",
       "units": 1.0,
       "pickName": "Michal Zahradka",
       "grade": "C",
-      "reasoning": "Elo 1444 (n=45) vs 1922 (n=564)"
+      "reasoning": "Elo 1444 (n=45) vs 1928 (n=568)"
     },
     {
       "id": "rec-cz-vmqyosoelz4tgk9",
@@ -301428,15 +301428,15 @@ window.BETS_FILE = {
       "matchId": "vmqyosoelz4tgk9",
       "playerA": "Adrian Walek",
       "playerB": "David Heczko",
-      "myProbA": 0.861,
+      "myProbA": 0.864,
       "marketProbA": 0.441,
       "bestOdds": 2.1,
-      "edge": 0.42,
+      "edge": 0.423,
       "rec": "BET 1.00u on Adrian Walek @ +110 (aiscore line)",
       "units": 1.0,
       "pickName": "Adrian Walek",
       "grade": "C",
-      "reasoning": "Elo 1501 (n=127) vs 1184 (n=831)"
+      "reasoning": "Elo 1501 (n=127) vs 1181 (n=838)"
     },
     {
       "id": "rec-pl-jr7o1swxr0yhgk0",
@@ -301466,7 +301466,7 @@ window.BETS_FILE = {
       "matchId": "ndqm1sm42mrfrqv",
       "playerA": "Grzegorz Felkel",
       "playerB": "Krzysztof Wloczko",
-      "myProbA": 0.297,
+      "myProbA": 0.298,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301474,7 +301474,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1670 (n=156) vs 1820 (n=1161)"
+      "reasoning": "Elo 1670 (n=156) vs 1820 (n=1170)"
     },
     {
       "id": "rec-cz-34kges5vgm0aeqo",
@@ -301485,15 +301485,15 @@ window.BETS_FILE = {
       "matchId": "34kges5vgm0aeqo",
       "playerA": "Radek Fitl",
       "playerB": "Radek Neterda",
-      "myProbA": 0.685,
+      "myProbA": 0.662,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Radek Fitl (69%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Radek Fitl (66%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1622 (n=570) vs 1487 (n=11)"
+      "reasoning": "Elo 1619 (n=574) vs 1502 (n=12)"
     },
     {
       "id": "rec-pl-6975ysdwldnugq2",
@@ -301504,7 +301504,7 @@ window.BETS_FILE = {
       "matchId": "6975ysdwldnugq2",
       "playerA": "Dominik Solilo",
       "playerB": "Kamil Rudomina",
-      "myProbA": 0.428,
+      "myProbA": 0.427,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301512,7 +301512,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1420 (n=743) vs 1470 (n=243)"
+      "reasoning": "Elo 1418 (n=748) vs 1470 (n=243)"
     },
     {
       "id": "rec-pl-vmqyosoel9dugk9",
@@ -301531,7 +301531,7 @@ window.BETS_FILE = {
       "units": 1.0,
       "pickName": "Schaniel Krzysztof",
       "grade": "C",
-      "reasoning": "Elo 1533 (n=1351) vs 886 (n=590)"
+      "reasoning": "Elo 1534 (n=1361) vs 883 (n=595)"
     },
     {
       "id": "rec-pl-o17p1s86j8zty7j",
@@ -301580,15 +301580,15 @@ window.BETS_FILE = {
       "matchId": "34kges5vzrlbeqo",
       "playerA": "Jan Zandecki",
       "playerB": "Marcin Jadczyk",
-      "myProbA": 0.063,
+      "myProbA": 0.061,
       "marketProbA": 0.462,
       "bestOdds": 1.72,
-      "edge": 0.399,
+      "edge": 0.401,
       "rec": "BET 1.00u on Marcin Jadczyk @ -139 (aiscore line)",
       "units": 1.0,
       "pickName": "Marcin Jadczyk",
       "grade": "C",
-      "reasoning": "Elo 1616 (n=89) vs 2085 (n=692)"
+      "reasoning": "Elo 1616 (n=89) vs 2092 (n=696)"
     },
     {
       "id": "rec-cz-63kv1swz60raxke",
@@ -301637,7 +301637,7 @@ window.BETS_FILE = {
       "matchId": "o17p1s86j2ofy7j",
       "playerA": "Jakub Pruszkowski",
       "playerB": "Rafal Gajda",
-      "myProbA": 0.93,
+      "myProbA": 0.932,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301645,7 +301645,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 2012 (n=890) vs 1564 (n=207)"
+      "reasoning": "Elo 2018 (n=896) vs 1564 (n=207)"
     },
     {
       "id": "rec-pl-ndqm1sm4w4osrqv",
@@ -301656,7 +301656,7 @@ window.BETS_FILE = {
       "matchId": "ndqm1sm4w4osrqv",
       "playerA": "Stapor Rafal",
       "playerB": "Jakub Glanowski",
-      "myProbA": 0.073,
+      "myProbA": 0.072,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301664,7 +301664,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1396 (n=226) vs 1838 (n=855)"
+      "reasoning": "Elo 1396 (n=226) vs 1840 (n=861)"
     },
     {
       "id": "rec-pl-oj7xps21n4zb4kg",
@@ -301675,7 +301675,7 @@ window.BETS_FILE = {
       "matchId": "oj7xps21n4zb4kg",
       "playerA": "Sebastian Szostok",
       "playerB": "Jerzy Pelka",
-      "myProbA": 0.755,
+      "myProbA": 0.76,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -301683,7 +301683,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1679 (n=1296) vs 1483 (n=126)"
+      "reasoning": "Elo 1684 (n=1306) vs 1483 (n=126)"
     },
     {
       "id": "rec-pl-jek35snxv40i97o",
@@ -301733,12 +301733,12 @@ window.BETS_FILE = {
       "playerA": "Ales Brandtl Jr",
       "playerB": "Frantisek Dvorak",
       "myProbA": 0.361,
-      "marketProbA": 0.423,
-      "bestOdds": 1.61,
-      "edge": 0.062,
-      "rec": "BET 0.26u on Frantisek Dvorak @ -164 (aiscore line)",
-      "units": 0.26,
-      "pickName": "Frantisek Dvorak",
+      "marketProbA": 0.392,
+      "bestOdds": 1.53,
+      "edge": 0.031,
+      "rec": "NO BET (edge 3.1% @ aiscore line +137/-189)",
+      "units": 0,
+      "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1376 (n=76) vs 1475 (n=28)"
     }
