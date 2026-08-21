@@ -1,10 +1,3 @@
-[2026-08-17 07:57:37] ROI by circuit czech: 144W-191L-0P staked 321.67u net -22.30u roi -6.9%
-[2026-08-17 07:57:37] ROI by circuit polish: 94W-118L-0P staked 205.89u net -12.13u roi -5.9%
-[2026-08-17 07:57:37] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
-[2026-08-17 07:57:37] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-17 08:47:27] engine run started (quick: amateur circuits only)
-[2026-08-17 08:47:33] amateur settled: Filip Mandrysz vs Richard Jancak -> Richard Jancak won -> bet LOSS
-[2026-08-17 08:47:53] czech pipeline: 2047 match(es) scanned, 711 elo update(s), 1 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 21 BET rec(s)
 [2026-08-17 08:47:53] ROI by grade C: 239W-327L-0P staked 546.34u net -51.93u roi -9.5%
 [2026-08-17 08:47:53] ROI by circuit czech: 144W-192L-0P staked 322.67u net -23.30u roi -7.2%
 [2026-08-17 08:47:53] ROI by circuit polish: 94W-118L-0P staked 205.89u net -12.13u roi -5.9%
@@ -1005,3 +998,10 @@
 [2026-08-21 15:37:16] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
 [2026-08-21 15:37:16] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-21 15:37:16] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-21 16:38:23] engine run started (quick: amateur circuits only)
+[2026-08-21 16:38:52] czech pipeline: 2624 match(es) scanned, 716 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 15 BET rec(s)
+[2026-08-21 16:38:52] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
+[2026-08-21 16:38:52] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
+[2026-08-21 16:38:52] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
+[2026-08-21 16:38:52] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-21 16:38:52] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
