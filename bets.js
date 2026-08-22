@@ -323316,11 +323316,11 @@ window.BETS_FILE = {
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "NO BET (Elo data too thin: 1566 and 5 rated matches, need 10)",
+      "rec": "NO BET (Elo data too thin: 1575 and 6 rated matches, need 10)",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 2107 (n=1566) vs 1512 (n=5)"
+      "reasoning": "Elo 2120 (n=1575) vs 1498 (n=6)"
     },
     {
       "id": "rec-cz-jek35snxr5eb97o",
@@ -323358,7 +323358,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1582 (n=86) vs 1149 (n=823)"
+      "reasoning": "Elo 1582 (n=86) vs 1148 (n=827)"
     },
     {
       "id": "rec-cz-wv78lsg2z5obokr",
@@ -323369,7 +323369,7 @@ window.BETS_FILE = {
       "matchId": "wv78lsg2z5obokr",
       "playerA": "Jaroslav Prokupek",
       "playerB": "Steffan Jan",
-      "myProbA": 0.412,
+      "myProbA": 0.411,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -323377,7 +323377,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1372 (n=70) vs 1435 (n=949)"
+      "reasoning": "Elo 1372 (n=70) vs 1435 (n=954)"
     },
     {
       "id": "rec-cz-g676psmnol9aokr",
@@ -323396,7 +323396,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1600 (n=92) vs 914 (n=955)"
+      "reasoning": "Elo 1600 (n=92) vs 911 (n=959)"
     },
     {
       "id": "rec-cz-m2q10sd0x30tek6",
@@ -323434,7 +323434,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1433 (n=101) vs 2015 (n=736)"
+      "reasoning": "Elo 1433 (n=101) vs 1990 (n=740)"
     },
     {
       "id": "rec-cz-ndkzlsvmy5ytxq3",
@@ -323453,7 +323453,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1904 (n=763) vs 1092 (n=707)"
+      "reasoning": "Elo 1904 (n=767) vs 1091 (n=711)"
     },
     {
       "id": "rec-cz-oj7xps21l1nc4kg",
@@ -323483,15 +323483,15 @@ window.BETS_FILE = {
       "matchId": "edq08sexejnuekx",
       "playerA": "Bartosz Kwodawski",
       "playerB": "Jaroslaw Rolak",
-      "myProbA": 0.494,
+      "myProbA": 0.517,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Jaroslaw Rolak (51%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Bartosz Kwodawski (52%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1427 (n=61) vs 1431 (n=209)"
+      "reasoning": "Elo 1427 (n=61) vs 1415 (n=210)"
     },
     {
       "id": "rec-pl-jr7o1swx8dysgk0",
@@ -323502,7 +323502,7 @@ window.BETS_FILE = {
       "matchId": "jr7o1swx8dysgk0",
       "playerA": "Aleksander Cichocki",
       "playerB": "Lach, Marcin",
-      "myProbA": 0.624,
+      "myProbA": 0.617,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -323510,7 +323510,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1620 (n=66) vs 1532 (n=1827)"
+      "reasoning": "Elo 1620 (n=66) vs 1537 (n=1838)"
     },
     {
       "id": "rec-cz-527rxs50x8zu47e",
@@ -323521,15 +323521,15 @@ window.BETS_FILE = {
       "matchId": "527rxs50x8zu47e",
       "playerA": "Patrik Sturma",
       "playerB": "Richard Jancak",
-      "myProbA": 0.656,
+      "myProbA": 0.649,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Patrik Sturma (66%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Patrik Sturma (65%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1468 (n=138) vs 1356 (n=737)"
+      "reasoning": "Elo 1450 (n=139) vs 1344 (n=742)"
     },
     {
       "id": "rec-cz-8lk2xsw0peehzq3",
@@ -323540,15 +323540,15 @@ window.BETS_FILE = {
       "matchId": "8lk2xsw0peehzq3",
       "playerA": "Daniel Vitasek",
       "playerB": "Kleprlik Kamil",
-      "myProbA": 0.081,
+      "myProbA": 0.101,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Kleprlik Kamil (92%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Kleprlik Kamil (90%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1487 (n=804) vs 1909 (n=765)"
+      "reasoning": "Elo 1505 (n=809) vs 1885 (n=770)"
     },
     {
       "id": "rec-pl-63kv1swzwngaxke",
@@ -323559,7 +323559,7 @@ window.BETS_FILE = {
       "matchId": "63kv1swzwngaxke",
       "playerA": "Daniel Morawiec",
       "playerB": "Jakub Jesiek",
-      "myProbA": 0.581,
+      "myProbA": 0.583,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -323567,7 +323567,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1525 (n=74) vs 1468 (n=1399)"
+      "reasoning": "Elo 1525 (n=74) vs 1467 (n=1408)"
     },
     {
       "id": "rec-pl-l6keds090nocv75",
@@ -323597,15 +323597,15 @@ window.BETS_FILE = {
       "matchId": "j3742sr8rgmagko",
       "playerA": "Adam Linek",
       "playerB": "Tadeusz Piotrowski",
-      "myProbA": 0.944,
+      "myProbA": 0.945,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Adam Linek (94%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Adam Linek (95%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1484 (n=88) vs 994 (n=1790)"
+      "reasoning": "Elo 1484 (n=88) vs 989 (n=1800)"
     },
     {
       "id": "rec-cz-527rxs50xmoi47e",
@@ -323643,7 +323643,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1993 (n=839) vs 1405 (n=845)"
+      "reasoning": "Elo 1995 (n=843) vs 1405 (n=849)"
     },
     {
       "id": "rec-cz-xvkjds3ry58t8k9",
@@ -323654,7 +323654,7 @@ window.BETS_FILE = {
       "matchId": "xvkjds3ry58t8k9",
       "playerA": "Darin Kyryl",
       "playerB": "Yurii Holovatiuk",
-      "myProbA": 0.9,
+      "myProbA": 0.901,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -323662,7 +323662,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1959 (n=689) vs 1576 (n=100)"
+      "reasoning": "Elo 1961 (n=692) vs 1576 (n=100)"
     },
     {
       "id": "rec-cz-oj7xps21je2a4kg",
@@ -323700,7 +323700,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 2004 (n=814) vs 1440 (n=78)"
+      "reasoning": "Elo 2006 (n=818) vs 1440 (n=78)"
     },
     {
       "id": "rec-pl-jr7o1swxwwesgk0",
@@ -323711,7 +323711,7 @@ window.BETS_FILE = {
       "matchId": "jr7o1swxwwesgk0",
       "playerA": "Bartłomiej Wiśniewski",
       "playerB": "Jacek Przewlocki",
-      "myProbA": 0.231,
+      "myProbA": 0.234,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
@@ -323719,7 +323719,7 @@ window.BETS_FILE = {
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1210 (n=1871) vs 1419 (n=106)"
+      "reasoning": "Elo 1213 (n=1881) vs 1419 (n=106)"
     },
     {
       "id": "rec-pl-63kv1swzwlgixke",
@@ -323768,15 +323768,15 @@ window.BETS_FILE = {
       "matchId": "63kv1swzlzzcxke",
       "playerA": "Patryk Kiejda",
       "playerB": "Kamil Kos",
-      "myProbA": 0.261,
+      "myProbA": 0.253,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Kamil Kos (74%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Kamil Kos (75%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1609 (n=1147) vs 1790 (n=1077)"
+      "reasoning": "Elo 1605 (n=1153) vs 1793 (n=1083)"
     },
     {
       "id": "rec-pl-g676psmnmzjbokr",
@@ -323806,15 +323806,15 @@ window.BETS_FILE = {
       "matchId": "vrqwysm1j1nf4kn",
       "playerA": "Adam Strelec",
       "playerB": "Richard Jancak",
-      "myProbA": 0.778,
+      "myProbA": 0.79,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Adam Strelec (78%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Adam Strelec (79%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1574 (n=45) vs 1356 (n=737)"
+      "reasoning": "Elo 1574 (n=45) vs 1344 (n=742)"
     },
     {
       "id": "rec-cz-6975ysdwe2ougq2",
@@ -323825,15 +323825,15 @@ window.BETS_FILE = {
       "matchId": "6975ysdwe2ougq2",
       "playerA": "Bruno Mrowetz",
       "playerB": "Kleprlik Kamil",
-      "myProbA": 0.085,
+      "myProbA": 0.097,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Kleprlik Kamil (91%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Kleprlik Kamil (90%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1497 (n=783) vs 1909 (n=765)"
+      "reasoning": "Elo 1497 (n=787) vs 1885 (n=770)"
     },
     {
       "id": "rec-pl-xvkjds3r3yef8k9",
@@ -323848,11 +323848,11 @@ window.BETS_FILE = {
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "NO BET (Elo data too thin: 5 and 144 rated matches, need 10)",
+      "rec": "NO BET (Elo data too thin: 5 and 145 rated matches, need 10)",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1543 (n=5) vs 1555 (n=144)"
+      "reasoning": "Elo 1543 (n=5) vs 1569 (n=145)"
     },
     {
       "id": "rec-pl-m2q10sd0dyotek6",
@@ -323863,15 +323863,15 @@ window.BETS_FILE = {
       "matchId": "m2q10sd0dyotek6",
       "playerA": "Kacper Szurlej",
       "playerB": "Krzysztof Kapik",
-      "myProbA": 0.793,
+      "myProbA": 0.765,
       "marketProbA": null,
       "bestOdds": null,
       "edge": null,
-      "rec": "MODEL PICK: Kacper Szurlej (79%) — odds not found; enter odds in app",
+      "rec": "MODEL PICK: Kacper Szurlej (77%) — odds not found; enter odds in app",
       "units": 0,
       "pickName": null,
       "grade": "C",
-      "reasoning": "Elo 1811 (n=1566) vs 1577 (n=193)"
+      "reasoning": "Elo 1812 (n=1575) vs 1607 (n=194)"
     },
     {
       "id": "rec-cz-vmqyosoe5evsgk9",
@@ -323891,6 +323891,158 @@ window.BETS_FILE = {
       "pickName": null,
       "grade": "C",
       "reasoning": "Elo 1447 (n=68) vs 1549 (n=90)"
+    },
+    {
+      "id": "rec-pl-9gkl1swlweltmqx",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "TT Elite Series",
+      "circuit": "polish",
+      "matchId": "9gkl1swlweltmqx",
+      "playerA": "Artur Szoltysek",
+      "playerB": "Jakub Wozniak",
+      "myProbA": 0.137,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Jakub Wozniak (86%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1134 (n=1778) vs 1453 (n=58)"
+    },
+    {
+      "id": "rec-pl-ndkzlsvmvyzhxq3",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "TT Elite Series",
+      "circuit": "polish",
+      "matchId": "ndkzlsvmvyzhxq3",
+      "playerA": "Wieczerzak, Jacek",
+      "playerB": "Andrzej Szurgot",
+      "myProbA": 0.714,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Wieczerzak, Jacek (71%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1489 (n=1834) vs 1331 (n=46)"
+    },
+    {
+      "id": "rec-cz-vrqwysm1568s4kn",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "vrqwysm1568s4kn",
+      "playerA": "Tadeas Zika",
+      "playerB": "Martin Biolek",
+      "myProbA": 0.05,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Martin Biolek (95%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 911 (n=959) vs 1482 (n=85)"
+    },
+    {
+      "id": "rec-cz-xvkjds3ryg8i8k9",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "xvkjds3ryg8i8k9",
+      "playerA": "Steffan Jan",
+      "playerB": "Darin Kyryl",
+      "myProbA": 0.05,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Darin Kyryl (95%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1435 (n=954) vs 1961 (n=692)"
+    },
+    {
+      "id": "rec-cz-l6keds09n3wav75",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "l6keds09n3wav75",
+      "playerA": "Libor Prikasky",
+      "playerB": "Michal Zahradka",
+      "myProbA": 0.05,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Michal Zahradka (95%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1148 (n=827) vs 2006 (n=818)"
+    },
+    {
+      "id": "rec-cz-m2q10sd0x48tek6",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "m2q10sd0x48tek6",
+      "playerA": "Tomas Dousek",
+      "playerB": "Michal Vavrecka",
+      "myProbA": 0.05,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Michal Vavrecka (95%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1468 (n=74) vs 1995 (n=843)"
+    },
+    {
+      "id": "rec-cz-jek35snxrggf97o",
+      "date": "2026-08-22",
+      "startTime": 1787396400,
+      "event": "Czech Liga Pro",
+      "circuit": "czech",
+      "matchId": "jek35snxrggf97o",
+      "playerA": "Adam Svoboda",
+      "playerB": "Lukas Malek",
+      "myProbA": 0.334,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Lukas Malek (67%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1404 (n=64) vs 1524 (n=31)"
+    },
+    {
+      "id": "rec-pl-m2q10sd0dxotek6",
+      "date": "2026-08-22",
+      "startTime": 1787396700,
+      "event": "TT Elite Series",
+      "circuit": "polish",
+      "matchId": "m2q10sd0dxotek6",
+      "playerA": "Patryk Jedrzejak",
+      "playerB": "Rafal Idaczyk",
+      "myProbA": 0.799,
+      "marketProbA": null,
+      "bestOdds": null,
+      "edge": null,
+      "rec": "MODEL PICK: Patryk Jedrzejak (80%) — odds not found; enter odds in app",
+      "units": 0,
+      "pickName": null,
+      "grade": "C",
+      "reasoning": "Elo 1683 (n=74) vs 1443 (n=93)"
     }
   ],
   "bets": [
