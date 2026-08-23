@@ -1,10 +1,3 @@
-[2026-08-19 04:42:37] run summary: 40 rec(s), 1 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-19 05:33:53] engine run started (quick: amateur circuits only)
-[2026-08-19 05:34:20] czech pipeline: 2036 match(es) scanned, 698 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 1 BET rec(s)
-[2026-08-19 05:34:20] ROI by grade C: 249W-340L-0P staked 569.19u net -55.91u roi -9.8%
-[2026-08-19 05:34:20] ROI by circuit czech: 153W-203L-0P staked 342.66u net -26.03u roi -7.6%
-[2026-08-19 05:34:20] ROI by circuit polish: 95W-120L-0P staked 208.75u net -13.38u roi -6.4%
-[2026-08-19 05:34:20] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-19 05:34:20] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
 [2026-08-19 07:41:59] engine run started (quick: amateur circuits only)
 [2026-08-19 07:42:05] amateur settled: Piotr Przewlocki vs Robert Szymik -> Robert Szymik won -> bet WIN
@@ -1005,3 +998,10 @@
 [2026-08-23 14:51:57] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
 [2026-08-23 14:51:57] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-23 14:51:57] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-23 15:26:07] engine run started (quick: amateur circuits only)
+[2026-08-23 15:26:33] czech pipeline: 2577 match(es) scanned, 702 elo update(s), 0 settled, 40 candidate(s) in 12h window, 1 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-08-23 15:26:33] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
+[2026-08-23 15:26:33] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
+[2026-08-23 15:26:33] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
+[2026-08-23 15:26:33] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-23 15:26:33] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
