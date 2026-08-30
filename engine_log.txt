@@ -1,10 +1,3 @@
-[2026-08-22 21:48:36] czech pipeline: 2671 match(es) scanned, 699 elo update(s), 0 settled, 40 candidate(s) in 12h window, 2 gated NO BET (thin Elo), 0 BET rec(s)
-[2026-08-22 21:48:36] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
-[2026-08-22 21:48:36] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
-[2026-08-22 21:48:36] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
-[2026-08-22 21:48:36] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
-[2026-08-22 21:48:36] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-22 22:25:33] engine run started (quick: amateur circuits only)
 [2026-08-22 22:26:00] czech pipeline: 2672 match(es) scanned, 695 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 0 BET rec(s)
 [2026-08-22 22:26:00] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
 [2026-08-22 22:26:00] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
@@ -1005,3 +998,12 @@
 [2026-08-30 05:37:21] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
 [2026-08-30 05:37:21] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-08-30 05:37:21] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-08-30 10:05:12] engine run started
+[2026-08-30 10:05:17] rankings parsed: 943 players across 2 lists; scanning 160
+[2026-08-30 10:11:10] upcoming WTT singles matches found: 0
+[2026-08-30 10:11:40] czech pipeline: 2776 match(es) scanned, 1498 elo update(s), 0 settled, 40 candidate(s) in 12h window, 4 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-08-30 10:11:40] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
+[2026-08-30 10:11:40] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
+[2026-08-30 10:11:40] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
+[2026-08-30 10:11:40] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-08-30 10:11:40] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
