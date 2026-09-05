@@ -1,10 +1,3 @@
-[2026-08-25 06:54:09] czech pipeline: 2713 match(es) scanned, 721 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 10 BET rec(s)
-[2026-08-25 06:54:10] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
-[2026-08-25 06:54:10] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
-[2026-08-25 06:54:10] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
-[2026-08-25 06:54:10] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
-[2026-08-25 06:54:10] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
-[2026-08-25 07:47:33] engine run started (quick: amateur circuits only)
 [2026-08-25 07:47:59] czech pipeline: 2773 match(es) scanned, 709 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 10 BET rec(s)
 [2026-08-25 07:48:00] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
 [2026-08-25 07:48:00] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
@@ -1005,3 +998,10 @@
 [2026-09-05 17:13:35] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
 [2026-09-05 17:13:35] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
 [2026-09-05 17:13:35] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
+[2026-09-05 19:19:18] engine run started (quick: amateur circuits only)
+[2026-09-05 19:19:46] czech pipeline: 2570 match(es) scanned, 1429 elo update(s), 0 settled, 40 candidate(s) in 12h window, 3 gated NO BET (thin Elo), 8 BET rec(s)
+[2026-09-05 19:19:46] ROI by grade C: 253W-343L-0P staked 575.70u net -55.27u roi -9.6%
+[2026-09-05 19:19:46] ROI by circuit czech: 155W-205L-0P staked 346.66u net -25.58u roi -7.4%
+[2026-09-05 19:19:46] ROI by circuit polish: 97W-121L-0P staked 211.26u net -13.18u roi -6.2%
+[2026-09-05 19:19:46] ROI by circuit wtt: 1W-17L-0P staked 17.78u net -16.50u roi -92.8%
+[2026-09-05 19:19:46] run summary: 40 rec(s), 0 bet(s) auto-logged, 0 bet(s) auto-settled
